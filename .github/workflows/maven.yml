@@ -15,5 +15,5 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B clean install --file pom.xml
-    - name: Deploy to Github Packages
-      run: mvn deploy --file pom.xml -Dregistry=https://maven.pkg.github.com/freshchen -Dtoken=${{ secrets.GH_TOKEN }}
+#    - name: Deploy to Github Packages
+      ##      run: mvn deploy --file pom.xml -Dregistry=https://maven.pkg.github.com/freshchen -Dtoken=${{ secrets.GH_TOKEN }}
