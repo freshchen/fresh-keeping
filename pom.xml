@@ -12,8 +12,8 @@
     <url>https://github.com/freshchen/dev-tools</url>
 
     <modules>
-        <module>dev-collection</module>
-        <module>dev-all</module>
+        <module>all-tool</module>
+        <module>jdk-tool</module>
     </modules>
 
     <properties>
