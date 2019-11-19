@@ -18,19 +18,18 @@ public enum DateTimeBuilder implements IBuilder {
 
     @Override
     public Custom custom() {
-        return Custom.INSTANCE;
+        return new Custom();
     }
 
     @Override
     public Parse parse() {
-        return Parse.INSTANCE;
+        return new Parse();
     }
 
     private DateTimeBuilder() {
     }
 
-    public enum Custom {
-        INSTANCE;
+    public class Custom {
 
         private int year;
         private short month;
@@ -69,27 +68,13 @@ public enum DateTimeBuilder implements IBuilder {
             return this;
         }
 
-        private void initialize() {
-            this.year = 0;
-            this.month = 0;
-            this.day = 0;
-            this.hour = 0;
-            this.minute = 0;
-            this.second = 0;
-        }
-
         public LocalDateTime build() {
-            LocalDateTime dateTime = LocalDateTime.of(year, month, day, hour, minute, second);
-            initialize();
-            return dateTime;
+            return LocalDateTime.of(year, month, day, hour, minute, second);
         }
 
-        private Custom() {
-        }
     }
 
-    public enum Parse {
-        INSTANCE;
+    public class Parse {
 
         private DateTimeFormatter formatter;
         private String dateTimeText;
@@ -105,17 +90,7 @@ public enum DateTimeBuilder implements IBuilder {
         }
 
         public LocalDateTime build() {
-            LocalDateTime dateTime = formatter == null ? LocalDateTime.parse(dateTimeText) : LocalDateTime.parse(dateTimeText, formatter);
-            initialize();
-            return dateTime;
-        }
-
-        private void initialize() {
-            this.formatter = null;
-            this.dateTimeText = null;
-        }
-
-        private Parse() {
+            return formatter == null ? LocalDateTime.parse(dateTimeText) : LocalDateTime.parse(dateTimeText, formatter);
         }
     }
 

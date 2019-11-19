@@ -1,7 +1,7 @@
 package com.github.freshchen.time.builder.impl;
 
 import com.github.freshchen.time.builder.IBuilder;
-import java.time.LocalDate;
+
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
@@ -19,19 +19,18 @@ public enum TimeBuilder implements IBuilder {
 
     @Override
     public Custom custom() {
-        return Custom.INSTANCE;
+        return new Custom();
     }
 
     @Override
     public Parse parse() {
-        return Parse.INSTANCE;
+        return new Parse();
     }
 
     private TimeBuilder() {
     }
 
-    public enum Custom {
-        INSTANCE;
+    public class Custom {
 
         private int hour;
         private int minute;
@@ -52,24 +51,13 @@ public enum TimeBuilder implements IBuilder {
             return this;
         }
 
-        private void initialize() {
-            this.hour = 0;
-            this.minute = 0;
-            this.second = 0;
-        }
-
         public LocalTime build() {
-            LocalTime time = LocalTime.of(hour, minute, second);
-            initialize();
-            return time;
+            return LocalTime.of(hour, minute, second);
         }
 
-        private Custom() {
-        }
     }
 
-    public enum Parse {
-        INSTANCE;
+    public class Parse {
 
         private DateTimeFormatter formatter;
         private String timeText;
@@ -85,18 +73,9 @@ public enum TimeBuilder implements IBuilder {
         }
 
         public LocalTime build() {
-            LocalTime time = formatter == null ? LocalTime.parse(timeText) : LocalTime.parse(timeText, formatter);
-            initialize();
-            return time;
+            return formatter == null ? LocalTime.parse(timeText) : LocalTime.parse(timeText, formatter);
         }
 
-        private void initialize() {
-            this.formatter = null;
-            this.timeText = null;
-        }
-
-        private Parse() {
-        }
     }
 
 }
