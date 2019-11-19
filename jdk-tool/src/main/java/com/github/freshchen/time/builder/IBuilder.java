@@ -6,10 +6,12 @@ import java.time.temporal.Temporal;
  * @author : freshchen
  * <P>Created on 2019-11-18 23:58 </p>
  **/
-public interface ITimeBuilder {
+public interface IBuilder {
 
-    Temporal now();
+    Object now();
 
-    Temporal build();
+    Object custom();
+
+    Object parse();
 
 }
