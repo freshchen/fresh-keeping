@@ -1,6 +1,6 @@
 package com.github.freshchen.time.temporal;
 
-import com.github.freshchen.time.builder.TimeFactory;
+import com.github.freshchen.time.TimeFactory;
 import java.time.LocalDate;
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.github.freshchen.time.builder;
+package com.github.freshchen.time;
 
 import com.github.freshchen.time.builder.impl.DateTimeBuilder;
 import com.github.freshchen.time.builder.impl.DateBuilder;

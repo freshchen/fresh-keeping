@@ -3,6 +3,8 @@ package com.github.freshchen.time.builder;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+
+import com.github.freshchen.time.TimeFactory;
 import org.junit.Assert;
 import org.junit.Test;
 
