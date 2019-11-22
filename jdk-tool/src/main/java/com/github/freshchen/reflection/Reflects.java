@@ -6,8 +6,9 @@ import java.lang.reflect.Modifier;
 import java.util.Optional;
 
 /**
- * @anthor freshchen
- */
+ * @author : freshchen
+ * <P>Created on 2019-11-20 23:48 </p>
+ **/
 public class Reflects {
 
     public static boolean isToStringMethod(Method method) {
