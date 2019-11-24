@@ -1,10 +1,9 @@
 package com.github.freshchen.reflection;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.lang.reflect.Method;
 
 /**
  * @anthor freshchen
@@ -39,15 +38,16 @@ public class ReflectsTest {
     }
 
     @Test
-    public void setAccessible() throws NoSuchMethodException, NoSuchFieldException, IllegalAccessException {
-        Method method = Object.class.getDeclaredMethod("registerNatives");
-        Assert.assertFalse(method.isAccessible());
-        Reflects.setAccessible(method);
-        Assert.assertTrue(method.isAccessible());
+    public void setFiledValue() throws NoSuchFieldException {
+        String s = "";
+        Reflects.setFieldValue(s, "hash", 12);
+        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash"));
+    }
 
-        Field field = String.class.getDeclaredField("hash");
-        Assert.assertFalse(field.isAccessible());
-        Reflects.setAccessible(field);
-        Assert.assertTrue(field.isAccessible());
+    @Test
+    public void getFiledValue() throws NoSuchFieldException {
+        String s = "";
+        Reflects.setFieldValue(s, "hash", 12);
+        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash"));
     }
 }
