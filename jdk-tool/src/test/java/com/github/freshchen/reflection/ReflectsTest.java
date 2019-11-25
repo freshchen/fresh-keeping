@@ -38,16 +38,16 @@ public class ReflectsTest {
     }
 
     @Test
-    public void setFiledValue() throws NoSuchFieldException {
+    public void setFiledValue()  {
         String s = "";
         Reflects.setFieldValue(s, "hash", 12);
-        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash"));
+        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash").get());
     }
 
     @Test
-    public void getFiledValue() throws NoSuchFieldException {
+    public void getFiledValue() {
         String s = "";
         Reflects.setFieldValue(s, "hash", 12);
-        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash"));
+        Assert.assertEquals(12, Reflects.getFieldValue(s, "hash").get());
     }
 }
