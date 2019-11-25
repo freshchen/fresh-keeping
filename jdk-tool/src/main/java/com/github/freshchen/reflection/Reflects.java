@@ -1,12 +1,11 @@
 package com.github.freshchen.reflection;
 
 import com.github.freshchen.string.Strings;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.Objects;
 import java.util.Optional;
 
 /**
@@ -15,7 +14,7 @@ import java.util.Optional;
  **/
 public class Reflects {
 
-    public static Optional<Field> getField(Class<?> clz, String fieldName) {
+    public static Optional <Field> getField(Class <?> clz, String fieldName) {
         try {
             return Optional.ofNullable(clz.getDeclaredField(fieldName));
         } catch (NoSuchFieldException e) {
@@ -33,7 +32,7 @@ public class Reflects {
         }
     }
 
-    public static Optional<Object> getFieldValue(Object target, String fieldName) {
+    public static Optional <Object> getFieldValue(Object target, String fieldName) {
         Field field = getField(target.getClass(), fieldName).get();
         field.setAccessible(true);
         try {
@@ -60,7 +59,7 @@ public class Reflects {
         }
     }
 
-    public static Optional<Object> invokeGetter(Object target, String fieldName) {
+    public static Optional <Object> invokeGetter(Object target, String fieldName) {
         Class targetClass = target.getClass();
         Field field = getField(targetClass, fieldName).get();
         String methodName = "get" + Strings.capitalizeFirstLetter(field.getName());
@@ -89,7 +88,7 @@ public class Reflects {
         return Optional.ofNullable(method).map(m -> "equals".equals(m.getName()) && m.getParameterCount() == 1 && m.getParameterTypes()[0] == Object.class).orElse(false);
     }
 
-    public static boolean hasImplementsSpecifiedInterface(Class<?> targetClass, Class<?> checkedInterface) {
+    public static boolean hasImplementsSpecifiedInterface(Class <?> targetClass, Class <?> checkedInterface) {
         if (checkedInterface.isInterface()) {
             Class[] actualInterfaces = targetClass.getInterfaces();
             for (Class actualInterface : actualInterfaces) {
@@ -101,25 +100,13 @@ public class Reflects {
         return false;
     }
 
-    public static <T> T newInstance(Class<T> clz, Object... paramaters) {
+    public static <T> T newInstance(Class <T> clz, Object... paramaters) {
         int length = paramaters.length;
-        Class[] params = new Class[length];
+        Class[] paramTypes = new Class[length];
         for (int i = 0; i < length; i++) {
-            params[i] = paramaters[i].getClass();
+            paramTypes[i] = paramaters[i].getClass();
         }
-        Constructor<T> constructor = null;
-        try {
-            constructor = clz.getDeclaredConstructor(params);
-        } catch (NoSuchMethodException e) {
-            for (Class c : params) {
-                Optional<Class> unbox = unboxing(c);
-                if (unbox.isPresent()) {
-                    break;
-                }
-                c = unbox.get();
-            }
-            throw new IllegalStateException("Reflection get constructor failed", e);
-        }
+        Constructor <T> constructor = getConstructor(clz, paramTypes);
         try {
             constructor.setAccessible(true);
             return constructor.newInstance(paramaters);
@@ -128,8 +115,31 @@ public class Reflects {
         }
     }
 
+    public static <T> Constructor <T> getConstructor(Class <T> clz, Class[] paramTypes) {
+        boolean flag = false;
+        for (int i = 0; i < paramTypes.length; i++) {
+            Optional <Class> unboxingType = unboxing(paramTypes[i]);
+            if (unboxingType.isPresent()) {
+                paramTypes[i] = unboxingType.get();
+                flag = true;
+                break;
+            }
+        }
+        Constructor <T> constructor = null;
+        try {
+            constructor = clz.getDeclaredConstructor(paramTypes);
+        } catch (NoSuchMethodException e) {
+            if (flag == false) {
+                throw new IllegalStateException("Reflection get constructor failed", e);
+            } else {
+                getConstructor(clz, paramTypes);
+            }
+        }
+        return constructor;
+    }
 
-    public static Optional<Class> unboxing(Class<?> clz) {
+
+    public static Optional <Class> unboxing(Class <?> clz) {
         if (clz == Integer.class) {
             return Optional.of(int.class);
         } else if (clz == Byte.class) {
