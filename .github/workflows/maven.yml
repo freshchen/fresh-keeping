@@ -14,4 +14,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn -B clean install package --file pom.xml -Dgpg.passphrase=${{ secrets.GPG }}
+      run: mvn -B clean install deploy --file pom.xml -Dgpg.passphrase=${{ secrets.GPG }}
