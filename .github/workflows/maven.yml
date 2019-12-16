@@ -14,6 +14,6 @@ jobs:
       with:
         java-version: 1.8
     - name: prepare for deploy
-      run: sed -i 's/qwertyuio/${{ secrets.OSS }}/g' settings.xml
+      run: sed -i 's/my-secret-2/${{ secrets.OSS }}/g' settings.xml && sed -i 's/my-secret-1/${{ secrets.GPG }}/g' settings.xml
     - name: Build with Maven
       run: mvn -B clean install deploy --file pom.xml --settings settings.xml -Dgpg.passphrase=${{ secrets.GPG }}

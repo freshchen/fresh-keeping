@@ -112,7 +112,7 @@ under the License.
     <server>
       <id>oss</id>
       <username>freshchen</username>
-      <password>qwertyuio</password>
+      <password>my-secret-2</password>
     </server>
 
     <!-- Another sample, using keys to authenticate.
@@ -172,6 +172,13 @@ under the License.
    |
    |-->
   <profiles>
+    <profile>
+      <id>oss</id>
+      <properties>
+        <gpg.keyname>93F2966F7277549BBCFB01955C81D1E7825B0BDA</gpg.keyname>
+        <gpg.passphrase>my-secret-1</gpg.passphrase>
+      </properties>
+    </profile>
     <!-- profile
      | Specifies a set of introductions to the build process, to be activated using one or more of the
      | mechanisms described above. For inheritance purposes, and to activate profiles via <activatedProfiles/>
