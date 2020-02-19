@@ -1,7 +1,4 @@
-package com.github.freshchen.reflection;
-
-import com.github.freshchen.string.Strings;
-
+package util;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

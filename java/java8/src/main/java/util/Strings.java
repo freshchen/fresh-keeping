@@ -1,9 +1,5 @@
-package com.github.freshchen.string;
+package util;
 
-/**
- * @author : freshchen
- * <P>Created on 2019-11-23 22:35 </p>
- **/
 public class Strings {
 
     public static String capitalizeFirstLetter(String s) {
@@ -14,8 +10,5 @@ public class Strings {
             return String.valueOf(chars);
         }
         return s;
-    }
-
-    private Strings() {
     }
 }
