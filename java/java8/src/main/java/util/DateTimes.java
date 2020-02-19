@@ -22,6 +22,7 @@ public class DateTimes {
 
     /**
      * Java8的时间日期转换成 Joda 的
+     *
      * @param time
      * @return
      */
@@ -31,6 +32,7 @@ public class DateTimes {
 
     /**
      * Joda 时间转 Java8 时间
+     *
      * @param dateTime
      * @return
      */
@@ -40,6 +42,7 @@ public class DateTimes {
 
     /**
      * 按照毫秒转换成 Java8 时间
+     *
      * @param mills
      * @return
      */
@@ -49,6 +52,7 @@ public class DateTimes {
 
     /**
      * java8区间判断
+     *
      * @param dateTime
      * @param start
      * @param end
@@ -60,6 +64,7 @@ public class DateTimes {
 
     /**
      * jodatime区间判断
+     *
      * @param dateTime
      * @param start
      * @param end
@@ -71,6 +76,7 @@ public class DateTimes {
 
     /**
      * ISO_LOCAL_DATE 格式字符串转 OffsetDateTime, 默认时间设为'00:00'
+     *
      * @param text
      * @return
      */
@@ -80,6 +86,7 @@ public class DateTimes {
 
     /**
      * 格式化时间
+     *
      * @param dateTime
      * @param pattern
      * @return
@@ -98,4 +105,6 @@ public class DateTimes {
         }
     }
 
+    private DateTimes() {
+    }
 }
