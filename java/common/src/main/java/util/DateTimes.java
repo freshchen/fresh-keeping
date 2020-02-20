@@ -1,6 +1,6 @@
 package util;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 
 import java.sql.Timestamp;
