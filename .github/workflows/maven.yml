@@ -14,6 +14,6 @@ jobs:
       with:
         java-version: 1.8
     - name: Maven package java
-      run: mvn clean package --file java/pom.xml
+      run: mvn clean install --file java/pom.xml
     - name: Maven package springboot2
-      run: mvn clean package --file springboot2/pom.xml
+      run: mvn clean install --file springboot2/pom.xml
