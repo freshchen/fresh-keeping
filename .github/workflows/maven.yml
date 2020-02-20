@@ -16,4 +16,4 @@ jobs:
     - name: Maven package java
       run: mvn clean package --file java/pom.xml
     - name: Maven package springboot2
-      run: mvn clean package --file spirngboot2/pom.xml
+      run: mvn clean package --file springboot2/pom.xml
