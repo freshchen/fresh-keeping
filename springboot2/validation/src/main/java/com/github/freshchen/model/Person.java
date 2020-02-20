@@ -2,6 +2,7 @@ package com.github.freshchen.model;
 
 import lombok.Data;
 
+import javax.validation.Valid;
 import javax.validation.constraints.*;
 
 /**
@@ -26,7 +27,7 @@ import javax.validation.constraints.*;
  * @since 2020/02/19
  **/
 @Data
-public class PersonQO {
+public class Person {
 
     @NotNull(message = "姓名不能为空")
     private String name;
@@ -37,4 +38,10 @@ public class PersonQO {
 
     @Email(message = "邮件格式不正确")
     private String email;
+
+    /**
+     * 可以嵌套校验
+     */
+    @Valid
+    private Family family;
 }

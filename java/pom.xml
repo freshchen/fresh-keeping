@@ -6,9 +6,9 @@
 
     <groupId>com.github.freshchen</groupId>
     <artifactId>java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>java8</module>
+        <module>common</module>
     </modules>
     <packaging>pom</packaging>
     <description>Java development tools and skills</description>
