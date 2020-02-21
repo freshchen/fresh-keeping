@@ -2,14 +2,11 @@ package util;
 
 import org.joda.time.DateTime;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
 import java.time.ZoneId;
-
-import static org.junit.Assert.*;
 
 public class DateTimesTest {
 
@@ -42,5 +39,18 @@ public class DateTimesTest {
         boolean between = DateTimes.between(offsetDateTime, offsetDateTime1, offsetDateTime2);
         Assert.assertTrue(between);
 
+    }
+
+    @Test
+    public void fromIsoLocalDate() {
+        OffsetDateTime offsetDateTime = DateTimes.fromIsoDate("2019-08-15");
+        Assert.assertEquals("2019-08-15T00:00+08:00", offsetDateTime.toString());
+    }
+
+    @Test
+    public void format() {
+        OffsetDateTime offsetDateTime = OffsetDateTime.ofInstant(Instant.ofEpochMilli(1582101988L), ZoneId.systemDefault());
+        String format = DateTimes.format(offsetDateTime, "yyyy%MM%dd");
+        Assert.assertEquals("1970%01%19", format);
     }
 }

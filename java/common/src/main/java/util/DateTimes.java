@@ -9,6 +9,7 @@ import java.time.LocalTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.util.Optional;
 
 import static java.time.ZoneId.systemDefault;
 import static java.time.format.DateTimeFormatter.ISO_LOCAL_DATE;
@@ -63,7 +64,7 @@ public class DateTimes {
     }
 
     /**
-     * jodatime区间判断
+     * jodatime 区间判断
      *
      * @param dateTime
      * @param start
@@ -80,7 +81,7 @@ public class DateTimes {
      * @param text
      * @return
      */
-    public static OffsetDateTime fromIsoLocalDate(String text) {
+    public static OffsetDateTime fromIsoDate(String text) {
         return LocalDate.parse(text, ISO_LOCAL_DATE).atTime(LocalTime.MIN).atZone(systemDefault()).toOffsetDateTime();
     }
 
@@ -92,8 +93,9 @@ public class DateTimes {
      * @return
      */
     public static String format(OffsetDateTime dateTime, String pattern) {
-        if (dateTime == null || StringUtils.isEmpty(pattern)) {
-            return null;
+        Optional.ofNullable(dateTime).orElseThrow(() -> new NullPointerException("格式化时间 时间为空"));
+        if (StringUtils.isBlank(pattern)) {
+            throw new NullPointerException("格式化时间 格式为空");
         }
 
         if (ZoneOffset.UTC.equals(dateTime.getOffset())) {
