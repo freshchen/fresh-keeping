@@ -1,6 +1,7 @@
 package com.github.freshchen.model;
 
 import lombok.Data;
+import org.hibernate.validator.constraints.Range;
 
 import javax.validation.Valid;
 import javax.validation.constraints.*;
@@ -32,8 +33,7 @@ public class Person {
     @NotNull(message = "姓名不能为空")
     private String name;
 
-    @Max(value = 60, message = "年龄太大不符合要求")
-    @Min(value = 18, message = "年龄太小不符合要求")
+    @Range(min = 18, max = 60, message = "年龄不符合要求")
     private Integer age;
 
     @Email(message = "邮件格式不正确")
