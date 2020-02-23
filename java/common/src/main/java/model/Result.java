@@ -2,7 +2,6 @@ package model;
 
 import lombok.Data;
 
-import javax.validation.constraints.NotNull;
 import java.util.Optional;
 
 /**
@@ -39,7 +38,7 @@ public class Result<T> {
      * @param <T>
      * @return
      */
-    public static <T> Result<T> ok(@NotNull T data) {
+    public static <T> Result<T> ok(T data) {
         Result<T> result = new Result<>();
         result.setSuccess(true);
         result.setData(Optional.of(data));
