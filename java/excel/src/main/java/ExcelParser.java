@@ -1,19 +1,23 @@
-import com.google.common.collect.Lists;
-import javafx.util.Pair;
+
 import model.ExcelHandler;
 import model.ExcelRow;
+import org.apache.commons.lang3.tuple.Pair;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+
+import javax.validation.constraints.NotNull;
+import java.lang.reflect.Field;
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
+
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
 
 /**
  * @author darcy
@@ -31,51 +35,44 @@ public class ExcelParser {
 
     @FunctionalInterface
     private interface Handler {
-        Pair<Boolean, ?> handler(final Collection<? extends ExcelHandler> handlers);
+        List<Pair<Integer, List<ExcelRow>>> handler(final Collection<ExcelHandler<ExcelRow>> handlers);
     }
 
-    private static Pair<Boolean, ?> process(XSSFWorkbook workbook, Collection<? extends ExcelHandler> excelHandlers) {
-        List<ExcelRow> rows = Lists.newArrayList();
-        Map<Integer, ? extends List<? extends ExcelHandler>> sheetIndexAndHandlersMap = excelHandlers.stream().collect(Collectors.groupingBy(ExcelHandler::getSheetIndex));
-        sheetIndexAndHandlersMap.entrySet().stream()
-                .map(entry -> {
-                    int sheetIndex = entry.getKey();
-                    List<? extends ExcelHandler> handlers = entry.getValue();
-                    XSSFSheet sheet = workbook.getSheetAt(sheetIndex);
-                    IntStream.range(1, sheet.getPhysicalNumberOfRows()).forEach(rowIndex -> {
-                        XSSFRow row = sheet.getRow(rowIndex);
-                        handlers.stream().map(handler -> {
-                            Class<? extends ExcelRow> rowClass = handler.getRowClass();
-                            ExcelRow excelRow = null;
+    private static List<Pair<Integer, List<ExcelRow>>> process(XSSFWorkbook workbook, Collection<ExcelHandler<ExcelRow>> excelHandlers) {
+        return excelHandlers.stream().map(handler -> {
+            int sheetIndex = handler.getSheetIndex();
+            XSSFSheet sheet = workbook.getSheetAt(sheetIndex);
+            List<ExcelRow> excelRows = IntStream.range(1, sheet.getPhysicalNumberOfRows()).mapToObj(rowIndex -> {
+                XSSFRow row = sheet.getRow(rowIndex);
+                @NotNull Class<ExcelRow> rowClass = handler.getRowClass();
+                try {
+                    ExcelRow excelRow = rowClass.newInstance();
+                    excelRow.setSheetId(sheetIndex);
+                    excelRow.setRowId(rowIndex);
+                    handler.getTransfers().forEach(transfer -> {
+                        XSSFCell cell = row.getCell(transfer.getCellIndex());
+                        Optional.ofNullable(cell).ifPresent(c -> {
+                            c.setCellType(CellType.STRING);
+                            String value = c.getStringCellValue().trim();
                             try {
-                                excelRow = rowClass.newInstance();
-                            } catch (InstantiationException | IllegalAccessException e) {
-                                throw new IllegalStateException("反射创建Excel对象失败", e);
+                                Field field = rowClass.getDeclaredField(transfer.getFieldName());
+                                field.setAccessible(true);
+//                                field.set(excelRow, transfer.getTransfer().apply(value));
+                                field.set(excelRow, value);
+                            } catch (NoSuchFieldException | IllegalAccessException e) {
+                                excelRow.getErrorCellIds().add(transfer.getCellIndex());
                             }
-                            Optional.ofNullable(excelRow)
-                                    .flatMap(r -> {
-                                        r.setSheetId(sheetIndex);
-                                        r.setRowId(rowIndex);
-                                        XSSFCell cell = row.getCell(handler.getCellIndex());
-                                        return Optional.ofNullable(cell);
-                                    })
-                                    .flatMap(c -> {
-                                        c.setCellType(CellType.STRING);
-                                        String value = c.getStringCellValue().trim();
-                                        try {
-                                            rowClass.getDeclaredField(handler.getFieldName());
-                                        } catch (Exception e) {
-                                            e
-                                        }
-                                    });
                         });
-
-                        return null;
                     });
-                });
-        return null;
-    });
-        return null;
-}
+                    return excelRow;
+                } catch (InstantiationException | IllegalAccessException e) {
+                    throw new IllegalStateException("反射创建Excel对象失败", e);
+                }
+            }).collect(Collectors.toList());
+            handler.getResults().addAll(excelRows);
+            return Pair.of(handler.getSheetIndex(), handler.getResults());
+        }).collect(Collectors.toList());
+    }
 
 }
+

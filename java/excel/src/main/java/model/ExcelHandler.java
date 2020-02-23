@@ -1,27 +1,39 @@
 package model;
 
+import com.google.common.collect.Lists;
 import lombok.Value;
 
+import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 import java.util.function.Function;
-import java.util.function.Predicate;
 
 /**
  * @author darcy
  * @since 2020/02/23
  **/
 @Value
-public class ExcelHandler {
+public class ExcelHandler<T extends ExcelRow> {
 
     @NotNull
     private Integer sheetIndex;
+
     @NotNull
-    private Class<? extends ExcelRow> rowClass;
-    @NotNull
-    private Integer cellIndex;
-    @NotNull
-    private String fieldName;
-    private Predicate<?> checker;
-    private Function<?, ? extends ExcelRow> reader;
-    private Function<?, ?> handler;
+    private Class<T> rowClass;
+
+    @Valid
+    private List<Transfer> transfers;
+
+    private List<T> results = Lists.newArrayList();
+
+    @Value
+    public static class Transfer {
+        @NotNull
+        private Integer cellIndex;
+        @NotNull
+        private String fieldName;
+        private Function<String, ?> transfer;
+        private Function<?, ?> handler;
+    }
+
 }
