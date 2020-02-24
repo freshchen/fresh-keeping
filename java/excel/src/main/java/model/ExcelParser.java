@@ -1,39 +1,39 @@
 package model;
 
-import com.google.common.collect.Lists;
+import lombok.Builder;
+import lombok.Getter;
 import lombok.Value;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
-import java.util.List;
+import java.util.Collection;
 import java.util.function.Function;
 
 /**
  * @author darcy
- * @since 2020/02/23
+ * @since 2020/02/24
  **/
-@Value
-public class ExcelHandler<T extends ExcelRow> {
+@Builder
+@Getter
+public class ExcelParser {
 
+    @NotNull
+    private XSSFWorkbook workbook;
     @NotNull
     private Integer sheetIndex;
-
-    @NotNull
-    private Class<T> rowClass;
-
     @Valid
-    private List<Transfer> transfers;
+    private Collection<Transfer> transfers;
 
-    private List<T> results = Lists.newArrayList();
-
-    @Value
+    @Builder
+    @Getter
     public static class Transfer {
         @NotNull
         private Integer cellIndex;
         @NotNull
         private String fieldName;
-        private Function<String, ?> transfer;
-        private Function<?, ?> handler;
-    }
 
+        private Function<String, ?> transfer;
+
+    }
 }
