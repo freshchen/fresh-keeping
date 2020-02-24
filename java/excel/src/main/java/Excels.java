@@ -101,63 +101,57 @@ public class Excels {
      * @return 有错误返回 true
      */
     public static <T extends ExcelRow> boolean handlerErrorAndWriteErrorMessage(XSSFWorkbook workbook, List<T> excelRows) {
-        List<T> formatErrorList = excelRows.stream()
-                .filter(T::isHappenedError)
+        List<ExcelRow> formatErrorList = excelRows.stream()
+                .filter(ExcelRow::isHappenedError)
                 .collect(Collectors.toList());
         if (CollectionUtils.isNotEmpty(formatErrorList)) {
-            writeErrorTitle(workbook, formatErrorList);
-            writeErrorInfo(workbook, formatErrorList);
+            formatErrorList.stream().map(ExcelRow::getSheetId).distinct().forEach(sheetId -> {
+                XSSFRow titleRow = workbook.getSheetAt(sheetId).getRow(0);
+                if (titleRow == null) {
+                    titleRow = workbook.getSheetAt(sheetId).createRow(0);
+                }
+                XSSFCell errorTitleCell = titleRow.createCell(titleRow.getPhysicalNumberOfCells());
+                errorTitleCell.setCellType(CellType.STRING);
+                XSSFCellStyle errorTitleStyle = workbook.createCellStyle();
+                errorTitleStyle.cloneStyleFrom(errorTitleCell.getCellStyle());
+                errorTitleStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+                errorTitleStyle.setAlignment(HorizontalAlignment.CENTER);
+                errorTitleStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+                errorTitleStyle.setFillForegroundColor(new XSSFColor(Color.YELLOW));
+                errorTitleStyle.setBorderBottom(BorderStyle.THIN);
+                XSSFFont font = workbook.createFont();
+                font.setFontName(errorTitleCell.getCellStyle().getFont().getFontName());
+                font.setColor(new XSSFColor(Color.RED));
+                font.setBold(true);
+                errorTitleStyle.setFont(font);
+                errorTitleCell.setCellStyle(errorTitleStyle);
+                errorTitleCell.setCellValue("报错提示");
+            });
+            XSSFCellStyle errorMsgStyle = workbook.createCellStyle();
+            errorMsgStyle.setBorderBottom(BorderStyle.THIN);
+            errorMsgStyle.setAlignment(HorizontalAlignment.CENTER);
+            formatErrorList.forEach(formatErr -> {
+                XSSFRow row = workbook.getSheetAt(formatErr.getSheetId()).getRow(formatErr.getRowId());
+                int physicalNumberOfCells = row.getPhysicalNumberOfCells();
+                formatErr.getErrorCellIds().forEach(cellId -> {
+                    XSSFCell errorDataCell = row.getCell(cellId);
+                    XSSFCellStyle errorDataStyle = workbook.createCellStyle();
+                    errorDataStyle.cloneStyleFrom(errorDataCell.getCellStyle());
+                    errorDataStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+                    errorDataStyle.setFillForegroundColor(new XSSFColor(Color.YELLOW));
+                    errorDataCell.setCellStyle(errorDataStyle);
+                });
+                workbook.getSheetAt(formatErr.getSheetId()).autoSizeColumn(physicalNumberOfCells);
+                XSSFCell errorMsgCell = row.createCell(physicalNumberOfCells);
+                errorMsgCell.setCellStyle(errorMsgStyle);
+                errorMsgCell.setCellType(CellType.STRING);
+                errorMsgCell.setCellValue(formatErr.getErrorMessage());
+            });
             return true;
         }
         return false;
     }
 
-    private static <T extends ExcelRow> void writeErrorTitle(XSSFWorkbook workbook, List<T> formatErrorList) {
-        formatErrorList.stream().map(T::getSheetId).distinct().forEach(sheetId -> {
-            XSSFRow titleRow = Optional.ofNullable(workbook.getSheetAt(sheetId).getRow(0))
-                    .orElse(workbook.getSheetAt(sheetId).createRow(0));
-            int physicalNumberOfCells = titleRow.getPhysicalNumberOfCells();
-            XSSFCell errorTitleCell = titleRow.createCell(2);
-            errorTitleCell.setCellType(CellType.STRING);
-            XSSFCellStyle errorCellStyle = workbook.createCellStyle();
-            errorCellStyle.cloneStyleFrom(errorTitleCell.getCellStyle());
-            errorCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-            errorCellStyle.setAlignment(HorizontalAlignment.CENTER);
-            errorCellStyle.setVerticalAlignment(VerticalAlignment.CENTER);
-            errorCellStyle.setFillForegroundColor(new XSSFColor(java.awt.Color.YELLOW));
-            errorCellStyle.setBorderBottom(BorderStyle.THIN);
-            XSSFFont font = workbook.createFont();
-            font.setFontName(errorTitleCell.getCellStyle().getFont().getFontName());
-            font.setColor(new XSSFColor(java.awt.Color.RED));
-            font.setBold(true);
-            errorCellStyle.setFont(font);
-            errorTitleCell.setCellStyle(errorCellStyle);
-            errorTitleCell.setCellValue("报错提示");
-        });
-    }
-
-    private static <T extends ExcelRow> void writeErrorInfo(XSSFWorkbook workbook, List<T> formatErrorList) {
-        XSSFCellStyle errorCellStyle = workbook.createCellStyle();
-        errorCellStyle.setBorderBottom(BorderStyle.THIN);
-        errorCellStyle.setAlignment(HorizontalAlignment.CENTER);
-        errorCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-        formatErrorList.forEach(formatErr -> {
-            XSSFRow dataRow = workbook.getSheetAt(formatErr.getSheetId()).getRow(formatErr.getRowId());
-            int errorCellIndex = dataRow.getPhysicalNumberOfCells();
-            formatErr.getErrorCellIds().forEach(cellId -> {
-                XSSFCell errorDataCell = Optional.ofNullable(dataRow.getCell(cellId)).orElse(dataRow.createCell(errorCellIndex));
-                XSSFCellStyle errorDataStyle = workbook.createCellStyle();
-                errorDataStyle.cloneStyleFrom(errorDataCell.getCellStyle());
-                errorDataStyle.setFillForegroundColor(new XSSFColor(Color.YELLOW));
-                errorDataCell.setCellStyle(errorDataStyle);
-            });
-            workbook.getSheetAt(formatErr.getSheetId()).autoSizeColumn(errorCellIndex);
-            XSSFCell errorMsgCell = dataRow.createCell(errorCellIndex);
-            errorMsgCell.setCellStyle(errorCellStyle);
-            errorMsgCell.setCellType(CellType.STRING);
-            errorMsgCell.setCellValue(formatErr.getErrorMessage());
-        });
-    }
 
     /**
      * 提供默认赋值方式

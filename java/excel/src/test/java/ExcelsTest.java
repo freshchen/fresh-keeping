@@ -2,6 +2,7 @@ import model.ExcelParser;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Test;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -33,8 +34,10 @@ public class ExcelsTest {
         );
         ExcelParser<MyRow> build = ExcelParser.<MyRow>builder().sheetIndex(0).workbook(workbook).checkers(checkers).transfers(transfers).build();
         List<MyRow> parse1 = Excels.parseToRows(build, MyRow.class);
+//        Excels.handlerErrorAndWriteErrorMessage(workbook, parse1);
         Excels.handlerErrorAndWriteErrorMessage(workbook, parse1);
-        System.out.println(parse1);
+        workbook.write(new FileOutputStream("src/test/java/demo1.xlsx"));
+        System.out.println();
     }
 
 }
