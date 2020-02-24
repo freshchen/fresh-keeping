@@ -80,7 +80,7 @@ public class Excels {
                     checkers.forEach(checker -> {
                         if (!checker.getChecker().test(excelRow)) {
                             excelRow.getErrorCellIds().addAll(checker.getCellIndexs());
-                            String errorMessage = checker.getErrorMessage() + Optional.ofNullable(excelRow.getErrorMessage()).map(s -> s + ",").orElse("");
+                            String errorMessage = checker.getErrorMessage() + Optional.ofNullable(excelRow.getErrorMessage()).map(s -> "," + s).orElse("");
                             excelRow.setErrorMessage(errorMessage);
                         }
                     });

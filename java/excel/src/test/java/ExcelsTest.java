@@ -2,7 +2,6 @@ import model.ExcelParser;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.Test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
@@ -11,14 +10,7 @@ public class ExcelsTest {
 
     @Test
     public void parse() throws IOException {
-        XSSFWorkbook workbook = new XSSFWorkbook("src/test/java/demo.xlsx");
-//        List<ExcelParser.Transfer> transfers = Arrays.asList(ExcelParser.Transfer.builder().cellIndex(0).fieldName("name").build(), ExcelParser.Transfer.builder().cellIndex(1).fieldName("price").transfer(s -> Integer.parseInt(s) * 100).build(), ExcelParser.Transfer.builder().cellIndex(2).fieldName("age").build());
-//        ExcelParser build1 = ExcelParser.builder().sheetIndex(0).workbook(workbook).transfers(transfers).build();
-//        List<MyRow> parse1 = Excels.parseToRows(build1, MyRow.class);
-//
-//        ExcelParser build2 = ExcelParser.builder().sheetIndex(1).workbook(workbook).transfers(transfers).build();
-//        List<MyRow> parse2 = Excels.parseToRows(build2, MyRow.class);
-
+        XSSFWorkbook workbook = new XSSFWorkbook("src/test/java/test.xlsx");
         List<ExcelParser.Transfer> transfers = Arrays.asList(
                 ExcelParser.Transfer.builder().cellIndex(0).fieldName("name").build(),
                 ExcelParser.Transfer.builder().cellIndex(1).fieldName("price").transfer(s -> Integer.parseInt(s) * 100).build(),
@@ -34,10 +26,7 @@ public class ExcelsTest {
         );
         ExcelParser<MyRow> build = ExcelParser.<MyRow>builder().sheetIndex(0).workbook(workbook).checkers(checkers).transfers(transfers).build();
         List<MyRow> parse1 = Excels.parseToRows(build, MyRow.class);
-//        Excels.handlerErrorAndWriteErrorMessage(workbook, parse1);
         Excels.handlerErrorAndWriteErrorMessage(workbook, parse1);
-        workbook.write(new FileOutputStream("src/test/java/demo1.xlsx"));
-        System.out.println();
     }
 
 }
