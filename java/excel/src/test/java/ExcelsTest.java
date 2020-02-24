@@ -31,7 +31,7 @@ public class ExcelsTest {
                     return true;
                 }).build()
         );
-        ExcelParser<MyRow> build = ExcelParser.<MyRow>builder().sheetIndex(0).workbook(workbook).transfers(transfers).build();
+        ExcelParser<MyRow> build = ExcelParser.<MyRow>builder().sheetIndex(0).workbook(workbook).checkers(checkers).transfers(transfers).build();
         List<MyRow> parse1 = Excels.parseToRows(build, MyRow.class);
         System.out.println(parse1);
     }
