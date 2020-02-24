@@ -1,11 +1,10 @@
-
 import model.ExcelParser;
 import model.ExcelRow;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.commons.collections4.CollectionUtils;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.*;
 
+import java.awt.Color;
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Optional;
@@ -24,17 +23,17 @@ public class Excels {
      * 把 Excel 的转换成需要的对象集合
      * e.g. 其中 checkers 可选
      * List<ExcelParser.Transfer> transfers = Arrays.asList(
-     *         ExcelParser.Transfer.builder().cellIndex(0).fieldName("name").build(),
-     *         ExcelParser.Transfer.builder().cellIndex(1).fieldName("price").transfer(s -> Integer.parseInt(s) * 100).build(),
-     *         ExcelParser.Transfer.builder().cellIndex(2).fieldName("age").build()
+     * ExcelParser.Transfer.builder().cellIndex(0).fieldName("name").build(),
+     * ExcelParser.Transfer.builder().cellIndex(1).fieldName("price").transfer(s -> Integer.parseInt(s) * 100).build(),
+     * ExcelParser.Transfer.builder().cellIndex(2).fieldName("age").build()
      * );
      * List<ExcelParser.Checker<MyRow>> checkers = Arrays.asList(
-     *         ExcelParser.Checker.<MyRow>builder().cellIndexs(Arrays.asList(0, 1)).errorMessage("我的错").checker(excelRow -> {
-     *             if (excelRow.getAge() + excelRow.getPrice() > 100) {
-     *                 return false;
-     *             }
-     *             return true;
-     *         }).build()
+     * ExcelParser.Checker.<MyRow>builder().cellIndexs(Arrays.asList(0, 1)).errorMessage("我的错").checker(excelRow -> {
+     * if (excelRow.getAge() + excelRow.getPrice() > 100) {
+     * return false;
+     * }
+     * return true;
+     * }).build()
      * );
      * ExcelParser<MyRow> build = ExcelParser.<MyRow>builder().sheetIndex(0).workbook(workbook).checkers(checkers).transfers(transfers).build();
      * List<MyRow> parse1 = Excels.parseToRows(build, MyRow.class);
@@ -94,7 +93,75 @@ public class Excels {
     }
 
     /**
+     * 处理所有错误数据，并且写提示信息
+     *
+     * @param workbook
+     * @param excelRows
+     * @param <T>
+     * @return 有错误返回 true
+     */
+    public static <T extends ExcelRow> boolean handlerErrorAndWriteErrorMessage(XSSFWorkbook workbook, List<T> excelRows) {
+        List<T> formatErrorList = excelRows.stream()
+                .filter(T::isHappenedError)
+                .collect(Collectors.toList());
+        if (CollectionUtils.isNotEmpty(formatErrorList)) {
+            writeErrorTitle(workbook, formatErrorList);
+            writeErrorInfo(workbook, formatErrorList);
+            return true;
+        }
+        return false;
+    }
+
+    private static <T extends ExcelRow> void writeErrorTitle(XSSFWorkbook workbook, List<T> formatErrorList) {
+        formatErrorList.stream().map(T::getSheetId).distinct().forEach(sheetId -> {
+            XSSFRow titleRow = Optional.ofNullable(workbook.getSheetAt(sheetId).getRow(0))
+                    .orElse(workbook.getSheetAt(sheetId).createRow(0));
+            int physicalNumberOfCells = titleRow.getPhysicalNumberOfCells();
+            XSSFCell errorTitleCell = titleRow.createCell(2);
+            errorTitleCell.setCellType(CellType.STRING);
+            XSSFCellStyle errorCellStyle = workbook.createCellStyle();
+            errorCellStyle.cloneStyleFrom(errorTitleCell.getCellStyle());
+            errorCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+            errorCellStyle.setAlignment(HorizontalAlignment.CENTER);
+            errorCellStyle.setVerticalAlignment(VerticalAlignment.CENTER);
+            errorCellStyle.setFillForegroundColor(new XSSFColor(java.awt.Color.YELLOW));
+            errorCellStyle.setBorderBottom(BorderStyle.THIN);
+            XSSFFont font = workbook.createFont();
+            font.setFontName(errorTitleCell.getCellStyle().getFont().getFontName());
+            font.setColor(new XSSFColor(java.awt.Color.RED));
+            font.setBold(true);
+            errorCellStyle.setFont(font);
+            errorTitleCell.setCellStyle(errorCellStyle);
+            errorTitleCell.setCellValue("报错提示");
+        });
+    }
+
+    private static <T extends ExcelRow> void writeErrorInfo(XSSFWorkbook workbook, List<T> formatErrorList) {
+        XSSFCellStyle errorCellStyle = workbook.createCellStyle();
+        errorCellStyle.setBorderBottom(BorderStyle.THIN);
+        errorCellStyle.setAlignment(HorizontalAlignment.CENTER);
+        errorCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        formatErrorList.forEach(formatErr -> {
+            XSSFRow dataRow = workbook.getSheetAt(formatErr.getSheetId()).getRow(formatErr.getRowId());
+            int errorCellIndex = dataRow.getPhysicalNumberOfCells();
+            formatErr.getErrorCellIds().forEach(cellId -> {
+                XSSFCell errorDataCell = Optional.ofNullable(dataRow.getCell(cellId)).orElse(dataRow.createCell(errorCellIndex));
+                XSSFCellStyle errorDataStyle = workbook.createCellStyle();
+                errorDataStyle.cloneStyleFrom(errorDataCell.getCellStyle());
+                errorDataStyle.setFillForegroundColor(new XSSFColor(Color.YELLOW));
+                errorDataCell.setCellStyle(errorDataStyle);
+            });
+            workbook.getSheetAt(formatErr.getSheetId()).autoSizeColumn(errorCellIndex);
+            XSSFCell errorMsgCell = dataRow.createCell(errorCellIndex);
+            errorMsgCell.setCellStyle(errorCellStyle);
+            errorMsgCell.setCellType(CellType.STRING);
+            errorMsgCell.setCellValue(formatErr.getErrorMessage());
+        });
+    }
+
+    /**
      * 提供默认赋值方式
+     *
      * @param fieldType
      * @param excelRow
      * @param <T>
