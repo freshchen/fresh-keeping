@@ -1,6 +1,6 @@
-import argparse
-import xlrd
 import os
+
+import xlrd
 
 
 def test(path):
@@ -67,10 +67,10 @@ def test(path):
     print(sql)
 
 
-def parse(path):
-    (filepath, tempfilepager) = os.path.split(path)
-    (table_name, extension) = os.path.splitext(tempfilepager)
-    data = xlrd.open_workbook(path)
+def parse(sheet, table_name):
+    rows = sheet.nrows
+    sql = "DROP TABLE " + table_name +
+    sql = "create table " + table_name + "( \n"
     print(table_name)
 
 
@@ -79,7 +79,11 @@ def main():
         "/Users/chenling/Documents/work/sanyi/TB_MZ_JSZFFSMXB.xlsx"
     ]
     for path in path_list:
-        parse(path)
+        data = xlrd.open_workbook(path)
+        (filepath, tempfilepager) = os.path.split(path)
+        (table_name, extension) = os.path.splitext(tempfilepager)
+        sheet = data.sheets()[0];
+        parse(sheet, table_name)
 
 
 if __name__ == '__main__':
