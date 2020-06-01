@@ -10,6 +10,7 @@
     <modules>
         <module>common</module>
         <module>excel</module>
+        <module>pinyin</module>
     </modules>
     <packaging>pom</packaging>
     <description>Java development tools and skills</description>
