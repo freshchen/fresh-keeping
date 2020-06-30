@@ -1,8 +1,8 @@
 package util;
 
 import org.joda.time.DateTime;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
@@ -15,20 +15,20 @@ public class DateTimesTest {
     public void toJodaTime() {
         OffsetDateTime offsetDateTime = OffsetDateTime.now();
         DateTime dateTime = DateTimes.toJodaTime(offsetDateTime);
-        Assert.assertNotNull(dateTime);
+        Assertions.assertNotNull(dateTime);
     }
 
     @Test
     public void fromJodaTime() {
         DateTime now = DateTime.now();
         OffsetDateTime offsetDateTime = DateTimes.fromJodaTime(now);
-        Assert.assertNotNull(offsetDateTime);
+        Assertions.assertNotNull(offsetDateTime);
     }
 
     @Test
     public void fromLong() {
         OffsetDateTime offsetDateTime = DateTimes.fromLong(1582101988L);
-        Assert.assertNotNull(offsetDateTime);
+        Assertions.assertNotNull(offsetDateTime);
     }
 
     @Test
@@ -37,7 +37,7 @@ public class DateTimesTest {
         OffsetDateTime offsetDateTime1 = OffsetDateTime.ofInstant(Instant.ofEpochMilli(158211111L), ZoneId.systemDefault());
         OffsetDateTime offsetDateTime2 = OffsetDateTime.ofInstant(Instant.ofEpochMilli(1582102222L), ZoneId.systemDefault());
         boolean between = DateTimes.between(offsetDateTime, offsetDateTime1, offsetDateTime2);
-        Assert.assertTrue(between);
+        Assertions.assertTrue(between);
 
     }
 
@@ -45,13 +45,13 @@ public class DateTimesTest {
     public void fromIsoLocalDate() {
         OffsetDateTime offsetDateTime = DateTimes.fromIsoDate("2019-08-15");
         boolean b = offsetDateTime.toString().startsWith("2019-08-15T00:00");
-        Assert.assertTrue(b);
+        Assertions.assertTrue(b);
     }
 
     @Test
     public void format() {
         OffsetDateTime offsetDateTime = OffsetDateTime.ofInstant(Instant.ofEpochMilli(1582101988L), ZoneId.systemDefault());
         String format = DateTimes.format(offsetDateTime, "yyyy%MM%dd");
-        Assert.assertEquals("1970%01%19", format);
+        Assertions.assertEquals("1970%01%19", format);
     }
 }
