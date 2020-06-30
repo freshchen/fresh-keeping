@@ -18,14 +18,14 @@ def parse(data):
 
 def main():
     path_list = [
-        "/Users/chenling/Downloads/YP.csv"
+        "./1.csv"
     ]
 
     for path in path_list:
         data = pd.read_csv(path)
         parse(data)
 
-    write_file(SQL, "yp-update.sql")
+    write_file(SQL, "zf_customer-update.sql")
 
 
 if __name__ == '__main__':
