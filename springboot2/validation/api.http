@@ -1,0 +1,47 @@
+POST http://localhost:8080/person/valid/cat
+Content-Type: application/json
+
+{
+  "age": 19
+}
+
+###
+
+POST http://localhost:8080/person/valid/cat
+Content-Type: application/json
+
+{
+  "age": 1
+}
+
+###
+
+###
+POST http://localhost:8080/person/valid/group
+Content-Type: application/json
+
+{
+  "name": "name"
+}
+
+###
+POST http://localhost:8080/person/valid/group/update
+Content-Type: application/json
+
+{
+  "id": 123
+}
+
+###
+POST http://localhost:8080/person/valid/group/create
+Content-Type: application/json
+
+{
+  "address": "address"
+}
+
+###
+POST http://localhost:8080/person/valid
+Accept: application/json
+
+###

@@ -54,6 +54,16 @@
 		</plugins>
 	</build>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.github.freshchen</groupId>
+				<artifactId>common</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 <!--	<repositories>-->
 <!--		<repository>-->
 <!--			<id>alimaven</id>-->
