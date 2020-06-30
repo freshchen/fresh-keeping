@@ -21,14 +21,6 @@ import java.util.stream.Collectors;
 @ControllerAdvice
 public class ValidationExceptionHandler {
 
-    /**
-     * 仅用做记录，就不分层了
-     *
-     * @param request
-     * @param response
-     * @param error
-     * @return
-     */
     @ExceptionHandler({MethodArgumentNotValidException.class})
     @ResponseBody
     public ResponseEntity<?> handleException(HttpServletRequest request, HttpServletResponse response, MethodArgumentNotValidException error) {

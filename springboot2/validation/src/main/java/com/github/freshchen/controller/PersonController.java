@@ -27,7 +27,7 @@ public class PersonController {
     /**
      * 注解 @Valid 和 @Validated 都用于参数校验，都实现了 JSR-303 前者是标准注解，后者是 Spring 特有
      * SpringMVC中 @RequestBody 注解的 bean 在数据绑定的时候同时会触发校验，校验结果绑定在 BindingResult 中
-     * 既然是用 Spring 框架， 除了练级校验的时候只能用 @Valid 其他都用 @Validated
+     * 既然是用 Spring 框架， 除了联嵌套校验的时候只能用 @Valid 其他都用 @Validated
      * @see com.github.freshchen.aop.ValidationExceptionHandler 这里我么用 aop 统一处理
      * @see MethodValidationPostProcessor springboot已经默认开启了方法层面的拦截可以对方法的参数返回拦截,如果没有需要装配进容器
      * 由于需要生成代理类 @Validated 直接加在类上即可, 特别注意被 @Overide 注解的方法，代理类中 @Validated 注解会丢失
