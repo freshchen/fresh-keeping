@@ -5,6 +5,7 @@
 	<modules>
 		<module>validation</module>
 		<module>web</module>
+		<module>mapstruct</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
