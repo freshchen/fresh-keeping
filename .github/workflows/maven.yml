@@ -15,3 +15,5 @@ jobs:
       run: mvn clean install --file java/pom.xml
     - name: Maven package springboot
       run: mvn clean install --file springboot/pom.xml
+    - name: Maven package algorithm
+      run: mvn clean install --file algorithm/pom.xml
