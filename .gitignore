@@ -4,6 +4,5 @@ java/*/target
 springboot2/*/target
 venv
 algorithm/target
-*/target
-*/target/*
 springboot/mapstruct/target
+springboot/validation/target
