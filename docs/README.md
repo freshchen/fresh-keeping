@@ -1,4 +1,9 @@
 ## 目录
 
-### [IDEA Uasage](notes/idea.md)
+### Tools
 
+[IDEA Uasage](tools/idea.md)
+
+### Java
+
+[Stream](java/java-stream.md)
