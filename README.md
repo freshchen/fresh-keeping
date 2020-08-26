@@ -1,6 +1,6 @@
 # fresh-keeping
 
-- docs: [笔记](https://freshchen.github.io/fresh-keeping/)
+- docs: [笔记 Github Page](https://freshchen.github.io/fresh-keeping/)
 
 - java：工具类 模型 编程技巧
 
