@@ -33,12 +33,12 @@ import java.util.stream.IntStream;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
 @Array("打乱数组,打乱一个没有重复元素的数组。")
-public class A4 {
+public class S4 {
 
     private int[] nums;
     Random random = new Random();
 
-    public A4(int[] nums) {
+    public S4(int[] nums) {
         this.nums = nums;
     }
 

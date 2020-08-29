@@ -45,12 +45,12 @@ import org.example.annotation.Stack;
  **/
 @Stack("最小栈 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。")
 @Design("最小栈 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。")
-public class A2 {
+public class S2 {
 
     private java.util.Stack<Integer> stack;
     private java.util.Stack<Integer> minStack;
 
-    public A2() {
+    public S2() {
         stack = new java.util.Stack<>();
         minStack = new java.util.Stack<>();
     }

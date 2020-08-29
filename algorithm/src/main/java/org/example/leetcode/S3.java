@@ -42,7 +42,7 @@ import java.util.Map;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
 @Stack("有效的括号 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。")
-public class A3 {
+public class S3 {
 
     public boolean isValid(String s) {
         if ("".equals(s)) {
