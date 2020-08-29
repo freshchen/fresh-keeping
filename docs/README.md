@@ -26,7 +26,7 @@
 - [Threadlocal](java/sc-threadlocal.md)
 - [Spring Cloud Contract 契约测试](java/spring-cloud-contract.md)
 - [Spring Cloud Stream 消息](java/spring-cloud-stream.md)
-- [](java/)
+- [基础](java/core.md)
 - [](java/)
 
 ### Python
@@ -71,4 +71,4 @@
 
 - [基础排序](algorithm/sort.md)
 
-- []()
+- [技巧](algorithm/skill.md)

@@ -2,8 +2,9 @@ package org.example.leetcode;
 
 import org.example.annotation.Array;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
-import java.util.stream.IntStream;
 
 /**
  * @author darcy
@@ -33,12 +34,12 @@ import java.util.stream.IntStream;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
 @Array("打乱数组,打乱一个没有重复元素的数组。")
-public class S4 {
+public class M2 {
 
     private int[] nums;
-    Random random = new Random();
+    private Random random = new Random();
 
-    public S4(int[] nums) {
+    public M2(int[] nums) {
         this.nums = nums;
     }
 
@@ -53,21 +54,17 @@ public class S4 {
      * Returns a random shuffling of the array.
      */
     public int[] shuffle() {
-        int length = this.nums.length;
-        if (length <= 1) {
-            return this.nums;
-        }
-        int[] shuffle = new int[length];
-        int range = length - 1;
+        int length = nums.length;
+        List<Integer> list = new ArrayList<>(length);
         for (int i = 0; i < length; i++) {
-            shuffle[i] = random.nextInt(range);
+            list.add(nums[i]);
         }
-        return shuffle;
-    }
-
-    public static void main(String[] args) {
-        Random random = new Random();
-        IntStream.rangeClosed(0, 10)
-                .forEach(i -> System.out.println(random.nextInt(2)));
+        int[] result = new int[length];
+        for (int i = 0; i < length; i++) {
+            int index = random.nextInt(list.size());
+            result[i] = list.get(index);
+            list.remove(index);
+        }
+        return result;
     }
 }
