@@ -1,6 +1,10 @@
 package org.example.leetcode;
 
 import org.example.annotation.Tree;
+import org.example.common.TreeNode;
+
+import java.util.LinkedList;
+import java.util.Objects;
 
 
 /**
@@ -39,28 +43,62 @@ import org.example.annotation.Tree;
 @Tree("对称二叉树,给定一个二叉树，检查它是否是镜像对称的。")
 public class A1 {
 
-//    public boolean isSymmetric(TreeNode root) {
-//        if (Objects.isNull(root)) {
-//            return true;
-//        }
-//        TreeNode left = root.left;
-//        TreeNode right = root.right;
-//        if (Objects.isNull(left) && Objects.isNull(right)) {
-//            return true;
-//        }
-//        isSymmetric(left)
-//        return left.val == right.val;
-//    }
-//
-//    public boolean isSymmetric(TreeNode left,TreeNode right) {
-//        if (Objects.isNull(root)) {
-//            return true;
-//        }
-//        TreeNode left = root.left;
-//        TreeNode right = root.right;
-//        if (Objects.isNull(left) && Objects.isNull(right)) {
-//            return true;
-//        }
-//        return left.val == right.val ? true : false;
-//    }
+    /**
+     * 递归
+     *
+     * @param root
+     * @return
+     */
+    public boolean isSymmetric(TreeNode root) {
+        if (Objects.isNull(root)) {
+            return true;
+        }
+        return isSymmetric(root.left, root.right);
+    }
+
+    public boolean isSymmetric(TreeNode left, TreeNode right) {
+        if (Objects.isNull(left) && Objects.isNull(right)) {
+            return true;
+        }
+        if (Objects.isNull(left) || Objects.isNull(right)) {
+            return false;
+        }
+        if (left.val == right.val) {
+            return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+        }
+        return false;
+    }
+
+    /**
+     * 迭代
+     *
+     * @param root
+     * @return
+     */
+    public boolean isSymmetric1(TreeNode root) {
+        if (Objects.isNull(root)) {
+            return true;
+        }
+        LinkedList<TreeNode> trees = new LinkedList<>();
+        trees.add(root);
+        trees.add(root);
+        while (!trees.isEmpty()) {
+            TreeNode left = trees.poll();
+            TreeNode right = trees.poll();
+            if (Objects.isNull(left) && Objects.isNull(right)) {
+                continue;
+            }
+            if (Objects.isNull(left) || Objects.isNull(right)) {
+                return false;
+            }
+            if (left.val != right.val) {
+                return false;
+            }
+            trees.add(left.left);
+            trees.add(right.right);
+            trees.add(left.right);
+            trees.add(right.left);
+        }
+        return true;
+    }
 }

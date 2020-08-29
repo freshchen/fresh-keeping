@@ -6,7 +6,7 @@
 
 - [GIT 命令](tools/git.md)
 
-- [](java/)
+- [Markdown 语法](tools/markdown.md)
 
 ### Java
 
@@ -29,6 +29,13 @@
 - [](java/)
 - [](java/)
 
+### Python
+
+- [Python远程调用 Openstack 主要服务（keystone,nova,glance,neutron,heat）](python/python-openstack.md)
+
+- [参数解析 argparse](python/argparse.md)
+
+- []()
 
 ### OS
 
@@ -46,8 +53,6 @@
 
 - [Queens版本Openstack安装记录](os/openstack-queens-install.md)
 
-- [Python远程调用 Openstack 主要服务（keystone,nova,glance,neutron,heat）](os/python-openstack.md)
-
 - [SSL证书自签名使用及监控](os/self-ssl-certificate.md)
 
 - [自己制作Yum源](os/yumsource.md)
@@ -59,5 +64,11 @@
 - []()
 
 - []()
+
+- []()
+
+### Algorithm
+
+- [基础排序](algorithm/sort.md)
 
 - []()
