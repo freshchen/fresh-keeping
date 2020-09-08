@@ -2,6 +2,9 @@ package org.example.leetcode;
 
 import org.example.annotation.Array;
 
+import java.util.*;
+import java.util.stream.IntStream;
+
 /**
  * @author darcy
  * @since 2020/9/7
@@ -26,17 +29,58 @@ public class H1 {
 
     public int trap(int[] height) {
         // TODO
-        int result = 0;
-        int max = 0;
-        int total = 0;
-        for (int i = 0; i < height.length - 1; i++) {
-            int gap = height[i + 1] - height[i];
-            int cur = max + gap;
-            if (cur <= 0) {
-                continue;
+        int length = height.length;
+        Map<Integer, Integer> iMap = new HashMap<>(length);
+        Map<Integer, List<Integer>> vMap = new HashMap<>(length);
+        for (int i = 0; i < length; i++) {
+            int v = height[i];
+            iMap.put(i, v);
+            List<Integer> indexes = vMap.get(v);
+            if (Objects.isNull(indexes)) {
+                indexes = new ArrayList<>(length);
             }
-            int curTotal = total + cur;
+            indexes.add(i);
+            indexes.sort(Comparator.naturalOrder());
+            vMap.put(v, indexes);
         }
-        return result;
+        int sum = vMap.entrySet().stream().mapToInt((entry) -> {
+            int v = entry.getKey();
+            int[] indexes = entry.getValue().stream().mapToInt(Integer::intValue).toArray();
+            int min = -1;
+            for (int i = 0; i < indexes.length; i++) {
+                int index = indexes[i];
+                if (index == 0) {
+                    continue;
+                }
+                boolean b = IntStream.range(0, index).anyMatch(ii -> iMap.get(ii) > v);
+                if (b) {
+                    min = i;
+                    break;
+                }
+            }
+            int max = -1;
+            for (int i = indexes.length - 1; i >= 0; i--) {
+                int index = indexes[i];
+                if (index == length - 1) {
+                    continue;
+                }
+                boolean b = IntStream.range(index, length).anyMatch(ii -> iMap.get(ii) > v);
+                if (b) {
+                    max = i;
+                    break;
+                }
+            }
+            if (min == -1 || max == -1 || min > max) {
+                return 0;
+            }
+            int indexMax = indexes[max];
+            int indexMin = indexes[min];
+            if (indexMax - indexMin <= 1) {
+                return indexMax - indexMin + 1;
+            }
+            int count = (int) IntStream.range(indexMin + 1, indexMax).filter(i -> iMap.get(i) > v).count();
+            return indexMax - indexMin + 1 - count;
+        }).sum();
+        return sum;
     }
 }
