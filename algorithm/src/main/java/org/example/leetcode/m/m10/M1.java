@@ -1,4 +1,4 @@
-package org.example.leetcode;
+package org.example.leetcode.m.m10;
 
 import org.example.annotation.Array;
 

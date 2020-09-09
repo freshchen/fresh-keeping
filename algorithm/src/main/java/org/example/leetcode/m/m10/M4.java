@@ -1,8 +1,11 @@
-package org.example.leetcode;
+package org.example.leetcode.m.m10;
 
+import org.example.annotation.DP;
 import org.example.annotation.Str;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author darcy
@@ -35,10 +38,22 @@ import java.util.List;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  **/
 @Str("单词拆分")
+@DP("单词拆分")
 public class M4 {
 
     public boolean wordBreak(String s, List<String> wordDict) {
-        // TODO
-        return true;
+        int length = s.length();
+        Set<String> wordDictSet = new HashSet<>(wordDict);
+        boolean[] dp = new boolean[length + 1];
+        dp[0] = true;
+        for (int i = 1; i <= length; i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] && wordDictSet.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[length];
     }
 }

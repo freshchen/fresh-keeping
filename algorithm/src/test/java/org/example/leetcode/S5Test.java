@@ -1,5 +1,6 @@
 package org.example.leetcode;
 
+import org.example.leetcode.s.s10.S5;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

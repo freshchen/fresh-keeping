@@ -4,26 +4,17 @@
 
 Redis是一个开源(BSD许可)的基于内存的数据存储，可用作数据库、缓存和消息代理。它支持诸如字符串、散列、列表、集、带范围查询的排序集、位图、hyperloglog、带半径查询和流的地理空间索引等数据结构。Redis具有内置的复制、Lua脚本、LRU清除、事务和不同级别的磁盘持久性，并通过Redis Sentinel和Redis集群的自动分区提供高可用性。
 
-## 安装
+## 场景
 
-```bash
-cd /usr/local/
-wget http://download.redis.io/releases/redis-5.0.4.tar.gz
-tar -zxvf redis-5.0.4.tar.gz
-cd redis-5.0.4/
-make MALLOC=libc
-make test
-make PREFIX=/usr/local/redis install
-cd /usr/local/redis
-cp /usr/local/rediss-5.0.4/redis.conf /usr/local/redis/
-mkdir -p /etc/redis/
-cp /usr/local/redis/redis.conf /etc/redis/6379.conf
-cp /usr/local/redis-4.0.6/utils/redis_init_script /etc/init.d/redisd
-# 改变conf文件中的 daemonize 参数为 yes
-chkconfig redisd on
-systemctl start redisd
-systemctl status redisd
-```
+- 点赞
+- 投票
+- 排行
+- 会话管理（分布式session，cookie存储）
+- 浏览记录
+- 购物车
+- 网页缓存
+
+
 
 ## 基础数据结构常用命令
 
@@ -38,7 +29,7 @@ systemctl status redisd
 | KEYS      | KEYS *         | 查寻key，支持正则                           |
 | RANDOMKEY | RANDOMKEY      | 随机显示一个key                             |
 | EXISTS    | EXISTS name    | 判断key是否存在                             |
-|TYPE|TYPE name|看key类型（1有0没有）|
+|TYPE|TYPE name|看key类型|
 |DEL|DEL name|删除key|
 |RENAME|RENAME name myname|更改key，如果要变为的key存在，覆盖原值|
 |RENAMENX|RENAMENX name myname|更改key，如果要变为的key存在，则放弃操作|
@@ -66,7 +57,7 @@ systemctl status redisd
 |setbit  key offset value|setbit char 0 1|设置offset对应二进制位上的值,返回: 该位上的旧值|
 |bitop operation destkey key1 [key2 ...]|bitop or char char lower|对key1,key2..keyN作operation,并将结果保存到 destkey 上。注意: 对于NOT操作, key不能多个|
 
-### Link
+### Linked List
 
 | Link相关命令 | 示例           | 描述                                        |
 | --------- | -------------- | ------------------------------------------- |

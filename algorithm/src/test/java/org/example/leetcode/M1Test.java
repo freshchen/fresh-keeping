@@ -1,5 +1,6 @@
 package org.example.leetcode;
 
+import org.example.leetcode.m.m10.M1;
 import org.junit.jupiter.api.Test;
 
 class M1Test {
