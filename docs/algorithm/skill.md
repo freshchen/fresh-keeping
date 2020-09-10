@@ -6,7 +6,6 @@
 - 主要用于随机打乱数组
 
 
-
 ### Knuth-Morris-Pratt算法（简称KMP）
 
 - [link](http://www.ruanyifeng.com/blog/2013/05/Knuth–Morris–Pratt_algorithm.html)

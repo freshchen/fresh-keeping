@@ -1,6 +1,6 @@
 package org.example.leetcode;
 
-import org.example.leetcode.m.m10.M2;
+import org.example.leetcode.m.m1.M2;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

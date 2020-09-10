@@ -1,4 +1,4 @@
-package org.example.leetcode.s.s10;
+package org.example.leetcode.s.s1;
 
 import org.example.annotation.Tree;
 import org.example.common.TreeNode;

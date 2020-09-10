@@ -1,6 +1,6 @@
 package org.example.leetcode;
 
-import org.example.leetcode.s.s10.S3;
+import org.example.leetcode.s.s1.S3;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

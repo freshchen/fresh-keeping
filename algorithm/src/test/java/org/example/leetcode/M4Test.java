@@ -1,7 +1,7 @@
 package org.example.leetcode;
 
 import com.google.common.collect.Lists;
-import org.example.leetcode.m.m10.M4;
+import org.example.leetcode.m.m1.M4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
