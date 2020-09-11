@@ -72,3 +72,10 @@
 - [基础排序](algorithm/sort.md)
 
 - [技巧](algorithm/skill.md)
+
+
+### Database
+
+- [Redis](database/redis.md)
+
+- [SQL技巧](database/sql-skill.md)

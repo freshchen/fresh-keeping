@@ -45,3 +45,17 @@ select date_add(@dt, interval -1 day); -- sub 1 day
 因为窗口函数是对where或者group by子句处理后的结果进行操作，所以窗口函数原则上只能写在select子句中。
 
 窗口函数不会改变表中行数
+
+### mod
+
+- 可用于判断奇偶
+
+```sql
+where mod(id, 2) = 1
+```
+
+### 求百分比
+
+```sql
+round(avg(Status!='completed'), 2)
+```
