@@ -41,8 +41,9 @@ public class M14 {
             temp = temp.next;
         }
         int size = m.size();
-        if (size == 1)
+        if (size == 1) {
             return null;
+        }
         if (n == 1) {
             m.get(size - 1).next = null;
         } else if (n == size) {

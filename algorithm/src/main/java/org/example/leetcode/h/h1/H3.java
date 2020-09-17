@@ -2,6 +2,8 @@ package org.example.leetcode.h.h1;
 
 import org.example.annotation.Array;
 
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -38,6 +40,47 @@ public class H3 {
     public List<Integer> countSmaller(int[] nums) {
         // TODO
         int[] clone = nums.clone();
-        return null;
+        Arrays.sort(clone);
+        int length = nums.length;
+        List<Integer> list = new LinkedList<>();
+        for (int i = 0; i < length; i++) {
+            int cur = nums[i];
+            int first = getFirst(clone, cur);
+            list.add(first);
+            clone = delete(clone, first);
+        }
+        return list;
+    }
+
+    private int[] delete(int[] nums, int index) {
+        int[] clone = new int[nums.length - 1];
+        int ci = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i == index) {
+                continue;
+            }
+            clone[ci++] = nums[i];
+        }
+        return clone;
+    }
+
+    private int getFirst(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            int cur = nums[mid];
+            if (cur == target) {
+                right = mid;
+            } else if (cur < target) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+        if (left == nums.length) {
+            return 0;
+        }
+        return nums[left] == target ? left : 0;
     }
 }
