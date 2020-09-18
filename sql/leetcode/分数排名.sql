@@ -1,3 +1,5 @@
+select t.Score, t.Rank
+from (select Score, dense_rank() over (order by Score desc ) as `Rank` from Scores order by Score desc ) as t
 
 -- 编写一个 SQL 查询来实现分数排名。
 --
