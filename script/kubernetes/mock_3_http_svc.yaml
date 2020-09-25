@@ -1,0 +1,303 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: app-gateway
+spec:
+  selector:
+    app: my-gateway-controller
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - uk.bookinfo.com
+        - eu.bookinfo.com
+      tls:
+        httpsRedirect: true # sends 301 redirect for http requests
+    - port:
+        number: 443
+        name: https-443
+        protocol: HTTPS
+      hosts:
+        - uk.bookinfo.com
+        - eu.bookinfo.com
+      tls:
+        mode: SIMPLE # enables HTTPS on this port
+        serverCertificate: /etc/certs/servercert.pem
+        privateKey: /etc/certs/privatekey.pem
+    - port:
+        number: 9443
+        name: https-9443
+        protocol: HTTPS
+      hosts:
+        - "bookinfo-namespace/*.bookinfo.com"
+      tls:
+        mode: SIMPLE # enables HTTPS on this port
+        credentialName: bookinfo-secret # fetches certs from Kubernetes secret
+    - port:
+        number: 9080
+        name: http-wildcard
+        protocol: HTTP
+      hosts:
+        - "*"
+    - port:
+        number: 2379 # to expose internal service via external port 2379
+        name: mongo
+        protocol: MONGO
+      hosts:
+        - "*"
+
+
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: facade-route
+spec:
+  hosts:
+    - facade
+  http:
+    - match:
+      - headers:
+          version:
+            exact: v2
+      route:
+      - destination:
+          host: facade
+          subset: v2
+    - match:
+        - headers:
+            version:
+              exact: v3
+      route:
+        - destination:
+            host: facade
+            subset: v3
+    - route:
+        - destination:
+            host: facade
+            subset: v1
+
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: facade-destination
+spec:
+  host: facade
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+    - name: v3
+      labels:
+        version: v3
+
+
+
+#权重
+#---
+#apiVersion: networking.istio.io/v1alpha3
+#kind: VirtualService
+#metadata:
+#  name: facade-route
+#spec:
+#  hosts:
+#    - facade
+#  http:
+#    - route:
+#      - destination:
+#          host: http1
+#        weight: 90
+#      - destination:
+#          host: http2
+#        weight: 5
+#      - destination:
+#          host: http3
+#        weight: 5
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: facade
+spec:
+  selector:
+    group: facade
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client
+  labels:
+    app: client
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: client
+#      annotations:
+#        sidecar.istio.io/inject: "false"
+      labels:
+        app: client
+    spec:
+      containers:
+        - name: client
+          image: alpine
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - sleep 10086
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: client
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http1
+  labels:
+    app: http1
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: http1
+#      annotations:
+#        sidecar.istio.io/inject: "false"
+      labels:
+        app: http1
+        group: facade
+        version: v1
+    spec:
+      containers:
+        - name: http1
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - echo 'hello http111111' > /var/www/index.html; httpd -f -p 8080 -h /var/www
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: http1
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: http1
+spec:
+  selector:
+    app: http1
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http2
+  labels:
+    app: http2
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: http2
+#      annotations:
+#        sidecar.istio.io/inject: "false"
+      labels:
+        app: http2
+        group: facade
+        version: v2
+    spec:
+      containers:
+        - name: http2
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - echo 'hello http222222' > /var/www/index.html; httpd -f -p 8080 -h /var/www
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: http2
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: http2
+spec:
+  selector:
+    app: http2
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http3
+  labels:
+    app: http3
+spec:
+  replicas: 1
+  template:
+    metadata:
+#      annotations:
+#        sidecar.istio.io/inject: "false"
+      name: http3
+      labels:
+        app: http3
+        group: facade
+        version: v3
+    spec:
+      containers:
+        - name: http3
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - echo 'hello http333333' > /var/www/index.html; httpd -f -p 8080 -h /var/www
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: http3
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: http3
+spec:
+  selector:
+    app: http3
+  ports:
+    - port: 80
+      targetPort: 8080
+  type: ClusterIP
+
