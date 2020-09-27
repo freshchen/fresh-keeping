@@ -1,0 +1,59 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello
+  labels:
+    app: hello
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: hello
+      labels:
+        app: hello
+        version: latest
+    spec:
+      containers:
+        - name: hello
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - echo ' Hello World ' > /var/www/index.html; httpd -f -p 8080 -h /var/www
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: hello
+      version: latest
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-new
+  labels:
+    app: hello-new
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: hello
+      labels:
+        app: hello
+        version: new
+    spec:
+      containers:
+        - name: hello
+          image: busybox
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - echo ' Hello World(new) ' > /var/www/index.html; httpd -f -p 8080 -h /var/www
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: hello
+      version: new

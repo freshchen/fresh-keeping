@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client
+  labels:
+    app: client
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: client
+      #      annotations:
+      #        sidecar.istio.io/inject: "false"
+      labels:
+        app: client
+    spec:
+      containers:
+        - name: client
+          image: alpine
+          imagePullPolicy: IfNotPresent
+          command:
+            - bin/sh
+            - -c
+            - sleep 10086
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: client

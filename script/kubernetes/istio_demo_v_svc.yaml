@@ -1,0 +1,44 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: hello-virtualservice
+spec:
+  hosts:
+    - hello
+    - xingren.upup
+  gateways:
+    - xingren-gateway
+  http:
+    - match:
+        - headers:
+            version:
+              exact: new
+      route:
+        - destination:
+            host: hello
+            subset: new
+    - route:
+        - destination:
+            host: hello
+            subset: latest
+          weight: 70
+        - destination:
+            host: hello
+            subset: new
+          weight: 30
+
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: hello-destinationrule
+spec:
+  host: hello
+  subsets:
+    - name: latest
+      labels:
+        version: latest
+    - name: new
+      labels:
+        version: new
