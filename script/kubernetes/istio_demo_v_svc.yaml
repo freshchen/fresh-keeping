@@ -18,6 +18,12 @@ spec:
         - destination:
             host: hello
             subset: new
+      fault:
+        delay:
+          percentage:
+            value: 10
+          fixedDelay: 10s
+      timeout: 5s
     - route:
         - destination:
             host: hello
@@ -35,6 +41,13 @@ metadata:
   name: hello-destinationrule
 spec:
   host: hello
+  trafficPolicy:
+    connectionPool:
+      http:
+        http1MaxPendingRequests: 1
+        maxRequestsPerConnection: 1
+      tcp:
+        maxConnections: 1
   subsets:
     - name: latest
       labels:
