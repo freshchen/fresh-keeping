@@ -60,7 +60,12 @@ import org.example.common.ListNode;
 public class S14 {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        // TODO
-        return null;
+        ListNode indexA = headA;
+        ListNode indexB = headB;
+        while (indexA != indexB) {
+            indexA = indexA == null ? headB : indexA.next;
+            indexB = indexB == null ? headA : indexB.next;
+        }
+        return indexA;
     }
 }
