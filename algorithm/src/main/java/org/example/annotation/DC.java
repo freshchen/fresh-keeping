@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * @author freshchen
- * 分治
+ * 分治，递归
  */
 @Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.FIELD, ElementType.TYPE, ElementType.METHOD})
