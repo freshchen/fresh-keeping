@@ -1,5 +1,33 @@
 ## SQL技巧
 
+### Mysql limit
+
+```mysql
+SELECT * FROM table LIMIT offset, rows
+
+SELECT * FROM table LIMIT rows OFFSET offset
+```
+
+### ORDER BY
+
+-  应该保证 ORDER BY 是 SELECT 语句中最后一条子句。如果它不是最后的子句，将会出现错误消息。
+
+### WHERE
+
+#### 操作符
+
+- = 等于 
+-  \> 大于
+- < > 不等于
+- \ >= 大于等于
+- != 不等于
+-  !> 不大于
+- < 小于 
+- BETWEEN 在指定的两个值之间
+- <= 小于等于
+-  IS NULL 为NULL值
+- !< 不小于
+
 ###  or 还是 union
 
 - 如果where和or涉及不同列，索引会失效
@@ -58,4 +86,14 @@ where mod(id, 2) = 1
 
 ```sql
 round(avg(Status!='completed'), 2)
+```
+
+### mysql group_concat
+
+mysql的group_concat默认连接长度为1024字符，也就是说你需要连接后的连接超过1024字符，它只会显示这么长，其余部分都会被截取丢掉
+
+```
+show variables like "group_concat_max_len";
+[mysqld]
+group_concat_max_len=102400
 ```
