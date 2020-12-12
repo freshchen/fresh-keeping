@@ -46,7 +46,7 @@
         <jackson.version>2.11.3</jackson.version>
         <pinyin.version>2.5.1</pinyin.version>
         <joda.version>2.10.2</joda.version>
-        <junit4.version>4.13</junit4.version>
+        <junit4.version>4.13.1</junit4.version>
         <wiremock.version>2.26.2</wiremock.version>
         <retrofit.version>2.7.1</retrofit.version>
     </properties>
