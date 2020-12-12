@@ -157,8 +157,8 @@ public T get() {
         ThreadLocalMap.Entry e = map.getEntry(this);  //下文详解
         if (e != null) {
             @SuppressWarnings("unchecked")
-            T result = (T)e.value;
-            return result;
+            T jsonResult = (T)e.value;
+            return jsonResult;
         }
     }
     // 返回null

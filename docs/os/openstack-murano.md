@@ -157,7 +157,7 @@ def _translate_class(self):
    # 省略
 
 def _build_properties(hot, validate_hot_parameters):
-    result = {
+    jsonResult = {
         'generatedHeatStackName': {
             'Contract': YAQL('$.string()'),
             'Usage': 'Out'
@@ -178,19 +178,19 @@ def _build_properties(hot, validate_hot_parameters):
         for key, value in (hot.get('parameters') or {}).items():
             param_contract = HotPackage._translate_param_to_contract(value)
             params_dict[key] = param_contract
-            result['templateParameters'] = {
+            jsonResult['templateParameters'] = {
                 'Contract': params_dict,
                 'Default': {},
                 'Usage': 'In'
             }
             else:
-                result['templateParameters'] = {
+                jsonResult['templateParameters'] = {
                     'Contract': {},
                     'Default': {},
                     'Usage': 'In'
                 }
 
-                return result
+                return jsonResult
 ```
 
 总结，其实murano的只是根据提供的环境文件中的参数去校验，不会为我们填写default值，想了想如何把大部分参数都写死在包里的env文件中，更改是相当不方便的。放弃！

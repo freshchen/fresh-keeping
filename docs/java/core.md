@@ -1,4 +1,4 @@
-- java.util.Random
+- java.com.github.freshchen.keeping.util.Random
 
 ```java
 Random random = new Random();

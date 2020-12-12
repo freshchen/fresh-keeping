@@ -122,7 +122,7 @@ Lambda的签名
 
 ### 新增函数式接口
 
-除了 Runnable，Comparator等常用函数式接口，为了推动函数式编程，Java8又在 java.util.function 包下为我们提供了大量好用的函数式，因为基本数据类型不能抽象成对象，所以可以看到有大量Double，Int，Long前缀的接口，我们只看比较核心的：
+除了 Runnable，Comparator等常用函数式接口，为了推动函数式编程，Java8又在 java.com.github.freshchen.keeping.util.function 包下为我们提供了大量好用的函数式，因为基本数据类型不能抽象成对象，所以可以看到有大量Double，Int，Long前缀的接口，我们只看比较核心的：
 
 | 接口名              | 抽象方法              | 描述符              |
 | ------------------- | --------------------- | ------------------- |

@@ -254,7 +254,7 @@ argparse内置6种动作可以在解析到一个参数时进行触发：
 parser.add_argument('-s', action='store', dest='simple_value', help='Store a simple value')
 parser.add_argument('-c', action='store_const', dest='constant_value',
         const='value-to-store',
-        help='Store a constant value')
+        help='Store a com.github.freshchen.keeping.constant value')
 
 parser.add_argument('-t', action='store_true', default=False,
         dest='boolean_switch',

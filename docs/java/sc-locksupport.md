@@ -37,7 +37,7 @@ LockSupport会有上面的问题么，又有哪些特点呢，让我们进入源
 ### 类声明和属性
 
 ```java
-package java.util.concurrent.locks;
+package java.com.github.freshchen.keeping.util.concurrent.locks;
 
 public class LockSupport {
     // 工具类，ban掉构造
@@ -155,7 +155,7 @@ static final int nextSecondarySeed() {
         r ^= r >>> 17;
         r ^= r << 5;
     }
-    else if ((r = java.util.concurrent.ThreadLocalRandom.current().nextInt()) == 0)
+    else if ((r = java.com.github.freshchen.keeping.util.concurrent.ThreadLocalRandom.current().nextInt()) == 0)
         r = 1; // avoid zero
     UNSAFE.putInt(t, SECONDARY, r);
     return r;

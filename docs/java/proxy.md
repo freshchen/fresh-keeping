@@ -169,16 +169,16 @@ public class InvocationProxy implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         // 因为我们拦截了行为，并且加了一些辅助行为，完成之后我们要替被拦截行为把值返回
-        Object result = null;
+        Object jsonResult = null;
         String methodName = method.getName();
         if ("sleep".equals(methodName)) {
-            result = getTime();
-            result += (String) method.invoke(this.lifeService, args);
+            jsonResult = getTime();
+            jsonResult += (String) method.invoke(this.lifeService, args);
         } else if ("wake".equals(methodName)) {
-            result = getTime();
-            result += (String) method.invoke(this.lifeService, args);
+            jsonResult = getTime();
+            jsonResult += (String) method.invoke(this.lifeService, args);
         }
-        return result;
+        return jsonResult;
     }
 
     // 辅助方法
@@ -291,17 +291,17 @@ public class CglibProxy implements MethodInterceptor {
      */
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        Object result = null;
+        Object jsonResult = null;
 
         String methodName = method.getName();
         if ("sleep".equals(methodName)) {
-            result = getTime();
-            result += (String) method.invoke(this.target, objects);
+            jsonResult = getTime();
+            jsonResult += (String) method.invoke(this.target, objects);
         } else if ("wake".equals(methodName)) {
-            result = getTime();
-            result += (String) method.invoke(this.target, objects);
+            jsonResult = getTime();
+            jsonResult += (String) method.invoke(this.target, objects);
         }
-        return result;
+        return jsonResult;
     }
 
     // 辅助行为
