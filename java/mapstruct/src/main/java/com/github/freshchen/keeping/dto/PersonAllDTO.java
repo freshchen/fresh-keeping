@@ -9,9 +9,13 @@ import java.util.List;
  * @since 2020/8/6
  **/
 @Data
-public class PersonDTO {
+public class PersonAllDTO {
 
     private String name;
     private String realName;
+    private List<String> phones;
+    // 是深拷贝的
+    private List<AddressDTO> addresses;
+
     private TypeDTO type;
 }

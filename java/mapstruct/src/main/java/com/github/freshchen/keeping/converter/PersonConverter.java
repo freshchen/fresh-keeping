@@ -1,11 +1,13 @@
 package com.github.freshchen.keeping.converter;
 
+import com.github.freshchen.keeping.dto.AddressAllDTO;
+import com.github.freshchen.keeping.dto.PersonAllDTO;
+import com.github.freshchen.keeping.dto.PersonDTO;
 import com.github.freshchen.keeping.po.Address;
 import com.github.freshchen.keeping.po.Person;
-import com.github.freshchen.keeping.dto.AddressDTO;
-import com.github.freshchen.keeping.dto.PersonDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.MappingTarget;
 import org.mapstruct.ValueMapping;
 
 /**
@@ -15,15 +17,23 @@ import org.mapstruct.ValueMapping;
 @Mapper(componentModel = "spring")
 public interface PersonConverter {
 
+    /**
+     * 指定 realName 如何赋值不影响 name 的正常赋值
+     *
+     * @param person
+     * @return
+     */
+    @Mapping(source = "name", target = "realName")
+    @ValueMapping(source = "type", target = "type")
+    PersonAllDTO toAllDTO(Person person);
+
     @Mapping(source = "name", target = "realName")
     @ValueMapping(source = "type", target = "type")
     PersonDTO toDTO(Person person);
 
-    default AddressDTO toAddressDTO(Address address) {
-        AddressDTO addressDTO = new AddressDTO();
-        addressDTO.setCity(address.getCity() + "++");
-        addressDTO.setStreet(address.getStreet() + "++");
-        return addressDTO;
-    }
+    @Mapping(source = "personName", target = "personName")
+    AddressAllDTO toDTO(Address address, String personName);
+
+    void update(Address from, @MappingTarget Address to);
 
 }
