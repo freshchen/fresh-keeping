@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
+
 import static com.github.freshchen.keeping.model.JsonResult.ok;
 
 
@@ -23,7 +25,7 @@ import static com.github.freshchen.keeping.model.JsonResult.ok;
  * @since 2020/02/19
  **/
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/person1")
 public class PersonController {
 
     @Autowired
