@@ -38,7 +38,7 @@ public class PersonController {
      *
      * @see ValidationExceptionHandler 这里我么用 aop 统一处理
      * @see MethodValidationPostProcessor springboot已经默认开启了方法层面的拦截可以对方法的参数返回拦截,如果没有需要装配进容器
-     * 由于需要生成代理类 @Validated 直接加在类上即可, 特别注意被 @Overide 注解的方法，代理类中 @Validated 注解会丢失
+     * 除了 Controller层 需要使用校验，需要在类上加上 @Validated 生成代理类, 特别注意被 @Overide 注解的方法，代理类中 @Validated 注解会丢失
      */
 
     @PostMapping("/valid")
