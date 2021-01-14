@@ -12,4 +12,4 @@ jobs:
       with:
         java-version: 11
     - name: Maven package java
-      run: mvn clean -B package --file java/pom.xml
+      run: mvn clean -B install --file java/pom.xml
