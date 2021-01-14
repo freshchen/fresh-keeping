@@ -25,6 +25,7 @@
         <module>boot-validation</module>
         <module>cloud-contract-provider-rest</module>
         <module>cloud-contract-consumer-rest</module>
+        <module>redisson-distributed-lock</module>
     </modules>
 
     <properties>
@@ -49,6 +50,7 @@
         <junit4.version>4.13.1</junit4.version>
         <wiremock.version>2.26.2</wiremock.version>
         <retrofit.version>2.7.1</retrofit.version>
+        <redisson.starter.version>3.14.0</redisson.starter.version>
     </properties>
 
     <dependencies>
