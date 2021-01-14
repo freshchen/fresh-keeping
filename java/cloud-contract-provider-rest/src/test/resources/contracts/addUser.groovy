@@ -7,6 +7,9 @@ Contract.make {
 
     request {
         method POST()
+        headers {
+            contentType applicationJson()
+        }
         url "/user"
         body([
                 age: value(
