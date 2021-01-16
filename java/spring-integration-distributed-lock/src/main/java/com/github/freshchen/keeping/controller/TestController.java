@@ -39,7 +39,6 @@ public class TestController {
         lock.lock();
         try {
             assert money > 0;
-            // 可以看 redis 中 RED_PACKET_SN 会续租
             sleepSeconds(15);
             money--;
         } finally {
