@@ -2,9 +2,11 @@ package com.github.freshchen.keeping.controller;
 
 import com.github.freshchen.keeping.model.JsonResult;
 import org.redisson.api.RLock;
+import org.redisson.api.RReadWriteLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
@@ -34,6 +36,7 @@ public class TestController {
      */
     @GetMapping("minus")
     public JsonResult<String> minus() {
+        // getLock 返回的是非公平锁，也就是请求不分先后
         RLock lock = redissonClient.getLock(RED_PACKET_SN);
         // 1 拿到锁
         // 直接上锁，不指定任何参数，框架拿到锁会设置锁的超时时间为看门狗的超时时间，也就是 30s
@@ -162,6 +165,66 @@ public class TestController {
             sleepSeconds(15);
         } finally {
             lock.unlock();
+        }
+        return JsonResult.ok(String.valueOf(money));
+    }
+
+    /**
+     * 公平锁
+     */
+    @GetMapping("minus/{seq}")
+    public JsonResult<String> minus5(@PathVariable Integer seq) {
+        // 公平锁
+        RLock lock = redissonClient.getFairLock(RED_PACKET_SN);
+        // 如果拿不到锁，会根据初次尝试时间在redis中记录，并排好队
+        lock.lock();
+        try {
+            assert money > 0;
+            // 可以看 redis 中 RED_PACKET_SN 会续租
+            sleepSeconds(15);
+            money--;
+        } finally {
+            lock.unlock();
+        }
+        return JsonResult.ok(seq + ":" + money);
+    }
+
+    /**
+     * 读写锁写
+     */
+    @GetMapping("minus6")
+    public JsonResult<String> minus6() {
+        // 公平锁
+        RReadWriteLock readWriteLock = redissonClient.getReadWriteLock(RED_PACKET_SN);
+        RLock rLock = readWriteLock.readLock();
+        RLock wLock = readWriteLock.writeLock();
+        rLock.lock();
+        wLock.lock();
+        try {
+            assert money > 0;
+            // 可以看 redis 中 RED_PACKET_SN 会续租
+            sleepSeconds(15);
+            money--;
+        } finally {
+            rLock.unlock();
+            wLock.unlock();
+        }
+        return JsonResult.ok(String.valueOf(money));
+    }
+
+    /**
+     * 读写锁 读
+     */
+    @GetMapping("minus7")
+    public JsonResult<String> minus7() {
+        // 公平锁
+        RReadWriteLock readWriteLock = redissonClient.getReadWriteLock(RED_PACKET_SN);
+        RLock rLock = readWriteLock.readLock();
+        rLock.lock();
+        try {
+            assert money > 0;
+        } finally {
+            rLock.unlock();
         }
         return JsonResult.ok(String.valueOf(money));
     }
