@@ -28,6 +28,9 @@
         <module>redisson-distributed-lock</module>
         <module>spring-integration-distributed-lock</module>
         <module>design-pattern</module>
+        <module>spring-fegin-hytrix-sdk</module>
+        <module>spring-fegin-hytrix-server</module>
+        <module>spring-fegin-hytrix-client</module>
     </modules>
 
     <properties>
@@ -221,6 +224,11 @@
                 <artifactId>junit-jupiter</artifactId>
                 <version>${junit-jupiter.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.freshchen.keeping</groupId>
+                <artifactId>spring-fegin-hytrix-sdk</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
