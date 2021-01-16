@@ -27,6 +27,7 @@
         <module>cloud-contract-consumer-rest</module>
         <module>redisson-distributed-lock</module>
         <module>spring-integration-distributed-lock</module>
+        <module>design-pattern</module>
     </modules>
 
     <properties>
@@ -52,6 +53,7 @@
         <wiremock.version>2.26.2</wiremock.version>
         <retrofit.version>2.7.1</retrofit.version>
         <redisson.starter.version>3.14.0</redisson.starter.version>
+        <cglib3.version>3.2.9</cglib3.version>
     </properties>
 
     <dependencies>
