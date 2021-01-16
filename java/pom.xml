@@ -26,6 +26,7 @@
         <module>cloud-contract-provider-rest</module>
         <module>cloud-contract-consumer-rest</module>
         <module>redisson-distributed-lock</module>
+        <module>spring-integration-distributed-lock</module>
     </modules>
 
     <properties>
