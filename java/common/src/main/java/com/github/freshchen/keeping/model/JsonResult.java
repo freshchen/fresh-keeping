@@ -71,4 +71,8 @@ public class JsonResult<T> {
         return jsonResult;
     }
 
+    public static <T> JsonResult<T> error(Error error) {
+        return error(error.getCode(), error.getMessage());
+    }
+
 }

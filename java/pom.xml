@@ -31,6 +31,7 @@
         <module>spring-fegin-hytrix-sdk</module>
         <module>spring-fegin-hytrix-server</module>
         <module>spring-fegin-hytrix-client</module>
+        <module>spring-web</module>
     </modules>
 
     <properties>
@@ -57,6 +58,7 @@
         <retrofit.version>2.7.1</retrofit.version>
         <redisson.starter.version>3.14.0</redisson.starter.version>
         <cglib3.version>3.2.9</cglib3.version>
+        <commons.io.version>2.4</commons.io.version>
     </properties>
 
     <dependencies>
@@ -107,6 +109,11 @@
                 <groupId>com.github.freshchen.keeping</groupId>
                 <artifactId>common</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.guava</groupId>

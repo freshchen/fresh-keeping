@@ -9,6 +9,8 @@
     - common：通用的一些模型，工具类
 
     - design-pattern：常用设计模式
+  
+    - spring-web：springboot开发web应用实践，包含全局异常处理，请求日志打印，Swagger接口定义，自定义表单时间，枚举转换以及校验
 
     - boot-validation：基于Spring Validation的最佳实战，包含Controller表单校验，方法级别校验，分组校验
 
@@ -26,7 +28,7 @@
 
     - spring-fegin-hytrix-server：Spring Cloud fegin + hytrix 远程调用实战之 SDK 实现，服务提供方
 
-    - spring-fegin-hytrix-client：Spring Cloud fegin + hytrix 远程调用实战之服务调用方
+    - spring-fegin-hytrix-client：Spring Cloud fegin + hytrix 远程调用实战之服务调用方，以及fegin请求日志打印
 
 - script：个人常用脚本
 
