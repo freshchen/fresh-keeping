@@ -30,6 +30,8 @@
 
     - spring-fegin-hytrix-client：Spring Cloud fegin + hytrix 远程调用实战之服务调用方，以及fegin请求日志打印
 
+    - spring-cache：通过Spring提供的方便的注解操作redis实现缓存功能    
+
 - script：个人常用脚本
 
 - sql：个人 sql 练习

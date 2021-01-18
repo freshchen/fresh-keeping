@@ -32,6 +32,7 @@
         <module>spring-fegin-hytrix-server</module>
         <module>spring-fegin-hytrix-client</module>
         <module>spring-web</module>
+        <module>spring-cache</module>
     </modules>
 
     <properties>
