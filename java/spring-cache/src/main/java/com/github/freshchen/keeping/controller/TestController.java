@@ -23,4 +23,15 @@ public class TestController {
         return JsonResult.ok(userService.getUser(id));
     }
 
+    @GetMapping("/user1/{id}")
+    private JsonResult<UserDTO> getUser1(@PathVariable("id") Integer id) {
+        userService.getUserNull(id);
+        return JsonResult.ok();
+    }
+
+    @GetMapping("/user2/{id}/{name}")
+    private JsonResult<UserDTO> getUser1(@PathVariable("id") Integer id, @PathVariable("name") String name) {
+        return JsonResult.ok(userService.save(id, name));
+    }
+
 }
