@@ -23,6 +23,7 @@ public class UserClientTest {
     public void createUser() throws IOException {
         User user = new User();
         user.setAge(123);
+        // createUser 调用本地8080端口的服务，通过 stub 模拟，不用真的启动服务，方便微服务场景测试
         JsonResult user1 = UserClient.createUser(user);
         BDDAssertions.then(user1.getSuccess()).isEqualTo(true);
 

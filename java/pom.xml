@@ -33,6 +33,8 @@
         <module>spring-fegin-hytrix-client</module>
         <module>spring-web</module>
         <module>spring-cache</module>
+        <module>spring-tx</module>
+        <module>spring-ioc</module>
     </modules>
 
     <properties>
