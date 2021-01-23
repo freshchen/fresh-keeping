@@ -18,13 +18,13 @@ public class SpringIocTest {
     @Test
     public void test() {
         User user = context.getBean(User.class);
-        user.getName().intro();
+        user.getIntro().intro();
 
         Doctor doctor = context.getBean(Doctor.class);
-        doctor.getUser().getName().intro();
+        doctor.getUser().getIntro().intro();
 
         Patient patient = context.getBean(Patient.class);
-        patient.getUser().getName().intro();
+        patient.getUser().getIntro().intro();
 
         ApplicationContextUtils.hello();
     }

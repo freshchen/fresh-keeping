@@ -16,7 +16,7 @@ public class PostPre1 {
      * 和spring无耦合的介入声明周期
      * 初始化完成包括依赖注入
      * <p>
-     * 通过 BeanPostProcessor 实现,如果自己实现了 BeanPostProcessor 会失效
+     * 通过 BeanPostProcessor 实现, 在 before 和 after 中间执行
      * <p>
      * Constructor >> @Autowired >> @PostConstruct
      */
@@ -37,7 +37,6 @@ public class PostPre1 {
      * 和spring无耦合的介入声明周期
      * 容器关闭
      * <p>
-     * 通过 BeanPostProcessor 实现
      */
     @PreDestroy
     private void destroy() {

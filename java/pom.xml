@@ -22,7 +22,7 @@
         <module>algorithm</module>
         <module>pinyin</module>
         <module>mapstruct</module>
-        <module>boot-validation</module>
+        <module>spring-validation</module>
         <module>cloud-contract-provider-rest</module>
         <module>cloud-contract-consumer-rest</module>
         <module>redisson-distributed-lock</module>

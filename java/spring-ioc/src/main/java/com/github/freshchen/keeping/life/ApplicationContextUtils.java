@@ -1,6 +1,6 @@
 package com.github.freshchen.keeping.life;
 
-import com.github.freshchen.keeping.di.Name;
+import com.github.freshchen.keeping.di.Intro;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -25,7 +25,7 @@ public class ApplicationContextUtils implements ApplicationContextAware {
 
     public static void hello() {
         System.out.println("IocUtils");
-        Name name = context.getBean(Name.class);
-        name.intro();
+        Intro i = context.getBean(Intro.class);
+        i.intro();
     }
 }
