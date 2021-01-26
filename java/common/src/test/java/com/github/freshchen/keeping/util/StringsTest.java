@@ -22,4 +22,11 @@ public class StringsTest {
         String s = Strings.trimZeroEndOfDecimal("2300");
         Assertions.assertEquals("2300", s);
     }
+
+    @Test
+    public void contains() {
+        Assertions.assertTrue(Strings.hasContains("北京", "北京市"));
+        Assertions.assertTrue(Strings.hasContains("北京市", "北京"));
+        Assertions.assertFalse(Strings.hasContains("北1京市", "北京"));
+    }
 }

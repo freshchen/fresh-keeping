@@ -40,6 +40,10 @@ public class Strings {
         return s;
     }
 
+    public static boolean hasContains(String a, String b) {
+        return StringUtils.contains(a, b) || StringUtils.contains(b, a);
+    }
+
     private Strings() {
     }
 }
