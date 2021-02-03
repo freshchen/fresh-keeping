@@ -35,6 +35,7 @@
         <module>spring-cache</module>
         <module>spring-tx</module>
         <module>spring-ioc</module>
+        <module>spring-aop</module>
     </modules>
 
     <properties>
