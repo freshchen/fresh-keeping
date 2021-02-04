@@ -1,5 +1,6 @@
 package com.github.freshchen.keeping.controller;
 
+import com.github.freshchen.keeping.annotation.VisitLog;
 import com.github.freshchen.keeping.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,6 +17,7 @@ public class TestController {
     private UserService userService;
 
     @GetMapping()
+    @VisitLog("获取姓名")
     public String name() {
         return userService.getName();
     }

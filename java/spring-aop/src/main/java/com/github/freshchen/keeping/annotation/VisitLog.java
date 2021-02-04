@@ -1,5 +1,7 @@
 package com.github.freshchen.keeping.annotation;
 
+import org.springframework.core.annotation.AliasFor;
+
 import java.lang.annotation.*;
 
 /**
@@ -11,8 +13,10 @@ import java.lang.annotation.*;
 @Inherited
 public @interface VisitLog {
 
+    @AliasFor("action")
     String value() default "";
 
+    @AliasFor("value")
     String action() default "";
 
     String[] params() default {};
