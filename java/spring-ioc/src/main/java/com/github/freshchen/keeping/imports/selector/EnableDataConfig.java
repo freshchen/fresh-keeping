@@ -2,6 +2,7 @@ package com.github.freshchen.keeping.imports.selector;
 
 import com.github.freshchen.keeping.imports.ImportSelector1;
 import org.springframework.context.annotation.Import;
+import org.springframework.core.Ordered;
 
 import java.lang.annotation.*;
 
@@ -14,4 +15,6 @@ import java.lang.annotation.*;
 @Documented
 @Import(ImportSelector1.class)
 public @interface EnableDataConfig {
+
+    int order() default Ordered.LOWEST_PRECEDENCE;
 }
