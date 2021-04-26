@@ -62,7 +62,7 @@
         <retrofit.version>2.7.1</retrofit.version>
         <redisson.starter.version>3.14.0</redisson.starter.version>
         <cglib3.version>3.2.9</cglib3.version>
-        <commons.io.version>2.4</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <hutool.version>5.5.7</hutool.version>
     </properties>
 
