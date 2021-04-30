@@ -7,3 +7,4 @@ algorithm/target
 springboot/mapstruct/target
 springboot/validation/target
 springboot/web/target
+*.DS_Store
