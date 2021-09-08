@@ -63,7 +63,6 @@
         <retrofit.version>2.7.1</retrofit.version>
         <redisson.starter.version>3.14.0</redisson.starter.version>
         <cglib3.version>3.2.9</cglib3.version>
-        <commons.io.version>2.4</commons.io.version>
         <hutool.version>5.5.7</hutool.version>
         <commons.io.version>2.8.0</commons.io.version>
     </properties>
@@ -100,11 +99,6 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-io</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>${commons.io.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.squareup.retrofit2</groupId>
@@ -156,14 +150,6 @@
                 <groupId>org.jodd</groupId>
                 <artifactId>jodd-bean</artifactId>
                 <version>${jodd-bean.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>com.ctrip.framework.apollo</groupId>

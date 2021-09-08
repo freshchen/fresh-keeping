@@ -37,6 +37,7 @@
             <plugin>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-contract-maven-plugin</artifactId>
+                <version>3.0.3</version>
                 <extensions>true</extensions>
                 <configuration>
                     <!--用于构建过程中插件自动生成测试用例的基类-->

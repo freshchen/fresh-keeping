@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class DataConfig2 {
 
     @Bean
-    public DataService dataService() {
+    public DataService dataService2() {
         return new DataService2();
     }
 }
