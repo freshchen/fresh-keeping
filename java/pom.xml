@@ -37,6 +37,7 @@
         <module>spring-ioc</module>
         <module>spring-aop</module>
         <module>file</module>
+        <module>spring-log</module>
     </modules>
 
     <properties>
