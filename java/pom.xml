@@ -25,8 +25,8 @@
         <module>spring-validation</module>
 <!--        <module>cloud-contract-provider-rest</module>-->
 <!--        <module>cloud-contract-consumer-rest</module>-->
-        <module>redisson-distributed-lock</module>
-        <module>spring-integration-distributed-lock</module>
+        <module>distributed-lock/redisson-distributed-lock</module>
+        <module>distributed-lock/spring-integration-distributed-lock</module>
         <module>design-pattern</module>
         <module>spring-fegin-hytrix-sdk</module>
         <module>spring-fegin-hytrix-server</module>

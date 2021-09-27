@@ -3,8 +3,7 @@
 java/*/target
 springboot2/*/target
 venv
-algorithm/target
-springboot/mapstruct/target
-springboot/validation/target
-springboot/web/target
+*/target
+*/*/target
 *.DS_Store
+/java/*/*/target/
