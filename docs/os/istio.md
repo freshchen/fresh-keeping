@@ -170,14 +170,14 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 实践一下配置网格行为
 
-- 配置名为 xingren-gateway 的 Istio Gateway 接受所有 host为 xingren.upup 的外部流量
+- 配置名为 freshchen-gateway 的 Istio Gateway 接受所有 host为 freshchen.upup 的外部流量
 
 ```yaml
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: xingren-gateway
+  name: freshchen-gateway
 spec:
   selector:
     istio: ingressgateway
@@ -187,10 +187,10 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-        - xingren.upup
+        - freshchen.upup
 ```
 
-- 配置 VirtualService 接受所有来自 ingren-gateway，host 为 xingren.upup 或者 hello 的流量
+- 配置 VirtualService 接受所有来自 ingren-gateway，host 为 freshchen.upup 或者 hello 的流量
 - 如果 http header 中 version 字段为 new，流量转到 new 子集，并且设置了 5 秒的超时时间，并且以 10% 的比例，注入一个10秒的请求延迟，已验证服务的容错能力
 - 如果 http header 中 version 字段不存在，或者不是 new，则 70% 流量转到 latest 子集， 30% 流量转到 new 子集
 - 配置可复用的 DestinationRule，定义了  latest 子集和 new 子集，按照 version 标签匹配到 Kubernetes hello 服务下的真实pod，同时设置了并发请求不能大于1的熔断规则
@@ -204,9 +204,9 @@ metadata:
 spec:
   hosts:
     - hello
-    - xingren.upup
+    - freshchen.upup
   gateways:
-    - xingren-gateway
+    - freshchen-gateway
   http:
     - match:
         - headers:
@@ -285,7 +285,7 @@ Available Commands:
 向服务中注入一些流量
 
 ```bash
-chenling@ChendeMacBook-Pro ~ % for i in `seq 1000`; do wget -q -O - http://xingren.upup; sleep 0.2;done
+chenling@ChendeMacBook-Pro ~ % for i in `seq 1000`; do wget -q -O - http://freshchen.upup; sleep 0.2;done
  Hello World(new) 
  Hello World 
  Hello World 

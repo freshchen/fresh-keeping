@@ -20,24 +20,25 @@
     <modules>
         <module>common</module>
         <module>algorithm</module>
-        <module>pinyin</module>
-        <module>mapstruct</module>
-        <module>spring-validation</module>
-<!--        <module>cloud-contract-provider-rest</module>-->
-<!--        <module>cloud-contract-consumer-rest</module>-->
+        <module>tools/pinyin</module>
+        <module>tools/mapstruct</module>
+        <module>springboot/spring-validation</module>
+        <module>contract-test/cloud-contract-provider-rest</module>
+<!--    生成的 contract stub 无仓库保存故注释-->
+<!--        <module>contract-test/cloud-contract-consumer-rest</module>-->
         <module>distributed-lock/redisson-distributed-lock</module>
         <module>distributed-lock/spring-integration-distributed-lock</module>
         <module>design-pattern</module>
-        <module>spring-fegin-hytrix-sdk</module>
-        <module>spring-fegin-hytrix-server</module>
-        <module>spring-fegin-hytrix-client</module>
-        <module>spring-web</module>
-        <module>spring-cache</module>
-        <module>spring-tx</module>
-        <module>spring-ioc</module>
-        <module>spring-aop</module>
-        <module>file</module>
-        <module>spring-log</module>
+        <module>remote-call/spring-fegin-hytrix-sdk</module>
+        <module>remote-call/spring-fegin-hytrix-server</module>
+        <module>remote-call/spring-fegin-hytrix-client</module>
+        <module>web/spring-web</module>
+        <module>cache/spring-cache</module>
+        <module>data/spring-tx</module>
+        <module>springboot/spring-ioc</module>
+        <module>springboot/spring-aop</module>
+        <module>tools/file</module>
+        <module>springboot/spring-log</module>
     </modules>
 
     <properties>

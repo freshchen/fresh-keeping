@@ -6,9 +6,9 @@ metadata:
 spec:
   hosts:
     - hello
-    - xingren.upup
+    - freshchen.upup
   gateways:
-    - xingren-gateway
+    - freshchen-gateway
   http:
     - match:
         - headers:

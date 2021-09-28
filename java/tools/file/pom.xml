@@ -6,10 +6,11 @@
         <artifactId>java</artifactId>
         <groupId>com.github.freshchen.keeping</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-fegin-hytrix-server</artifactId>
+    <artifactId>file</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -18,8 +19,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.freshchen.keeping</groupId>
-            <artifactId>spring-fegin-hytrix-sdk</artifactId>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
         </dependency>
     </dependencies>
 
