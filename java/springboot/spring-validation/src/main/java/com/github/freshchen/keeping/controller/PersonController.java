@@ -5,7 +5,7 @@ import com.github.freshchen.keeping.marker.ValidMarker;
 import com.github.freshchen.keeping.model.Cat;
 import com.github.freshchen.keeping.model.Group;
 import com.github.freshchen.keeping.model.Person;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import com.github.freshchen.keeping.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -15,9 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
-
-import static com.github.freshchen.keeping.model.JsonResult.ok;
+import static com.github.freshchen.keeping.common.lib.model.JsonResult.ok;
 
 
 /**

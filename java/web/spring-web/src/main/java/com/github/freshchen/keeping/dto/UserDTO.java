@@ -1,7 +1,7 @@
 package com.github.freshchen.keeping.dto;
 
-import com.github.freshchen.keeping.marker.Create;
-import com.github.freshchen.keeping.marker.Update;
+import com.github.freshchen.keeping.common.lib.marker.Create;
+import com.github.freshchen.keeping.common.lib.marker.Update;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

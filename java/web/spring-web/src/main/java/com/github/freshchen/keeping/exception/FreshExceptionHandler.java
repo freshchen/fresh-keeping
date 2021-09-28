@@ -3,7 +3,7 @@ package com.github.freshchen.keeping.exception;
 
 import com.github.freshchen.keeping.model.ApiException;
 import com.github.freshchen.keeping.model.DomainException;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;

@@ -1,7 +1,7 @@
 package com.github.freshchen.keeping.controller;
 
 import com.github.freshchen.keeping.data.UserDTO;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import com.github.freshchen.keeping.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

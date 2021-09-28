@@ -1,6 +1,6 @@
 package com.github.freshchen.keeping.controller;
 
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import org.redisson.api.RLock;
 import org.redisson.api.RReadWriteLock;
 import org.redisson.api.RedissonClient;

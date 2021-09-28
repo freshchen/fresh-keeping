@@ -1,6 +1,6 @@
 package com.github.freshchen.keeping.controller;
 
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.integration.redis.util.RedisLockRegistry;
 import org.springframework.web.bind.annotation.GetMapping;

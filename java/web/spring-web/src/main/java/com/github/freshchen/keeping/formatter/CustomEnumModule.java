@@ -1,7 +1,7 @@
 package com.github.freshchen.keeping.formatter;
 
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import com.github.freshchen.keeping.util.Asserts;
+import com.github.freshchen.keeping.common.lib.util.Asserts;
 
 
 public class CustomEnumModule extends SimpleModule {

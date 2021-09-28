@@ -2,7 +2,7 @@ package com.github.freshchen.keeping;
 
 import com.github.freshchen.keeping.api.UserApi;
 import com.github.freshchen.keeping.dto.UserDTO;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import feign.hystrix.FallbackFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

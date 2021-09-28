@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.util;
+package com.github.freshchen.keeping.common.lib.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.marker;
+package com.github.freshchen.keeping.common.lib.marker;
 
 /**
  * @author darcy

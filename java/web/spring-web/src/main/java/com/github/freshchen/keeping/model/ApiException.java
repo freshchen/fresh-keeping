@@ -1,5 +1,6 @@
 package com.github.freshchen.keeping.model;
 
+import com.github.freshchen.keeping.common.lib.model.Error;
 import lombok.Getter;
 
 /**

@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.constant;
+package com.github.freshchen.keeping.common.lib.constant;
 
 import java.util.regex.Pattern;
 

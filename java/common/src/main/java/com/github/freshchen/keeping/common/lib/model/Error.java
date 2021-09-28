@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.model;
+package com.github.freshchen.keeping.common.lib.model;
 
 import lombok.Getter;
 

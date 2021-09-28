@@ -1,5 +1,6 @@
 package com.github.freshchen.keeping.util;
 
+import com.github.freshchen.keeping.common.lib.util.Asserts;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

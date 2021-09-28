@@ -1,8 +1,8 @@
 package com.github.freshchen.keeping.controller;
 
 import com.github.freshchen.keeping.dto.UserDTO;
-import com.github.freshchen.keeping.marker.Create;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.marker.Create;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

@@ -23,8 +23,8 @@
         <module>tools/pinyin</module>
         <module>tools/mapstruct</module>
         <module>springboot/spring-validation</module>
-        <module>contract-test/cloud-contract-provider-rest</module>
-<!--    生成的 contract stub 无仓库保存故注释-->
+        <!--    生成的 contract stub 无仓库保存故注释-->
+<!--        <module>contract-test/cloud-contract-provider-rest</module>-->
 <!--        <module>contract-test/cloud-contract-consumer-rest</module>-->
         <module>distributed-lock/redisson-distributed-lock</module>
         <module>distributed-lock/spring-integration-distributed-lock</module>

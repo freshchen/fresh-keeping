@@ -1,5 +1,6 @@
 package com.github.freshchen.keeping.util;
 
+import com.github.freshchen.keeping.common.lib.util.Strings;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

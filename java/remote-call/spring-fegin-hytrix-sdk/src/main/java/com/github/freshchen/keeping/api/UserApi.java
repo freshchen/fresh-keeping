@@ -2,9 +2,9 @@ package com.github.freshchen.keeping.api;
 
 
 import com.github.freshchen.keeping.dto.UserDTO;
-import com.github.freshchen.keeping.marker.Create;
-import com.github.freshchen.keeping.marker.Update;
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.lib.marker.Create;
+import com.github.freshchen.keeping.common.lib.marker.Update;
+import com.github.freshchen.keeping.common.lib.model.JsonResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

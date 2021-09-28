@@ -2,7 +2,7 @@ package com.github.freshchen.keeping.service;
 
 import com.github.freshchen.keeping.dao.UserDao;
 import com.github.freshchen.keeping.data.User;
-import com.github.freshchen.keeping.util.Asserts;
+import com.github.freshchen.keeping.common.lib.util.Asserts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

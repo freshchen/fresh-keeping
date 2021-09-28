@@ -1,6 +1,6 @@
 package com.github.freshchen.keeping;
 
-import com.github.freshchen.keeping.model.JsonResult;
+import com.github.freshchen.keeping.common.model.JsonResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

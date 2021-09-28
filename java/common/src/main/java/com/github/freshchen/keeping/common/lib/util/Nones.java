@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.util;
+package com.github.freshchen.keeping.common.lib.util;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;

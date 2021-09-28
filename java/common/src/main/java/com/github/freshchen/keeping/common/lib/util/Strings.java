@@ -1,6 +1,6 @@
-package com.github.freshchen.keeping.util;
+package com.github.freshchen.keeping.common.lib.util;
 
-import com.github.freshchen.keeping.constant.Patterns;
+import com.github.freshchen.keeping.common.lib.constant.Patterns;
 import org.apache.commons.lang3.StringUtils;
 
 /**

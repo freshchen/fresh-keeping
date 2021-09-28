@@ -3,7 +3,7 @@ package com.github.freshchen.keeping.formatter;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
-import com.github.freshchen.keeping.util.Asserts;
+import com.github.freshchen.keeping.common.lib.util.Asserts;
 
 import java.beans.PropertyDescriptor;
 import java.io.IOException;

@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.deser.ContextualDeserializer;
-import com.github.freshchen.keeping.util.Asserts;
+import com.github.freshchen.keeping.common.lib.util.Asserts;
 import com.github.freshchen.keeping.util.Enums;
 import lombok.Setter;
 
