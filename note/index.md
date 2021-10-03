@@ -6,7 +6,7 @@
 
 ```dataview
 table tags, status, score, begin
-from "software"
+from "software" or "database"
 where status = "ongoing"
 sort score desc
 ```
@@ -17,7 +17,7 @@ sort score desc
 
 ```dataview
 table tags, status, score, begin
-from "software"
+from "software" or "database"
 where status = "done"
 sort score desc
 ```

@@ -7,8 +7,11 @@
         "id": "2da74b50bc719746",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -61,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           },
           {
@@ -70,6 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,10 +129,10 @@
   },
   "active": "2da74b50bc719746",
   "lastOpenFiles": [
-    "template/header.md",
     "index.md",
-    "software/obsidian/obsidian知识管理.md",
     "未命名.md",
+    "template/header.md",
+    "software/obsidian/obsidian知识管理.md",
     "111.md",
     "software/obsidian/obsidian.md",
     "template/未命名.md",
