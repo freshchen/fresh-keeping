@@ -3,13 +3,14 @@ begin: 2021-10-03
 tags:
   - "tools"
 status: done
-score: 1
+rating: 1
 ---
 
 # obsidian 知识管理
 
 - 笔记收集，记录使用 Onenote，主要依赖其多端同步能力。
 - 知识的整理、吸收、内循环使用 obsidian + typora。
+
 
 ## 插件列表
 
