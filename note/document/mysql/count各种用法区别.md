@@ -1,8 +1,5 @@
 ---
 begin: 2021-10-04
-tags:
-  - "mysql/sql"
-  - "interview"
 status: done
 rating: 1
 ---
@@ -20,3 +17,7 @@ rating: 1
 
 因为count(*) 和 count(1) 不取字段值，减少往 server层的数据返回，所以比其他count(字段)要返回值的【性能】较好
 
+
+
+##### 标签
+#mysql/sql #interview

@@ -12,29 +12,28 @@ dv.paragraph(
 
 ## 面试题...
 
-```dataview
-table tags, rating,status, file.inlinks,file.outlinks
-from #interview
-sort rating desc
+```dataviewjs
+dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('#interview')
+    .sort(b => b.rating, 'desc')
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
 ```
 
 
 ## 未完成...
 
-```dataview
-table tags, rating, file.inlinks,file.outlinks
-from "document"
-where status = "ongoing"
-sort rating desc
+```dataviewjs
+dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('"document"')
+    .where(b => dv.equal(b.status, "ongoing"))
+    .sort(b => b.mday, 'desc')
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
 ```
 
 
 ## 已完成...
 
-```dataview
-table tags, rating, file.inlinks,file.outlinks
-from "document"
-where status = "done"
-sort rating desc
+```dataviewjs
+dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('"document"')
+    .where(b => dv.equal(b.status, "done"))
+    .sort(b => b.mday, 'desc')
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
 ```
-

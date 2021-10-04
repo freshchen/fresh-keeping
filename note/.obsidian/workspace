@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2da74b50bc719746",
+        "id": "23a764b9f06161af",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tools",
+                "query": "tags:",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 173
   },
   "right": {
     "id": "513b5492c3119da9",
@@ -124,20 +124,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "2da74b50bc719746",
+  "active": "23a764b9f06161af",
   "lastOpenFiles": [
     "index.md",
+    "Day Planners/Day Planner-20211004.md",
+    "document/obsidian/obsidian知识管理.md",
+    "document/obsidian/Zettelkasten卡片盒笔记法.md",
     "document/idea/idea.md",
     "document/mysql/count各种用法区别.md",
-    "document/obsidian/obsidian知识管理.md",
-    "template/header.md",
-    "document/mysql/未命名.md",
-    "software/未命名.md",
     "未命名.md",
-    "software/obsidian/obsidian知识管理.md",
-    "111.md"
+    "document/obsidian/image/image-20211003222252203.png",
+    "template/header.md",
+    "202110041001.md"
   ]
 }

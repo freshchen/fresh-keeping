@@ -1,15 +1,13 @@
 ---
 begin: 2021-10-03
-tags:
-  - "tools"
 status: done
 rating: 1
 ---
 
 # obsidian 知识管理
 
-- 笔记收集，记录使用 Onenote，主要依赖其多端同步能力。
-- 知识的整理、吸收、内循环使用 obsidian + typora。
+- [知识收集记录](Zettelkasten卡片盒笔记法.md#^2098e6)，使用 Onenote，主要依赖其多端同步能力。
+- [知识的整理、吸收、内循环](Zettelkasten卡片盒笔记法.md#^3eed29)使用 obsidian + typora。
 
 
 ## 插件列表
@@ -59,3 +57,8 @@ obsidian不同项目配置不同，默认配置在项目当前 .obsidian 目录�
 [Obsidian 插件之 QuickAdd](https://zhuanlan.zhihu.com/p/386885976)
 
 [模板+QuickAdd+Dataview](https://sspai.com/post/68350)
+
+[Dataview 中文文档](https://zhuanlan.zhihu.com/p/393550306)
+
+##### 标签
+#tools 

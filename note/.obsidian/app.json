@@ -11,5 +11,7 @@
   "newLinkFormat": "relative",
   "defaultViewMode": "preview",
   "spellcheck": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showFrontmatter": false
 }

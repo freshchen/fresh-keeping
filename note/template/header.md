@@ -1,7 +1,17 @@
 ---
 begin: {{DATE:YYYY-MM-DD}}
-tags:
-  - ""
 status: ongoing
 rating: 1
 ---
+
+# 标题
+
+
+
+
+## 参考链接
+
+
+
+
+##### 标签
