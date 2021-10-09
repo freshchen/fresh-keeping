@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2021/10/08
  **/
 @SpringBootApplication
-//@MapperScan("com.github.freshchen.keeping.dao.mapper")
 public class SpringMybatisApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringMybatisApplication.class, args);
