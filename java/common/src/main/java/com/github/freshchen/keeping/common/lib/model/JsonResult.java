@@ -2,8 +2,6 @@ package com.github.freshchen.keeping.common.lib.model;
 
 import lombok.Data;
 
-import java.util.Optional;
-
 /**
  * @author darcy
  * @since 2020/02/19
@@ -19,17 +17,17 @@ public class JsonResult<T> {
     /**
      * 响应结果
      */
-    private Optional<T> data = Optional.empty();
+    private T data;
 
     /**
      * 错误码
      */
-    private Optional<Integer> errCode = Optional.empty();
+    private Integer code;
 
     /**
      * 错误消息
      */
-    private Optional<String> errMessage = Optional.empty();
+    private String message;
 
     /**
      * 生成服务调用成功响应
@@ -41,7 +39,7 @@ public class JsonResult<T> {
     public static <T> JsonResult<T> ok(T data) {
         JsonResult<T> jsonResult = new JsonResult<>();
         jsonResult.setSuccess(true);
-        jsonResult.setData(Optional.of(data));
+        jsonResult.setData(data);
         return jsonResult;
     }
 
@@ -66,8 +64,8 @@ public class JsonResult<T> {
      */
     public static <T> JsonResult<T> error(Integer errorCode, String errorMessage) {
         JsonResult<T> jsonResult = new JsonResult<>();
-        jsonResult.setErrCode(Optional.of(errorCode));
-        jsonResult.setErrMessage(Optional.ofNullable(errorMessage));
+        jsonResult.setCode(errorCode);
+        jsonResult.setMessage(errorMessage);
         return jsonResult;
     }
 

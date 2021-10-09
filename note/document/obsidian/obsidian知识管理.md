@@ -6,8 +6,8 @@ rating: 1
 
 # obsidian 知识管理
 
-- [知识收集记录](Zettelkasten卡片盒笔记法.md#^2098e6)，使用 Onenote，主要依赖其多端同步能力。
-- [知识的整理、吸收、内循环](Zettelkasten卡片盒笔记法.md#^3eed29)使用 obsidian + typora。
+- [知识收集记录](../concept/Zettelkasten卡片盒笔记法.md#^2098e6)，使用 Onenote，主要依赖其多端同步能力。
+- [知识的整理、吸收、内循环](../concept/Zettelkasten卡片盒笔记法.md#^3eed29)使用 obsidian + typora。
 
 
 ## 插件列表

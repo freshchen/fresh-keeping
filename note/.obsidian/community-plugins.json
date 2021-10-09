@@ -6,5 +6,7 @@
   "obsidian-outliner",
   "obsidian-emoji-toolbar",
   "obsidian-mind-map",
-  "folder-note-plugin"
+  "folder-note-plugin",
+  "obsidian-commits",
+  "obsidian-activity-history"
 ]

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
@@ -32,9 +31,9 @@ public class ValidationExceptionHandler {
         List<ObjectError> allErrors = error.getBindingResult().getAllErrors();
         return allErrors.stream().map(objectError -> {
             JsonResult<?> errorMsg = new JsonResult<>();
-            errorMsg.setErrCode(Optional.of(400));
+            errorMsg.setCode(400);
             errorMsg.setSuccess(false);
-            errorMsg.setErrMessage(Optional.ofNullable(objectError.getDefaultMessage()));
+            errorMsg.setMessage(objectError.getDefaultMessage());
             return errorMsg;
         }).collect(Collectors.toList());
     }
