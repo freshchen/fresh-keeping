@@ -31,7 +31,7 @@
 
     <select id="getUser" resultMap="user_po_result">
         select
-        <include refid="user_po_fields"></include>
+        <include refid="user_po_fields"/>
         from user
         order by id desc
         limit 1
