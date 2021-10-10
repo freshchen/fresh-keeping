@@ -48,8 +48,8 @@ public class JsonResult<T> {
      *
      * @return
      */
-    public static JsonResult ok() {
-        JsonResult jsonResult = new JsonResult<>();
+    public static JsonResult<Void> ok() {
+        JsonResult<Void> jsonResult = new JsonResult<>();
         jsonResult.setSuccess(true);
         return jsonResult;
     }

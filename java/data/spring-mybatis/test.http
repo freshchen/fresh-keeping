@@ -1,1 +1,7 @@
-GET http://localhost:8082/user
+POST http://localhost:8091/user
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:8080/user

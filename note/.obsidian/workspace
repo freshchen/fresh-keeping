@@ -7,11 +7,8 @@
         "id": "5f3f274e75f18209",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "index.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -64,9 +61,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           },
           {
@@ -75,7 +70,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,15 +122,15 @@
   },
   "active": "5f3f274e75f18209",
   "lastOpenFiles": [
-    "index.md",
-    "template/未命名.md",
-    "template/1.md",
-    "template/header.md",
-    "document/zookeeper/zookeeper简介.md",
     "document/idea/idea.md",
-    "document/obsidian/obsidian知识管理.md",
-    "document/zookeeper/image/Pasted image 20211005172352.png",
     "document/chubby/Chubby简介.md",
-    "document/chubby/未命名.md"
+    "document/concept/Zettelkasten卡片盒笔记法.md",
+    "document/mysql/count各种用法区别.md",
+    "document/idea常用插件/idea常用插件.md",
+    "document/chrome常用插件/chrome常用插件.md",
+    "document/chrome/chrome.md",
+    "document/chrome/未命名.md",
+    "index.md",
+    "template/未命名.md"
   ]
 }

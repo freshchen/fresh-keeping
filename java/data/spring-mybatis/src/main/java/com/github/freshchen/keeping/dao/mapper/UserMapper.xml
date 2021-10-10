@@ -2,7 +2,42 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.github.freshchen.keeping.dao.mapper.UserMapper">
 
-    <select id="getUser" resultType="com.github.freshchen.keeping.dao.po.UserPo">
-        select * from user limit 1
+    <resultMap id="user_po_result" type="com.github.freshchen.keeping.dao.po.UserPo">
+        <id property="id" column="id"/>
+        <result property="countryId" column="country_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="email" column="email"/>
+        <result property="gender" column="gender"/>
+        <result property="createTime" column="create_time"
+                typeHandler="org.apache.ibatis.type.LocalDateTimeTypeHandler"/>
+        <result property="updateTime" column="update_time"
+                typeHandler="org.apache.ibatis.type.LocalDateTimeTypeHandler"/>
+        <result property="deleted" column="deleted"/>
+    </resultMap>
+
+    <resultMap id="user_po_details_result" type="com.github.freshchen.keeping.dao.po.UserDetailsPo" extends="user_po_result">
+
+    </resultMap>
+
+    <sql id="user_po_fields">
+        id
+        ,country_id, user_name, email, gender, create_time, update_time, deleted
+    </sql>
+
+    <insert id="createUser" parameterType="com.github.freshchen.keeping.dao.po.UserPo">
+        insert into user (user_name, email, gender, country_id)
+        values (#{userPo.userName}, #{userPo.email}, #{userPo.gender}, #{userPo.countryId})
+    </insert>
+
+    <select id="getUser" resultMap="user_po_result">
+        select
+        <include refid="user_po_fields"></include>
+        from user
+        order by id desc
+        limit 1
+    </select>
+
+    <select id="getUserDetails" resultMap="user_po_details_result">
+
     </select>
 </mapper>
