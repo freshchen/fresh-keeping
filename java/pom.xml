@@ -24,8 +24,8 @@
         <module>tools/mapstruct</module>
         <module>springboot/spring-validation</module>
         <!--    生成的 contract stub 无仓库保存故注释-->
-<!--        <module>contract-test/cloud-contract-provider-rest</module>-->
-<!--        <module>contract-test/cloud-contract-consumer-rest</module>-->
+<!--        <module>test/cloud-contract-provider-rest</module>-->
+<!--        <module>test/cloud-contract-consumer-rest</module>-->
         <module>distributed-lock/redisson-distributed-lock</module>
         <module>distributed-lock/spring-integration-distributed-lock</module>
         <module>design-pattern</module>
@@ -34,14 +34,14 @@
         <module>remote-call/spring-fegin-hytrix-client</module>
         <module>web/spring-web</module>
         <module>cache/spring-cache</module>
-        <module>data/spring-tx</module>
+        <module>sql-orm/spring-tx</module>
         <module>springboot/spring-ioc</module>
         <module>springboot/spring-aop</module>
         <module>tools/file</module>
         <module>springboot/spring-log</module>
-        <module>data/spring-mybatis</module>
+        <module>sql-orm/spring-mybatis</module>
         <module>springboot/spring-design-pattern</module>
-        <module>web/fastjson</module>
+        <module>data-format/fastjson</module>
     </modules>
 
     <properties>
@@ -178,11 +178,6 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.flywaydb</groupId>
-                <artifactId>flyway-core</artifactId>
-                <version>${flyway.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.data</groupId>

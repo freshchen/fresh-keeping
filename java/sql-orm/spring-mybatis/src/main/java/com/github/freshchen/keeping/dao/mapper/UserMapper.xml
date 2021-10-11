@@ -15,13 +15,20 @@
         <result property="deleted" column="deleted"/>
     </resultMap>
 
-    <resultMap id="user_po_details_result" type="com.github.freshchen.keeping.dao.po.UserDetailsPo" extends="user_po_result">
-
+    <resultMap id="user_po_details_result" type="com.github.freshchen.keeping.dao.po.UserDetailsPo"
+               extends="user_po_result">
+        <association property="countryPo" column="country_id" javaType="com.github.freshchen.keeping.dao.po.CountryPo"
+                     select="getCountryById"/>
+        <collection property="userTagPos" column="id" javaType="ArrayList" ofType="com.github.freshchen.keeping.dao.po.UserTagPo" select="getTagsByUserId"/>
     </resultMap>
 
     <sql id="user_po_fields">
         id
         ,country_id, user_name, email, gender, create_time, update_time, deleted
+    </sql>
+    <sql id="country_po_fields">
+        id
+        ,name, create_time, update_time, deleted
     </sql>
 
     <insert id="createUser" parameterType="com.github.freshchen.keeping.dao.po.UserPo">
@@ -38,6 +45,25 @@
     </select>
 
     <select id="getUserDetails" resultMap="user_po_details_result">
-
+        select
+        <include refid="user_po_fields"/>
+        from user
+        order by id desc
+        limit 1
     </select>
+
+    <select id="getCountryById" resultType="com.github.freshchen.keeping.dao.po.CountryPo">
+        select
+        <include refid="country_po_fields"/>
+        from country
+        where id = #{id}
+    </select>
+
+    <select id="getTagsByUserId" resultType="com.github.freshchen.keeping.dao.po.UserTagPo">
+        select
+        *
+        from user_tag
+        where user_id = #{user_id}
+    </select>
+
 </mapper>
