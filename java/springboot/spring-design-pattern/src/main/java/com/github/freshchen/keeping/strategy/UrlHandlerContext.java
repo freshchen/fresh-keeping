@@ -23,14 +23,14 @@ public class UrlHandlerContext implements ApplicationContextAware {
     private static Map<String, UrlHandler> urlHandlerMap;
 
     public static Optional<UrlHandler> getUrlHandler(String url) {
-        Asserts.isTrue(StringUtils.isNoneBlank(url));
+        Asserts.isTrue(StringUtils.isNotBlank(url));
         return Optional.ofNullable(urlHandlerMap.get(url));
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         Collection<UrlHandler> handlers = applicationContext.getBeansOfType(UrlHandler.class).values();
-        handlers.forEach(urlHandler -> Asserts.isTrue(StringUtils.isNoneBlank(urlHandler.getUrl())));
+        handlers.forEach(urlHandler -> Asserts.isTrue(StringUtils.isNotBlank(urlHandler.getUrl())));
         Asserts.isTrue(handlers.size() == handlers.stream().map(UrlHandler::getUrl).distinct().count());
         Map<String, UrlHandler> map = handlers.stream()
             .collect(Collectors.toMap(UrlHandler::getUrl, Function.identity()));
