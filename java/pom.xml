@@ -41,7 +41,7 @@
         <module>springboot/spring-log</module>
         <module>data/spring-mybatis</module>
         <module>springboot/spring-design-pattern</module>
-        <module>tools/fastjson</module>
+        <module>web/fastjson</module>
     </modules>
 
     <properties>
