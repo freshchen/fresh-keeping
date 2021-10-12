@@ -7,8 +7,11 @@
         "id": "5f3f274e75f18209",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "document/json/json简介.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo，初次启动过程中完成选举",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "document/json/json简介.md"
+              }
             }
           },
           {
@@ -70,6 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "document/json/json简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -81,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "document/json/json简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,15 +129,15 @@
   },
   "active": "5f3f274e75f18209",
   "lastOpenFiles": [
-    "document/idea/idea.md",
-    "document/chubby/Chubby简介.md",
-    "document/concept/Zettelkasten卡片盒笔记法.md",
-    "document/mysql/count各种用法区别.md",
-    "document/idea常用插件/idea常用插件.md",
-    "document/chrome常用插件/chrome常用插件.md",
-    "document/chrome/chrome.md",
-    "document/chrome/未命名.md",
+    "document/json/json简介.md",
+    "document/json/fastjson/fastjson简介.md",
+    "document/json/Google json 风格规范.md",
     "index.md",
-    "template/未命名.md"
+    "document/json/fastjson/Untitled.md",
+    "document/chrome常用插件/chrome常用插件.md",
+    "document/mysql/count各种用法区别.md",
+    "document/json/Untitled.md",
+    "document/api/分页查询 page_token page_size.md",
+    "document/api/Untitled.md"
   ]
 }
