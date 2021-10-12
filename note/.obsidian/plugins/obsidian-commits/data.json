@@ -5,7 +5,7 @@
   ],
   "filesCheckpoint": {
     "template/header.md": {
-      "size": 125,
+      "size": 104,
       "tags": 0,
       "links": 0
     },
@@ -31,7 +31,7 @@
     },
     "document/mysql/count各种用法区别.md": {
       "size": 998,
-      "tags": 3,
+      "tags": 4,
       "links": 0
     },
     "document/concept/Zettelkasten卡片盒笔记法.md": {
@@ -42,11 +42,6 @@
     "document/chubby/Chubby简介.md": {
       "size": 296,
       "tags": 2,
-      "links": 0
-    },
-    "document/chrome常用插件/chrome常用插件.md": {
-      "size": 212,
-      "tags": 1,
       "links": 0
     },
     "document/idea/idea常用插件.md": {
@@ -69,23 +64,33 @@
       "tags": 2,
       "links": 2
     },
-    "document/json/fastjson/fastjson简介.md": {
-      "size": 925,
+    "document/chrome/chrome常用插件.md": {
+      "size": 212,
+      "tags": 1,
+      "links": 0
+    },
+    "document/fastjson/fastjson简介.md": {
+      "size": 1345,
       "tags": 2,
       "links": 1
+    },
+    "document/mybatis/mybatis简介.md": {
+      "size": 2171,
+      "tags": 2,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 18,
-      "Create": 12,
-      "Link": 11,
-      "Expand": 15
+      "Refactor": 22,
+      "Create": 14,
+      "Link": 14,
+      "Expand": 20
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 0,
+      "0": 1,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -107,15 +112,15 @@
       "19": 0,
       "20": 0,
       "21": 8,
-      "22": 1,
-      "23": 4
+      "22": 6,
+      "23": 12
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 0,
-      "Tue": 33,
-      "Wed": 0,
+      "Tue": 46,
+      "Wed": 1,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -139,7 +144,12 @@
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>"
+        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -153,7 +163,9 @@
         "<a class=\"internal-link\" href=\"document/api/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/json/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介~.md\"> json简介~ </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>"
+        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -165,7 +177,9 @@
         "<a class=\"internal-link\" href=\"document/idea/idea常用插件.md\"> idea常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/idea/idea.md\"> idea </a>",
         "<a class=\"internal-link\" href=\"document/api/page_token page_size 分页查询.md\"> page_token page_size 分页查询 </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
+        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
+        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -175,10 +189,14 @@
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
         "<a class=\"internal-link\" href=\"document/mysql/count各种用法区别.md\"> count各种用法区别 </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>"
+        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mysql/count各种用法区别.md\"> count各种用法区别 </a>"
       ],
       "Refactored": [
-        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>"
+        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
+        "<a class=\"internal-link\" href=\"template/header.md\"> header </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -187,7 +205,8 @@
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/idea/idea.md\"> idea </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范~.md\"> Google json 风格规范~ </a>",
-        "<a class=\"internal-link\" href=\"document/json/json简介~.md\"> json简介~ </a>"
+        "<a class=\"internal-link\" href=\"document/json/json简介~.md\"> json简介~ </a>",
+        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",

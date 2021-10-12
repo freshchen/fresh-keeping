@@ -6,7 +6,7 @@ rating: 1
 
 # fastjson简介
 
-fastjson 是阿里巴巴开源的 [json简介](../json简介.md) 序列化工具，宣传核心竞争力是速度快。
+fastjson 是阿里巴巴开源的 [json简介](../json/json简介.md) 序列化工具，宣传核心竞争力是速度快。
 
 ## 简单实战
 
