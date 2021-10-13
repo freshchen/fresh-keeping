@@ -38,6 +38,22 @@ MyBatis 是一款持久层框架，它支持自定义 SQL、存储过程以及�
 </dependency>
 ```
 
+如果 mapper xml 需要放在 java 代码包内需要加以下配置
+
+```xml
+<build>  
+	 <resources>  
+		 <resource>  
+			 <directory>src/main/java</directory>  
+			 <includes>  
+			 	<include>**/*.xml</include>  
+			 </includes>  
+			 <filtering>true</filtering>  
+		 </resource>  
+	 </resources>  
+</build>
+```
+
 ### 使用
 
 [代码示例](https://github.com/freshchen/fresh-keeping/tree/master/java/sql-orm/spring-mybatis)
