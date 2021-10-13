@@ -4,10 +4,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.freshchen.keeping.formatter.CustomEnumModule;
 import com.github.freshchen.keeping.formatter.CustomFormatterRegistrar;
 import com.github.freshchen.keeping.formatter.Java8Mapper;
+import com.github.freshchen.keeping.interceptor.TestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.web.config.EnableSpringDataWebSupport;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.TimeZone;
@@ -24,6 +26,11 @@ public class WebConfig implements WebMvcConfigurer {
     public void addFormatters(FormatterRegistry registry) {
         // 时间转 OffsetDateTime，字符串去前后空格
         new CustomFormatterRegistrar().registerFormatters(registry);
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new TestInterceptor()).addPathPatterns("/testInterceptor");
     }
 
     @Bean
