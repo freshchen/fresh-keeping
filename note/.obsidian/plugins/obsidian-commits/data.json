@@ -85,27 +85,42 @@
       "links": 0
     },
     "document/plantuml/PlantUML使用.md": {
-      "size": 8303,
+      "size": 6365,
       "tags": 2,
       "links": 2
     },
     "document/mybatis/mybatis扩展.md": {
       "size": 154,
-      "tags": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "document/mybatis/mybatis编写mapper.md": {
+      "size": 1066,
+      "tags": 2,
+      "links": 0
+    },
+    "document/mybatis/mybatis $ 和 井 区别.md": {
+      "size": 700,
+      "tags": 3,
+      "links": 0
+    },
+    "document/mybatis/mybatis避免动态SQL语句错误.md": {
+      "size": 939,
+      "tags": 3,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 22,
-      "Create": 18,
-      "Link": 20,
-      "Expand": 26
+      "Refactor": 29,
+      "Create": 21,
+      "Link": 24,
+      "Expand": 36
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 7,
+      "0": 16,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -127,8 +142,8 @@
       "19": 0,
       "20": 0,
       "21": 8,
-      "22": 1,
-      "23": 4
+      "22": 12,
+      "23": 8
     }
   },
   "weeklyCommits": {
@@ -136,8 +151,8 @@
       "Mon": 0,
       "Tue": 34,
       "Wed": 22,
-      "Thu": 7,
-      "Fri": 0,
+      "Thu": 22,
+      "Fri": 9,
       "Sat": 0,
       "Sun": 23
     }
@@ -170,7 +185,17 @@
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -190,7 +215,10 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>"
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -203,7 +231,13 @@
         "<a class=\"internal-link\" href=\"document/idea/idea.md\"> idea </a>",
         "<a class=\"internal-link\" href=\"document/api/page_token page_size 分页查询.md\"> page_token page_size 分页查询 </a>",
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis mapper配置.md\"> mybatis mapper配置 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis.md\"> mybatis </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis动态SQL语句错误.md\"> mybatis动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -219,11 +253,16 @@
         "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
         "<a class=\"internal-link\" href=\"document/mysql/count各种用法区别.md\"> count各种用法区别 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
-        "<a class=\"internal-link\" href=\"template/header.md\"> header </a>"
+        "<a class=\"internal-link\" href=\"template/header.md\"> header </a>",
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",

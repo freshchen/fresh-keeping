@@ -6,12 +6,11 @@ import com.github.freshchen.keeping.common.lib.util.Asserts;
 import com.github.freshchen.keeping.dao.mapper.UserMapper;
 import com.github.freshchen.keeping.dao.po.UserDetailsPo;
 import com.github.freshchen.keeping.dao.po.UserPo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -20,6 +19,7 @@ import java.util.UUID;
  **/
 @RestController
 @RequestMapping("/user")
+@Slf4j
 public class UserController {
 
     @Autowired
@@ -28,6 +28,31 @@ public class UserController {
     @GetMapping
     public JsonResult<UserPo> getUser() {
         return JsonResult.ok(userMapper.getUser());
+    }
+
+    @GetMapping("/list")
+    public JsonResult<List<UserPo>> getUsers() {
+        return JsonResult.ok(userMapper.getUsers(List.of(1,3,4)));
+    }
+
+    @GetMapping("/where")
+    public JsonResult<List<UserPo>> getUserWhere() {
+        log.info("userMapper.getUserChoose(null, null);");
+        userMapper.getUserWhere(null, null);
+        log.info("userMapper.getUserChoose(null, 1);");
+        userMapper.getUserWhere(null, 1);
+        log.info("userMapper.getUserChoose(1, 1);");
+        return JsonResult.ok(userMapper.getUserWhere(1, 1));
+    }
+
+    @GetMapping("/gender/{gender}")
+    public JsonResult<List<UserPo>> getUserByGender(@PathVariable("gender") Integer gender) {
+        return JsonResult.ok(userMapper.getUserByGender(gender));
+    }
+
+    @GetMapping("/gender/null")
+    public JsonResult<List<UserPo>> getUserByGender() {
+        return JsonResult.ok(userMapper.getUserByGender(null));
     }
 
     @GetMapping("/details")

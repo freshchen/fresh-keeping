@@ -19,7 +19,8 @@
                extends="user_po_result">
         <association property="countryPo" column="country_id" javaType="com.github.freshchen.keeping.dao.po.CountryPo"
                      select="getCountryById"/>
-        <collection property="userTagPos" column="id" javaType="ArrayList" ofType="com.github.freshchen.keeping.dao.po.UserTagPo" select="getTagsByUserId"/>
+        <collection property="userTagPos" column="id" javaType="ArrayList"
+                    ofType="com.github.freshchen.keeping.dao.po.UserTagPo" select="getTagsByUserId"/>
     </resultMap>
 
     <sql id="user_po_fields">
@@ -32,8 +33,13 @@
     </sql>
 
     <insert id="createUser" parameterType="com.github.freshchen.keeping.dao.po.UserPo">
-        insert into user (user_name, email, gender, country_id)
-        values (#{userPo.userName}, #{userPo.email}, #{userPo.gender}, #{userPo.countryId})
+        insert into user
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            user_name, email, gender, country_id,
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            #{userPo.userName}, #{userPo.email}, #{userPo.gender}, #{userPo.countryId},
+        </trim>
     </insert>
 
     <select id="getUser" resultMap="user_po_result">
@@ -43,6 +49,39 @@
         order by id desc
         limit 1
     </select>
+
+    <select id="getUsers" resultMap="user_po_result">
+        select
+        <include refid="user_po_fields"/>
+        from user
+        where id in
+        <foreach collection="userIds" item="item" open="(" separator="," close=")">#{item}</foreach>
+    </select>
+
+    <select id="getUserByGender" resultMap="user_po_result">
+        select
+        <include refid="user_po_fields"/>
+        from user
+        <if test="gender != null">
+            where gender = #{gender}
+        </if>
+        order by id desc
+    </select>
+
+    <select id="getUserWhere" resultMap="user_po_result">
+        select
+        <include refid="user_po_fields"/>
+        from user
+        <where>
+            <if test="gender != null">
+                gender = #{gender}
+            </if>
+            <if test="countryId != null">
+                AND country_id = #{countryId}
+            </if>
+        </where>
+    </select>
+
 
     <select id="getUserDetails" resultMap="user_po_details_result">
         select
@@ -60,10 +99,10 @@
     </select>
 
     <select id="getTagsByUserId" resultType="com.github.freshchen.keeping.dao.po.UserTagPo">
-        select
-        *
+        select *
         from user_tag
         where user_id = #{user_id}
     </select>
+
 
 </mapper>

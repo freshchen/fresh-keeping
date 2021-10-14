@@ -12,3 +12,4 @@ rating: 1
 https://cloud.tencent.com/developer/article/1558920
 
 ##### 标签
+#orm #database

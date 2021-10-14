@@ -25,4 +25,10 @@ public interface UserMapper {
     CountryPo getCountryById(@Param("id") Integer id);
 
     List<UserTagPo> getTagsByUserId(@Param("userId") Integer userId);
+
+    List<UserPo> getUserByGender(@Param("gender") Integer gender);
+
+    List<UserPo> getUserWhere(@Param("gender") Integer gender, @Param("countryId") Integer countryId);
+
+    List<UserPo> getUsers(@Param("userIds") List<Integer> userIds);
 }
