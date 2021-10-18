@@ -1,0 +1,16 @@
+GET http://localhost:8080/user/set/1
+
+###
+GET http://localhost:8080/user/list
+
+###
+GET http://localhost:8080/user/gender/1
+
+###
+GET http://localhost:8080/user/gender/all
+
+###
+GET http://localhost:8080/user/details
+
+###
+GET http://localhost:8080/user/where
