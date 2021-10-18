@@ -8,6 +8,10 @@ rating: 1
 
 [官网](https://plantuml.com/)
 
+[IDEA插件](../idea/idea常用插件.md#^0c4174)
+
+[Graphviz 安装](Graphviz%20安装.md)
+
 ## 时序图
 
 ```plantuml

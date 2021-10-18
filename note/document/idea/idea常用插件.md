@@ -27,7 +27,7 @@ rating: 1
 - Kubernetes
 - Free Mybatis plugin [使用方法](https://www.huangchaoyu.com/2019/12/11/free-mybatis-plugin%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/)
 - MyBatis Log Plugin
-- PlantUML integration
+- PlantUML integration ^0c4174
 - SequenceDiagram
 
 
