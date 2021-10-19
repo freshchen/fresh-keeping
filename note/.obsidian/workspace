@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/mybatis/mybatis避免动态SQL语句错误.md",
-            "mode": "source"
+            "file": "document/redisson/redisson集成springboot.md",
+            "mode": "preview"
           }
         }
       }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/mybatis/mybatis避免动态SQL语句错误.md"
+                "file": "document/redisson/redisson集成springboot.md"
               }
             }
           },
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/mybatis/mybatis避免动态SQL语句错误.md",
+                "file": "document/redisson/redisson集成springboot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/mybatis/mybatis避免动态SQL语句错误.md",
+                "file": "document/redisson/redisson集成springboot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,9 +129,9 @@
   },
   "active": "5f3f274e75f18209",
   "lastOpenFiles": [
+    "document/redisson/redisson集成springboot.md",
     "document/mybatis/mybatis避免动态SQL语句错误.md",
     "document/mybatis/mybatis $ 和 井 区别.md",
-    "document/redisson/redisson集成springboot.md",
     "document/redisson/Untitled.md",
     "document/mybatis/mybatis简介.md",
     "document/mybatis/mybatis扩展.md",

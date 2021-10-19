@@ -1,16 +1,25 @@
 GET http://localhost:8080/user/set/1
 
 ###
-GET http://localhost:8080/user/list
+GET http://localhost:8080/user/get/1
 
 ###
-GET http://localhost:8080/user/gender/1
+GET http://localhost:8080/user/topic/set
 
 ###
-GET http://localhost:8080/user/gender/all
+GET http://localhost:8080/user/topic/push
 
 ###
-GET http://localhost:8080/user/details
+GET http://localhost:8080/user/bloom/set
 
 ###
-GET http://localhost:8080/user/where
+GET http://localhost:8080/user/bloom/get
+
+###
+GET http://localhost:8080/user/bloom/init
+
+###
+GET http://localhost:8080/user/map/set
+
+###
+GET http://localhost:8080/user/map/get
