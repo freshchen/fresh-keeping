@@ -43,6 +43,7 @@
         <module>springboot/spring-design-pattern</module>
         <module>data-format/fastjson</module>
         <module>cache/spring-redisson</module>
+        <module>cache/spring-caffeine</module>
     </modules>
 
     <properties>

@@ -3,11 +3,14 @@ package com.github.freshchen.keeping;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.google.common.collect.Lists;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -16,6 +19,11 @@ import java.util.stream.IntStream;
  * @since 2021/10/11
  */
 class Test {
+
+    static {
+        // 取消 ref
+        JSON.DEFAULT_GENERATE_FEATURE |= SerializerFeature.DisableCircularReferenceDetect.getMask();
+    }
 
     @org.junit.jupiter.api.Test
     @DisplayName("[Object -> JSONObject] JSONObject.toJSON(Object)")
@@ -123,6 +131,39 @@ class Test {
             .collect(Collectors.toList());
         System.out.println(names);
         System.out.println(tagArrayList);
+    }
+
+    @org.junit.jupiter.api.Test
+    void test92() {
+        Map<String,Object> cbtMap = new HashMap<>();
+        cbtMap.put("key", "image");
+        cbtMap.put("name", "回复图片");
+        cbtMap.put("type","click");
+        JSONObject cbtJson = new JSONObject(cbtMap);
+
+
+        Map<String,Object> vbtMap = new HashMap<>();
+        vbtMap.put("url", "http://www.cuiyongzhi.com");
+        vbtMap.put("name", "博客");
+        vbtMap.put("type","view");
+        JSONObject vbtJson = new JSONObject(vbtMap);
+
+        JSONArray subButton=new JSONArray();
+        subButton.add(cbtJson);
+        subButton.add(vbtJson);
+
+        JSONObject buttonOne=new JSONObject();
+        buttonOne.put("name", "菜单");
+        buttonOne.put("sub_button", subButton);
+
+        JSONArray button=new JSONArray();
+        button.add(vbtJson);
+        button.add(buttonOne);
+        button.add(cbtJson);
+
+        JSONObject menujson=new JSONObject();
+        menujson.put("button", button);
+        System.out.println(menujson.toJSONString());
     }
 
 }

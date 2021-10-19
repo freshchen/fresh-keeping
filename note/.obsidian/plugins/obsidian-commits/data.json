@@ -54,11 +54,6 @@
       "tags": 2,
       "links": 0
     },
-    "document/api/分页查询 page_token page_size.md": {
-      "size": 725,
-      "tags": 2,
-      "links": 0
-    },
     "document/json/json简介.md": {
       "size": 1266,
       "tags": 2,
@@ -115,17 +110,37 @@
       "links": 0
     },
     "document/redisson/redisson集成springboot.md": {
-      "size": 313,
+      "size": 1220,
       "tags": 2,
+      "links": 0
+    },
+    "document/design/分页查询 page_token page_size.md": {
+      "size": 725,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/Distribute History.md": {
+      "size": 149,
+      "tags": 3,
+      "links": 0
+    },
+    "document/architecture/原始分布式时代.md": {
+      "size": 545,
+      "tags": 2,
+      "links": 0
+    },
+    "document/caffeine/caffeine简介.md": {
+      "size": 256,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 29,
-      "Create": 23,
-      "Link": 27,
-      "Expand": 37
+      "Refactor": 30,
+      "Create": 26,
+      "Link": 29,
+      "Expand": 42
     }
   },
   "dailyCommits": {
@@ -146,10 +161,10 @@
       "13": 7,
       "14": 25,
       "15": 8,
-      "16": 0,
+      "16": 1,
       "17": 1,
-      "18": 0,
-      "19": 4,
+      "18": 7,
+      "19": 7,
       "20": 2,
       "21": 8,
       "22": 12,
@@ -159,7 +174,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 6,
-      "Tue": 34,
+      "Tue": 45,
       "Wed": 22,
       "Thu": 22,
       "Fri": 9,
@@ -206,7 +221,12 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>"
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -231,7 +251,10 @@
         "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"document/redisson/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -250,7 +273,8 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis.md\"> mybatis </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis动态SQL语句错误.md\"> mybatis动态SQL语句错误 </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/design/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -272,7 +296,9 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>"
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",

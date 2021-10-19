@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/redisson/redisson集成springboot.md",
+            "file": "document/caffeine/caffeine简介.md",
+            "mode": "source"
+          }
+        },
+        "group": "eb91d092d9c72243"
+      },
+      {
+        "id": "a28a729df27df84d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "document/caffeine/caffeine简介.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "eb91d092d9c72243"
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/redisson/redisson集成springboot.md"
+                "file": "document/caffeine/caffeine简介.md"
               }
             }
           },
@@ -75,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/redisson/redisson集成springboot.md",
+                "file": "document/caffeine/caffeine简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/redisson/redisson集成springboot.md",
+                "file": "document/caffeine/caffeine简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244
+    "width": 244,
+    "collapsed": true
   },
   "right": {
     "id": "513b5492c3119da9",
@@ -129,15 +143,15 @@
   },
   "active": "5f3f274e75f18209",
   "lastOpenFiles": [
+    "document/caffeine/caffeine简介.md",
+    "document/caffeine/Untitled.md",
+    "document/architecture/原始分布式时代.md",
+    "document/architecture/Distribute History.md",
+    "document/architecture/Untitled.md",
+    "document/api/分页查询 page_token page_size.md",
     "document/redisson/redisson集成springboot.md",
     "document/mybatis/mybatis避免动态SQL语句错误.md",
     "document/mybatis/mybatis $ 和 井 区别.md",
-    "document/redisson/Untitled.md",
-    "document/mybatis/mybatis简介.md",
-    "document/mybatis/mybatis扩展.md",
-    "document/plantuml/PlantUML使用.md",
-    "document/plantuml/Graphviz 安装.md",
-    "document/idea/idea常用插件.md",
-    "document/plantuml/Untitled.md"
+    "document/redisson/Untitled.md"
   ]
 }
