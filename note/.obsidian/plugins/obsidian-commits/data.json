@@ -130,7 +130,7 @@
       "links": 0
     },
     "document/caffeine/caffeine简介.md": {
-      "size": 256,
+      "size": 2134,
       "tags": 0,
       "links": 0
     }
@@ -140,7 +140,7 @@
       "Refactor": 30,
       "Create": 26,
       "Link": 29,
-      "Expand": 42
+      "Expand": 45
     }
   },
   "dailyCommits": {
@@ -168,13 +168,13 @@
       "20": 2,
       "21": 8,
       "22": 12,
-      "23": 8
+      "23": 11
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 6,
-      "Tue": 45,
+      "Tue": 48,
       "Wed": 22,
       "Thu": 22,
       "Fri": 9,
@@ -225,6 +225,9 @@
         "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
         "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
         "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
         "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>"
       ],
