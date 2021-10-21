@@ -4,19 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1776f10a31224b14",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "document/java/HashMap源码.md",
-            "mode": "source"
-          }
-        },
-        "group": "1dbfb2eac183b184"
-      },
-      {
-        "id": "4da0c1169f69a8e1",
+        "id": "066475a4bb51e91e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -24,8 +12,7 @@
             "file": "document/java/HashMap源码.md",
             "mode": "preview"
           }
-        },
-        "group": "1dbfb2eac183b184"
+        }
       }
     ],
     "direction": "vertical"
@@ -141,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1776f10a31224b14",
+  "active": "066475a4bb51e91e",
   "lastOpenFiles": [
     "document/java/HashMap源码.md",
+    "document/plantuml/PlantUML使用.md",
+    "index.md",
     "document/java/Untitled.md",
     "document/design/Google json 风格规范.md",
     "document/fastjson/fastjson简介.md",
     "document/caffeine/caffeine简介.md",
     "document/caffeine/Untitled.md",
     "document/architecture/原始分布式时代.md",
-    "document/architecture/Distribute History.md",
-    "document/architecture/Untitled.md",
-    "document/api/分页查询 page_token page_size.md"
+    "document/architecture/Distribute History.md"
   ]
 }
