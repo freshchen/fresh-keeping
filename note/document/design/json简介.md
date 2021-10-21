@@ -15,7 +15,7 @@ Json 是一种数据结构化方式，简单好用，跨平台且可读性好。
 - 只有两种结构：对象内的键值对集合结构和数组，对象用{}表示、内部是”key”:”value”，数组用[]表示，不同值用逗号分开
 - 基本数值有7个： false / null / true / object / array / number / string
 
-[Google json 风格规范](Google%20json%20风格规范.md)
+[Google json 风格规范](../design/Google%20json%20风格规范.md)
 
 ### 优缺点
 
