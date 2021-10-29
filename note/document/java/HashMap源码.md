@@ -4,6 +4,8 @@ status: ongoing
 rating: 1
 ---
 
+
+
 # HashMap源码
 
 ## 数据结构
@@ -83,6 +85,17 @@ static final int hash(Object key) {
 
 链表 element >8 变为红黑树，红黑树 element <6 转回链表
 为了避免来回转换，所以6和8间隔了1
+
+## 线程安全问题
+
+- put 更新丢失
+	- A 定位到桶，准备插入，此时时间片用完
+	- B 进入并定位到同一个桶，B 写入
+	- A 进入，通过过期桶引用覆盖了 B 的写入
+- resize 死循环（jdk1.8之前）
+	- 因为使用头插法扩容
+	- 可能导致链表倒置
+	- 下一次 get 到此桶，死循环，耗尽CPU
 
 ## 参考链接
 

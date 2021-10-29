@@ -14,6 +14,12 @@
         "Mod"
       ],
       "key": " "
+    },
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Z"
     }
   ],
   "obsidian-emoji-toolbar:emoji-picker:open-picker": [
