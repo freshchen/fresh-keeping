@@ -24,11 +24,9 @@ public interface PersonConverter {
      * @return
      */
     @Mapping(source = "name", target = "realName")
-    @ValueMapping(source = "type", target = "type")
     PersonAllDTO toAllDTO(Person person);
 
     @Mapping(source = "name", target = "realName")
-    @ValueMapping(source = "type", target = "type")
     PersonDTO toDTO(Person person);
 
     @Mapping(source = "personName", target = "personName")

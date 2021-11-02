@@ -60,7 +60,7 @@
         <spring.data.common.version>2.3.0.RELEASE</spring.data.common.version>
         <beanutils.version>1.9.4</beanutils.version>
         <jodd-bean.version>3.7.1</jodd-bean.version>
-        <mapstruct.version>1.3.1.Final</mapstruct.version>
+        <mapstruct.version>1.4.2.Final</mapstruct.version>
         <skywalking.version>8.0.0</skywalking.version>
         <jackson.version>2.11.3</jackson.version>
         <pinyin.version>2.5.1</pinyin.version>
@@ -74,6 +74,7 @@
         <commons.io.version>2.8.0</commons.io.version>
         <mybatis.version>2.1.3</mybatis.version>
         <fastjson.version>1.2.76</fastjson.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     </properties>
 
     <dependencies>
@@ -189,6 +190,11 @@
             <dependency>
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-jdk8</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
             <dependency>
