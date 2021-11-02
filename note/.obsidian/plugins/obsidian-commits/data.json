@@ -192,8 +192,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 41,
-      "Create": 39,
+      "Refactor": 42,
+      "Create": 40,
       "Link": 48,
       "Expand": 94
     }
@@ -223,13 +223,13 @@
       "20": 9,
       "21": 8,
       "22": 12,
-      "23": 14
+      "23": 16
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 7,
-      "Tue": 56,
+      "Tue": 58,
       "Wed": 60,
       "Thu": 35,
       "Fri": 41,
@@ -331,7 +331,8 @@
         "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
-        "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -413,6 +414,7 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/1.md\"> 1 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
       ],
       "Linked": [

@@ -4,28 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "16fa815a00b8587a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "document/linux/linux命令.md",
-            "mode": "source"
-          }
-        },
-        "group": "918f1acf76047ad6"
-      },
-      {
         "id": "1277e3ad74de4a7b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "document/linux/linux命令.md",
-            "mode": "preview"
-          }
-        },
-        "group": "918f1acf76047ad6"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -52,10 +36,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#methodology",
+                "query": "技术",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -77,9 +61,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "document/linux/linux命令.md"
-              }
+              "state": {}
             }
           },
           {
@@ -88,7 +70,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/linux/linux命令.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/linux/linux命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "16fa815a00b8587a",
+  "active": "1277e3ad74de4a7b",
   "lastOpenFiles": [
+    "document/methodology/技术文档~.md",
+    "document/java/HashMap源码.md",
+    "document/methodology/技术文档.md",
+    "index.md",
     "document/linux/linux命令.md",
     "document/springboot/springboot 2.2 升级 2.3 指南.md",
     "document/kubernetes/Pod健康检查.md",
-    "document/methodology/技术文档.md",
-    "index.md",
     "document/methodology/软件项目管理.md",
     "document/methodology/研发过程资产管理.md",
-    "document/kubernetes/容器生命周期回调.md",
-    "document/kubernetes/容器规范High Observability Principle.md",
-    "document/kubernetes/容器规范.md"
+    "document/kubernetes/容器生命周期回调.md"
   ]
 }
