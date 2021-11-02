@@ -14,19 +14,33 @@ rating: 1
 
 ## 3pom文件
 
-### 3.2
+### 3.1 GA版本
+
+```xml
+<parent>
+ <groupId>org.springframework.boot</groupId>
+ <artifactId>spring-boot-starter-parent</artifactId>
+ <version>2.3.12.RELEASE</version>
+ <relativePath/> <!-- lookup parent from repository -->
+</parent>
+```
+
+### 3.2 validation
 
 spring-boot-starter-web 中移除了 validation，确保已经手动引入如下依赖
 
+```xml
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
+```
 
 ## 4注意事项
 
 ### 4.1 不再支持 Maven Exec Plugin
 
+```xml
 <plugin>
    <groupId>org.codehaus.mojo</groupId>
    <artifactId>exec-maven-plugin</artifactId>
@@ -34,6 +48,7 @@ spring-boot-starter-web 中移除了 validation，确保已经手动引入如下
        <mainClass>${start-class}</mainClass>
    </configuration>
 </plugin>
+```
 
 ## 参考链接
 https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.3-Release-Notes

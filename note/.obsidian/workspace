@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/methodology/技术文档.md",
+            "file": "document/springboot/springboot 2.2 升级 2.3 指南.md",
             "mode": "preview"
           }
         }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/methodology/技术文档.md"
+                "file": "document/springboot/springboot 2.2 升级 2.3 指南.md"
               }
             }
           },
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/methodology/技术文档.md",
+                "file": "document/springboot/springboot 2.2 升级 2.3 指南.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/methodology/技术文档.md",
+                "file": "document/springboot/springboot 2.2 升级 2.3 指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +129,8 @@
   },
   "active": "5966f0bc804952a0",
   "lastOpenFiles": [
+    "document/springboot/springboot 2.2 升级 2.3 指南.md",
+    "document/kubernetes/Pod健康检查.md",
     "document/methodology/技术文档.md",
     "index.md",
     "document/methodology/软件项目管理.md",
@@ -136,8 +138,6 @@
     "document/kubernetes/容器生命周期回调.md",
     "document/kubernetes/容器规范High Observability Principle.md",
     "document/kubernetes/容器规范.md",
-    "document/kubernetes/NodeLocal DNSCache.md",
-    "document/kubernetes/Pod健康检查.md",
-    "document/springboot/springboot 2.2 升级 2.3 指南.md"
+    "document/kubernetes/NodeLocal DNSCache.md"
   ]
 }

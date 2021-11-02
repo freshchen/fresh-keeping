@@ -165,7 +165,7 @@
       "links": 1
     },
     "document/springboot/springboot 2.2 升级 2.3 指南.md": {
-      "size": 821,
+      "size": 1092,
       "tags": 1,
       "links": 0
     },
@@ -190,7 +190,7 @@
       "Refactor": 40,
       "Create": 38,
       "Link": 47,
-      "Expand": 88
+      "Expand": 89
     }
   },
   "dailyCommits": {
@@ -212,7 +212,7 @@
       "14": 55,
       "15": 13,
       "16": 1,
-      "17": 1,
+      "17": 2,
       "18": 7,
       "19": 8,
       "20": 9,
@@ -223,7 +223,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 6,
+      "Mon": 7,
       "Tue": 48,
       "Wed": 60,
       "Thu": 35,
@@ -235,6 +235,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
@@ -283,7 +284,6 @@
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>"
       ],
