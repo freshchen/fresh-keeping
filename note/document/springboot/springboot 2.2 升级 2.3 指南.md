@@ -43,31 +43,6 @@ spring-boot-starter-web 去掉了 validation 依赖，需要手动引入
 </dependency>
 ```
 
-## 引入 actuator
-
-修改 pom
-
-```xml
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-```
-
-修改配置
-
-```
-management.endpoints.web.base-path=/  
-management.endpoints.web.exposure.include=health  
-management.endpoints.web.path-mapping.health=/healthz  
-management.endpoint.health.probes.enabled=true
-```
-
-可访问 endpoint 测试
-
-[http://localhost:8080/healthz/liveness](http://localhost:8080/healthz/health/liveness)
-
-[http://localhost:8080/healthz/readiness](http://localhost:8080/healthz/health/readiness)
 
 ## mapstruct 
 springboot 2.3.12 内置 lombok 版本升级到了 1.18.20。可能出现以下错误

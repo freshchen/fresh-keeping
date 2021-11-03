@@ -165,7 +165,7 @@
       "links": 1
     },
     "document/springboot/springboot 2.2 升级 2.3 指南.md": {
-      "size": 2424,
+      "size": 1935,
       "tags": 1,
       "links": 0
     },
@@ -188,14 +188,19 @@
       "size": 590,
       "tags": 1,
       "links": 0
+    },
+    "document/springboot/actuator监控.md": {
+      "size": 1316,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 42,
+      "Refactor": 43,
       "Create": 40,
-      "Link": 48,
-      "Expand": 94
+      "Link": 49,
+      "Expand": 95
     }
   },
   "dailyCommits": {
@@ -216,21 +221,21 @@
       "13": 9,
       "14": 61,
       "15": 14,
-      "16": 1,
+      "16": 6,
       "17": 2,
       "18": 7,
       "19": 8,
       "20": 9,
       "21": 8,
       "22": 12,
-      "23": 16
+      "23": 14
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 7,
-      "Tue": 58,
-      "Wed": 60,
+      "Tue": 56,
+      "Wed": 65,
       "Thu": 35,
       "Fri": 41,
       "Sat": 0,
@@ -240,6 +245,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
@@ -289,8 +295,7 @@
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>"
+        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -332,7 +337,7 @@
         "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -361,7 +366,8 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器High Observability Principle规范.md\"> 容器High Observability Principle规范 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>"
+        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -396,12 +402,14 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>"
+        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"template/header.md\"> header </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -414,7 +422,6 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/1.md\"> 1 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
       ],
       "Linked": [

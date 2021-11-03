@@ -1,3 +1,4 @@
+
 ###
 GET http://localhost:8080/healthz
 
@@ -6,3 +7,12 @@ GET http://localhost:8080/healthz/liveness
 
 ###
 GET http://localhost:8080/healthz/readiness
+
+
+###
+POST http://localhost:8080/shutdown
+Content-Type: application/json
+
+{}
+
+###
