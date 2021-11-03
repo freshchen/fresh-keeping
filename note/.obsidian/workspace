@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/springboot/actuator监控.md",
+            "file": "document/istio/istio安装.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/springboot/actuator监控.md",
+            "file": "document/istio/istio安装.md",
             "mode": "preview"
           }
         },
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/springboot/actuator监控.md"
+                "file": "document/istio/istio安装.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/springboot/actuator监控.md",
+                "file": "document/istio/istio安装.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/springboot/actuator监控.md",
+                "file": "document/istio/istio安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,15 +142,15 @@
   },
   "active": "16fa815a00b8587a",
   "lastOpenFiles": [
-    "document/springboot/actuator监控.md",
+    "document/istio/istio安装.md",
     "document/springboot/springboot 2.2 升级 2.3 指南.md",
+    "document/springboot/actuator监控.md",
     "document/linux/linux命令.md",
     "document/kubernetes/Pod健康检查.md",
     "document/methodology/技术文档.md",
     "index.md",
     "document/methodology/软件项目管理.md",
     "document/methodology/研发过程资产管理.md",
-    "document/kubernetes/容器生命周期回调.md",
-    "document/kubernetes/容器规范High Observability Principle.md"
+    "document/kubernetes/容器生命周期回调.md"
   ]
 }

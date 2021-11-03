@@ -193,14 +193,19 @@
       "size": 1316,
       "tags": 1,
       "links": 0
+    },
+    "document/istio/istio安装.md": {
+      "size": 238,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 43,
-      "Create": 40,
+      "Create": 41,
       "Link": 49,
-      "Expand": 95
+      "Expand": 96
     }
   },
   "dailyCommits": {
@@ -222,7 +227,7 @@
       "14": 61,
       "15": 14,
       "16": 6,
-      "17": 2,
+      "17": 4,
       "18": 7,
       "19": 8,
       "20": 9,
@@ -235,7 +240,7 @@
     "/": {
       "Mon": 7,
       "Tue": 56,
-      "Wed": 65,
+      "Wed": 67,
       "Thu": 35,
       "Fri": 41,
       "Sat": 0,
@@ -245,6 +250,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
@@ -294,7 +300,6 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
       ],
       "Created": [
@@ -337,7 +342,8 @@
         "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/istio/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
