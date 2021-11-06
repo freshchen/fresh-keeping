@@ -1,37 +1,94 @@
 # fresh-keeping
 
-- docs: [笔记 Github Page](https://freshchen.github.io/fresh-keeping/)
+## 工程实践
 
-- java：经验证可用于生产的一些开发实践
+### java/web/spring-web
 
-    - algorithm：个人算法练习
+spring-boot 开发 web 服务
+- 请求日志打印，响应日志打印
+- 全局异常处理
+- 数据绑定，时间、枚举通用处理
 
-    - common：通用的一些模型，工具类
+### java/distributed-lock/redisson-distributed-lock
 
-    - design-pattern：常用设计模式
-  
-    - spring-web：springboot开发web应用实践，包含全局异常处理，请求日志打印，Swagger接口定义，自定义表单时间，枚举转换以及校验
+redis 官方推荐客户端 redisson 实现分布式锁
 
-    - boot-validation：基于Spring Validation的最佳实战，包含Controller表单校验，方法级别校验，分组校验
+### java/distributed-lock/spring-integration-distributed-lock
 
-    - cloud-contract-provider-rest：基于Spring Cloud Contract的最佳实战，契约的提供方
+spring 官方实现分布式锁
 
-    - cloud-contract-consumer-rest：基于Spring Cloud Contract的最佳实战，契约的提供方
+### java/remote-call/spring-fegin-hytrix-sdk
 
-    - mapstruct：方便的 bean 转换工具实践
+spring cloud 中远程调用模块实践之 sdk
 
-    - redisson-distributed-lock：redisson 基于 redis 实现的分布式锁，包括非公平锁，公平锁，读写锁
+### java/remote-call/spring-fegin-hytrix-client
 
-    - spring-integration-distributed-lock：spring 基于 redis 实现的分布式锁
+spring cloud 中远程调用模块实践之服务调用方
 
-    - spring-fegin-hytrix-sdk：Spring Cloud fegin + hytrix 远程调用实战之 SDK
+### java/remote-call/spring-fegin-hytrix-server
 
-    - spring-fegin-hytrix-server：Spring Cloud fegin + hytrix 远程调用实战之 SDK 实现，服务提供方
+spring cloud 中远程调用模块实践之服务提供方
 
-    - spring-fegin-hytrix-client：Spring Cloud fegin + hytrix 远程调用实战之服务调用方，以及fegin请求日志打印
+### java/springboot/spring-actuator
 
-    - spring-cache：通过Spring提供的方便的注解操作redis实现缓存功能    
+spring-boot 监控和指标收集模块实践
+- 提供 k8s liveness 探针
+- 提供 k8s readiness 探针
+- 优雅停机
 
-- script：个人常用脚本
+### java/springboot/spring-ioc
 
-- sql：个人 sql 练习
+spring-boot 容器生命周期钩子实践
+
+### java/springboot/spring-design-pattern
+
+设计模式结合 spring 实现
+
+### java/springboot/spring-validation
+
+spring-boot 数据校验
+
+### java/sql-orm/spring-mybatis
+
+spring-boot mybatis 操作数据库
+
+### java/cache/spring-cache
+
+spring 对应缓存的抽象，注解实现
+
+### java/cache/spring-caffeine
+
+高性能单机缓存整合 spring 以及用法
+
+### java/cache/spring-redisson
+
+redis 官方推荐客户端 redisson 整合 spring-boot 以及用法 
+
+### java/data-format/fastjson
+
+阿里开源 json 库用法
+
+### java/springboot/spring-log
+
+spring-boot + logback 实践
+
+### java/test/cloud-contract-consumer-rest
+
+spring cloud 契约测试服务调用方 mock 数据
+
+### java/test/cloud-contract-provider-rest
+
+spring cloud 契约测试服务提供方，提供 mock 数据，自动生成单元测试
+
+### java/tools/file
+
+系统文件操作：读、写、监听
+
+### java/tools/mapstruct
+
+对象转换代码自动生成
+
+### java/tools/pinyin
+
+中文拼音操作
+
