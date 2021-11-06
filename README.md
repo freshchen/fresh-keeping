@@ -2,6 +2,8 @@
 
 ## 工程实践
 
+JDK：11 spring-boot：2.3.12.RELEASE
+
 ### java/web/spring-web
 
 spring-boot 开发 web 服务
