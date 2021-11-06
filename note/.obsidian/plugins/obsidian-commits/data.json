@@ -24,11 +24,6 @@
       "tags": 1,
       "links": 1
     },
-    "document/obsidian/obsidian知识管理.md": {
-      "size": 1357,
-      "tags": 1,
-      "links": 5
-    },
     "document/mysql/count各种用法区别.md": {
       "size": 998,
       "tags": 4,
@@ -37,11 +32,6 @@
     "document/chubby/Chubby简介.md": {
       "size": 296,
       "tags": 2,
-      "links": 0
-    },
-    "document/idea/idea常用插件.md": {
-      "size": 567,
-      "tags": 1,
       "links": 0
     },
     "document/chrome/chrome常用插件.md": {
@@ -64,11 +54,6 @@
       "tags": 1,
       "links": 0
     },
-    "document/plantuml/PlantUML使用.md": {
-      "size": 6365,
-      "tags": 2,
-      "links": 4
-    },
     "document/mybatis/mybatis扩展.md": {
       "size": 154,
       "tags": 2,
@@ -87,11 +72,6 @@
     "document/mybatis/mybatis避免动态SQL语句错误.md": {
       "size": 939,
       "tags": 3,
-      "links": 0
-    },
-    "document/plantuml/Graphviz 安装.md": {
-      "size": 218,
-      "tags": 2,
       "links": 0
     },
     "document/redisson/redisson集成springboot.md": {
@@ -165,7 +145,7 @@
       "links": 1
     },
     "document/springboot/springboot 2.2 升级 2.3 指南.md": {
-      "size": 1935,
+      "size": 2018,
       "tags": 1,
       "links": 0
     },
@@ -189,28 +169,58 @@
       "tags": 1,
       "links": 0
     },
+    "document/istio/istio安装.md": {
+      "size": 251,
+      "tags": 0,
+      "links": 0
+    },
     "document/springboot/actuator监控.md": {
-      "size": 1316,
+      "size": 1392,
       "tags": 1,
       "links": 0
     },
-    "document/istio/istio安装.md": {
-      "size": 238,
+    "document/architecture/CDN简介.md": {
+      "size": 112,
+      "tags": 1,
+      "links": 0
+    },
+    "document/tools/idea/idea常用插件.md": {
+      "size": 567,
+      "tags": 1,
+      "links": 0
+    },
+    "document/tools/plantuml/Graphviz 安装.md": {
+      "size": 218,
+      "tags": 2,
+      "links": 0
+    },
+    "document/tools/plantuml/PlantUML使用.md": {
+      "size": 6365,
+      "tags": 2,
+      "links": 4
+    },
+    "document/tools/obsidian/obsidian知识管理.md": {
+      "size": 1357,
+      "tags": 1,
+      "links": 5
+    },
+    "document/tools/安卓投屏.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 43,
-      "Create": 41,
-      "Link": 49,
-      "Expand": 96
+      "Refactor": 50,
+      "Create": 45,
+      "Link": 50,
+      "Expand": 95
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 24,
+      "0": 30,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -226,23 +236,23 @@
       "13": 9,
       "14": 61,
       "15": 14,
-      "16": 6,
-      "17": 4,
+      "16": 1,
+      "17": 2,
       "18": 7,
       "19": 8,
       "20": 9,
       "21": 8,
       "22": 12,
-      "23": 14
+      "23": 26
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 7,
-      "Tue": 56,
-      "Wed": 67,
-      "Thu": 35,
-      "Fri": 41,
+      "Tue": 58,
+      "Wed": 64,
+      "Thu": 41,
+      "Fri": 47,
       "Sat": 0,
       "Sun": 23
     }
@@ -250,8 +260,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
-        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
@@ -300,6 +309,7 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
+        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
         "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
       ],
       "Created": [
@@ -342,8 +352,12 @@
         "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/istio/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
+        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -373,7 +387,12 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/容器High Observability Principle规范.md\"> 容器High Observability Principle规范 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/idea/idea常用插件.md\"> idea常用插件 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/obsidian/obsidian知识管理.md\"> obsidian知识管理 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -409,7 +428,8 @@
         "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -428,6 +448,8 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/1.md\"> 1 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
       ],
       "Linked": [
