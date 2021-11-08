@@ -5,9 +5,6 @@ import com.tngtech.archunit.core.importer.ImportOption.DoNotIncludeJars;
 import com.tngtech.archunit.core.importer.ImportOption.DoNotIncludeTests;
 import com.tngtech.archunit.junit.AnalyzeClasses;
 import com.tngtech.archunit.junit.ArchTest;
-import com.tngtech.archunit.lang.syntax.ArchRuleDefinition;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RestController;
 
 @AnalyzeClasses(packages = {"com.github.freshchen.keeping"},
     // 跳过依赖jar包，跳过测试文件
@@ -21,13 +18,6 @@ class ArchUnitScopeTest {
      */
     @ArchTest
     public void service(JavaClasses javaClasses) {
-        ArchRuleDefinition.classes()
-            .that()
-            .areAnnotatedWith(RestController.class)
-            .and()
-            .areAnnotatedWith(Controller.class)
-            .should()
-            .check(javaClasses);
     }
 
 }
