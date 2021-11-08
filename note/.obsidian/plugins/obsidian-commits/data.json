@@ -205,17 +205,22 @@
       "links": 5
     },
     "document/tools/安卓投屏.md": {
-      "size": 0,
-      "tags": 0,
+      "size": 316,
+      "tags": 1,
+      "links": 0
+    },
+    "document/architecture/Archunit-Java代码架构规范检查.md": {
+      "size": 333,
+      "tags": 2,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 50,
-      "Create": 45,
-      "Link": 50,
-      "Expand": 95
+      "Refactor": 52,
+      "Create": 46,
+      "Link": 52,
+      "Expand": 97
     }
   },
   "dailyCommits": {
@@ -239,8 +244,8 @@
       "16": 1,
       "17": 2,
       "18": 7,
-      "19": 8,
-      "20": 9,
+      "19": 11,
+      "20": 13,
       "21": 8,
       "22": 12,
       "23": 26
@@ -254,12 +259,14 @@
       "Thu": 41,
       "Fri": 47,
       "Sat": 0,
-      "Sun": 23
+      "Sun": 30
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
@@ -308,9 +315,7 @@
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
-        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
+        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -357,7 +362,8 @@
         "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -392,7 +398,9 @@
         "<a class=\"internal-link\" href=\"document/tools/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
         "<a class=\"internal-link\" href=\"document/tools/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
         "<a class=\"internal-link\" href=\"document/tools/obsidian/obsidian知识管理.md\"> obsidian知识管理 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Java代码架构规范检查.md\"> Java代码架构规范检查 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -429,7 +437,9 @@
         "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
