@@ -1,6 +1,6 @@
-package com.github.freshchen.keeping.dao;
+package com.github.freshchen.keeping.infrastructure.dao;
 
-import com.github.freshchen.keeping.service.UserService;
+import com.github.freshchen.keeping.user.domain.service.UserDomainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 public class UserDAO {
 
     @Autowired
-    private UserService userService;
+    private UserDomainService userService;
 
     public void getUser() {
         userService.getUser();

@@ -225,7 +225,7 @@
       "links": 0
     },
     "document/architecture/Archunit-Java代码架构规范检查.md": {
-      "size": 333,
+      "size": 383,
       "tags": 2,
       "links": 0
     }
@@ -235,7 +235,7 @@
       "Refactor": 93,
       "Create": 68,
       "Link": 58,
-      "Expand": 99
+      "Expand": 100
     }
   },
   "dailyCommits": {
@@ -254,7 +254,7 @@
       "11": 21,
       "12": 65,
       "13": 10,
-      "14": 61,
+      "14": 62,
       "15": 14,
       "16": 27,
       "17": 2,
@@ -268,7 +268,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 47,
+      "Mon": 48,
       "Tue": 58,
       "Wed": 64,
       "Thu": 41,
@@ -280,6 +280,7 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
         "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
         "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
@@ -329,7 +330,6 @@
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>"
       ],
       "Created": [

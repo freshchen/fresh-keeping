@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "document/architecture/Archunit-Java代码架构规范检查.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -130,6 +130,7 @@
   "active": "1277e3ad74de4a7b",
   "lastOpenFiles": [
     "document/architecture/Archunit-Java代码架构规范检查.md",
+    "document/tools/charles抓包.md",
     "document/tools/安卓投屏.md",
     "document/architecture/CDN简介.md",
     "document/methodology/技术文档.md",
@@ -137,7 +138,6 @@
     "document/methodology/技术文档~.md",
     "document/java/HashMap源码.md",
     "document/linux/linux命令.md",
-    "document/springboot/springboot 2.2 升级 2.3 指南.md",
-    "document/kubernetes/Pod健康检查.md"
+    "document/springboot/springboot 2.2 升级 2.3 指南.md"
   ]
 }
