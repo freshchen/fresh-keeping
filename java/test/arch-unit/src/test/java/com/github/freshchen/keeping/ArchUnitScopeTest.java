@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @AnalyzeClasses(packages = {"com.github.freshchen.keeping"},
     // 跳过依赖jar包，跳过测试文件
-    importOptions = {DoNotIncludeJars, DoNotIncludeTests})
+    importOptions = {DoNotIncludeJars.class, DoNotIncludeTests.class})
 class ArchUnitScopeTest {
 
     /**
