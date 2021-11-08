@@ -1,6 +1,6 @@
 ---
 begin: 2021-10-12
-status: ongoing
+status: done
 rating: 1
 ---
 
@@ -44,7 +44,7 @@ Json 是一种数据结构化方式，简单好用，跨平台且可读性好。
 
 ### 相关实现
 
-[fastjson简介](../fastjson/fastjson简介.md)
+[fastjson简介](../springboot/fastjson/fastjson简介.md)
 
 ## 参考链接
 

@@ -47,6 +47,10 @@ spring.lifecycle.timeout-per-shutdown-phase=20s
 
 POST http://localhost:8080/shutdown
 
+### 注意
+
+对于 db 的检查使用 jdbcTemplate 并且没有设置超时时间，可能会因为连接池等待很久至探测超时
+
 ## 参考链接
 https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
 

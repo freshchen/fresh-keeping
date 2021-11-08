@@ -14,11 +14,6 @@
       "tags": 0,
       "links": 0
     },
-    "document/zookeeper/zookeeper简介.md": {
-      "size": 1778,
-      "tags": 3,
-      "links": 2
-    },
     "document/os/随机读写和顺序读写.md": {
       "size": 1037,
       "tags": 1,
@@ -27,56 +22,6 @@
     "document/mysql/count各种用法区别.md": {
       "size": 998,
       "tags": 4,
-      "links": 0
-    },
-    "document/chubby/Chubby简介.md": {
-      "size": 296,
-      "tags": 2,
-      "links": 0
-    },
-    "document/chrome/chrome常用插件.md": {
-      "size": 212,
-      "tags": 1,
-      "links": 0
-    },
-    "document/fastjson/fastjson简介.md": {
-      "size": 1345,
-      "tags": 2,
-      "links": 1
-    },
-    "document/mybatis/mybatis简介.md": {
-      "size": 2171,
-      "tags": 2,
-      "links": 0
-    },
-    "document/kubernetes/NodeLocal DNSCache.md": {
-      "size": 775,
-      "tags": 1,
-      "links": 0
-    },
-    "document/mybatis/mybatis扩展.md": {
-      "size": 154,
-      "tags": 2,
-      "links": 0
-    },
-    "document/mybatis/mybatis编写mapper.md": {
-      "size": 1066,
-      "tags": 2,
-      "links": 0
-    },
-    "document/mybatis/mybatis $ 和 井 区别.md": {
-      "size": 700,
-      "tags": 3,
-      "links": 0
-    },
-    "document/mybatis/mybatis避免动态SQL语句错误.md": {
-      "size": 939,
-      "tags": 3,
-      "links": 0
-    },
-    "document/redisson/redisson集成springboot.md": {
-      "size": 1220,
-      "tags": 2,
       "links": 0
     },
     "document/design/分页查询 page_token page_size.md": {
@@ -94,11 +39,6 @@
       "tags": 2,
       "links": 0
     },
-    "document/caffeine/caffeine简介.md": {
-      "size": 2134,
-      "tags": 1,
-      "links": 0
-    },
     "document/design/Google json 风格规范.md": {
       "size": 32213,
       "tags": 2,
@@ -108,11 +48,6 @@
       "size": 1500,
       "tags": 2,
       "links": 2
-    },
-    "document/java/HashMap源码.md": {
-      "size": 2859,
-      "tags": 2,
-      "links": 5
     },
     "document/methodology/Zettelkasten卡片盒笔记法.md": {
       "size": 1562,
@@ -126,31 +61,11 @@
     },
     "document/design/弹性.md": {
       "size": 146,
-      "tags": 0,
+      "tags": 1,
       "links": 0
-    },
-    "document/kubernetes/Pod健康检查.md": {
-      "size": 1073,
-      "tags": 1,
-      "links": 2
-    },
-    "document/kubernetes/容器规范High Observability Principle.md": {
-      "size": 2365,
-      "tags": 1,
-      "links": 1
-    },
-    "document/kubernetes/容器规范.md": {
-      "size": 308,
-      "tags": 1,
-      "links": 1
     },
     "document/springboot/springboot 2.2 升级 2.3 指南.md": {
       "size": 2018,
-      "tags": 1,
-      "links": 0
-    },
-    "document/kubernetes/容器生命周期回调.md": {
-      "size": 1508,
       "tags": 1,
       "links": 0
     },
@@ -162,16 +77,6 @@
     "document/methodology/技术文档.md": {
       "size": 5738,
       "tags": 1,
-      "links": 0
-    },
-    "document/linux/linux命令.md": {
-      "size": 590,
-      "tags": 1,
-      "links": 0
-    },
-    "document/istio/istio安装.md": {
-      "size": 251,
-      "tags": 0,
       "links": 0
     },
     "document/springboot/actuator监控.md": {
@@ -205,7 +110,117 @@
       "links": 5
     },
     "document/tools/安卓投屏.md": {
-      "size": 316,
+      "size": 263,
+      "tags": 1,
+      "links": 0
+    },
+    "document/tools/charles抓包.md": {
+      "size": 541,
+      "tags": 1,
+      "links": 5
+    },
+    "document/tools/chrome/chrome常用插件.md": {
+      "size": 212,
+      "tags": 1,
+      "links": 0
+    },
+    "document/javase/HashMap源码.md": {
+      "size": 2859,
+      "tags": 2,
+      "links": 5
+    },
+    "document/springboot/caffeine/caffeine简介.md": {
+      "size": 2134,
+      "tags": 1,
+      "links": 0
+    },
+    "document/springboot/fastjson/fastjson简介.md": {
+      "size": 1345,
+      "tags": 2,
+      "links": 1
+    },
+    "document/springboot/mybatis/mybatis $ 和 井 区别.md": {
+      "size": 700,
+      "tags": 3,
+      "links": 0
+    },
+    "document/springboot/mybatis/mybatis扩展.md": {
+      "size": 154,
+      "tags": 2,
+      "links": 0
+    },
+    "document/springboot/mybatis/mybatis简介.md": {
+      "size": 2171,
+      "tags": 2,
+      "links": 0
+    },
+    "document/springboot/mybatis/mybatis编写mapper.md": {
+      "size": 1066,
+      "tags": 2,
+      "links": 0
+    },
+    "document/springboot/mybatis/mybatis避免动态SQL语句错误.md": {
+      "size": 939,
+      "tags": 3,
+      "links": 0
+    },
+    "document/cloud/istio/istio安装.md": {
+      "size": 251,
+      "tags": 0,
+      "links": 0
+    },
+    "document/cloud/kubernetes/NodeLocal DNSCache.md": {
+      "size": 775,
+      "tags": 1,
+      "links": 0
+    },
+    "document/cloud/kubernetes/Pod健康检查.md": {
+      "size": 1073,
+      "tags": 1,
+      "links": 2
+    },
+    "document/cloud/kubernetes/k8s命令.md": {
+      "size": 214,
+      "tags": 2,
+      "links": 0
+    },
+    "document/cloud/kubernetes/容器生命周期回调.md": {
+      "size": 1508,
+      "tags": 1,
+      "links": 0
+    },
+    "document/cloud/kubernetes/容器规范.md": {
+      "size": 308,
+      "tags": 1,
+      "links": 1
+    },
+    "document/cloud/kubernetes/容器规范High Observability Principle.md": {
+      "size": 2365,
+      "tags": 1,
+      "links": 1
+    },
+    "document/springboot/redisson/redisson集成springboot.md": {
+      "size": 1220,
+      "tags": 2,
+      "links": 0
+    },
+    "document/os/linux/linux命令.md": {
+      "size": 590,
+      "tags": 1,
+      "links": 0
+    },
+    "document/distributed/chubby/Chubby简介.md": {
+      "size": 296,
+      "tags": 2,
+      "links": 0
+    },
+    "document/distributed/zookeeper/zookeeper简介.md": {
+      "size": 1778,
+      "tags": 3,
+      "links": 2
+    },
+    "document/springboot/@Async.md": {
+      "size": 144,
       "tags": 1,
       "links": 0
     },
@@ -217,10 +232,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 52,
-      "Create": 46,
-      "Link": 52,
-      "Expand": 97
+      "Refactor": 93,
+      "Create": 68,
+      "Link": 58,
+      "Expand": 99
     }
   },
   "dailyCommits": {
@@ -237,15 +252,15 @@
       "9": 8,
       "10": 8,
       "11": 21,
-      "12": 14,
-      "13": 9,
+      "12": 65,
+      "13": 10,
       "14": 61,
       "15": 14,
-      "16": 1,
+      "16": 27,
       "17": 2,
       "18": 7,
-      "19": 11,
-      "20": 13,
+      "19": 8,
+      "20": 9,
       "21": 8,
       "22": 12,
       "23": 26
@@ -253,20 +268,22 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 7,
+      "Mon": 47,
       "Tue": 58,
       "Wed": 64,
       "Thu": 41,
       "Fri": 47,
       "Sat": 0,
-      "Sun": 30
+      "Sun": 61
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
-        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
         "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
@@ -313,11 +330,26 @@
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
-        "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>"
+        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
+        "<a class=\"internal-link\" href=\"document/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/NodeLocal DNSCache.md\"> NodeLocal DNSCache </a>",
+        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
+        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
+        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
         "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
@@ -351,21 +383,14 @@
         "<a class=\"internal-link\" href=\"document/design/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
-        "<a class=\"internal-link\" href=\"document/linux/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
-        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
+        "<a class=\"internal-link\" href=\"document/os/linux/linux命令.md\"> linux命令 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
         "<a class=\"internal-link\" href=\"document/chrome/chrome.md\"> chrome </a>",
         "<a class=\"internal-link\" href=\"document/idea/idea常用插件.md\"> idea常用插件 </a>",
@@ -399,8 +424,19 @@
         "<a class=\"internal-link\" href=\"document/tools/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
         "<a class=\"internal-link\" href=\"document/tools/obsidian/obsidian知识管理.md\"> obsidian知识管理 </a>",
         "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Java代码架构规范检查.md\"> Java代码架构规范检查 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
+        "<a class=\"internal-link\" href=\"document/javase/HashMap源码.md\"> HashMap源码 </a>",
+        "<a class=\"internal-link\" href=\"document/javaee/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/javase/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/fastjson/fastjson简介.md\"> fastjson简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/istio安装.md\"> istio安装 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/NodeLocal DNSCache.md\"> NodeLocal DNSCache </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
@@ -438,14 +474,19 @@
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
         "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/k8s命令.md\"> k8s命令 </a>",
+        "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"template/header.md\"> header </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -460,7 +501,26 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/1.md\"> 1 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
         "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>"
+        "<a class=\"internal-link\" href=\"document/methodology/技术文档~.md\"> 技术文档~ </a>",
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
+        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
+        "<a class=\"internal-link\" href=\"document/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
+        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
+        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
+        "<a class=\"internal-link\" href=\"document/chubby/Chubby简介.md\"> Chubby简介 </a>",
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
+        "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
+        "<a class=\"internal-link\" href=\"document/kubernetes/NodeLocal DNSCache.md\"> NodeLocal DNSCache </a>",
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
+        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
@@ -477,7 +537,9 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>"
       ],
       "Removed Tags from": [],
       "Removed Links from": []
