@@ -38,7 +38,6 @@ dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('#interview')
     .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
 ```
 
-
 ## 已完成...
 
 ```dataviewjs

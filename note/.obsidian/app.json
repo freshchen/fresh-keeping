@@ -15,5 +15,6 @@
   "readableLineLength": false,
   "showFrontmatter": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "communityThemeSortOrder": "download"
 }
