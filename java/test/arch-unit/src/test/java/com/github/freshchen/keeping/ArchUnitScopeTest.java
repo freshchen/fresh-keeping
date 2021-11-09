@@ -55,7 +55,7 @@ class ArchUnitScopeTest {
     }
 
     @ArchTest
-    @DisplayName("infrastructure 只能被 domain application infrastructure 访问")
+    @DisplayName("infrastructure 只能被 application infrastructure 访问")
     public void test4(JavaClasses javaClasses) {
         ArchRuleDefinition.classes()
             .that()
@@ -64,7 +64,6 @@ class ArchUnitScopeTest {
             .onlyBeAccessed()
             .byAnyPackage(
                 "com.github.freshchen.keeping.application..",
-                "com.github.freshchen.keeping.domain..",
                 "com.github.freshchen.keeping.infrastructure.."
             )
             .check(javaClasses);

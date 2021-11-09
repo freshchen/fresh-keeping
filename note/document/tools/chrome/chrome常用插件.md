@@ -1,6 +1,6 @@
 ---
 begin: 2021-10-09
-status: ongoing
+status: done
 rating: 1
 ---
 
@@ -11,6 +11,7 @@ rating: 1
 - OneTab Plus
 - Vue.js devtools
 - Octotree - GitHub code tree
+- SwitchyOmega
 
 
 ## 参考链接

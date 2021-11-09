@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/architecture/Archunit-Java代码架构规范检查.md",
+            "file": "document/ddd/DDD落地步骤.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "5e9b4660a12a270e"
+      },
+      {
+        "id": "a1e5dfc951607f4e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "document/ddd/DDD落地步骤.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5e9b4660a12a270e"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "技术",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/architecture/Archunit-Java代码架构规范检查.md"
+                "file": "document/ddd/DDD落地步骤.md"
               }
             }
           },
@@ -75,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/architecture/Archunit-Java代码架构规范检查.md",
+                "file": "document/ddd/DDD落地步骤.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/architecture/Archunit-Java代码架构规范检查.md",
+                "file": "document/ddd/DDD落地步骤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,15 +142,15 @@
   },
   "active": "1277e3ad74de4a7b",
   "lastOpenFiles": [
-    "document/architecture/Archunit-Java代码架构规范检查.md",
-    "document/tools/charles抓包.md",
-    "document/tools/安卓投屏.md",
-    "document/architecture/CDN简介.md",
-    "document/methodology/技术文档.md",
-    "index.md",
-    "document/methodology/技术文档~.md",
-    "document/java/HashMap源码.md",
-    "document/linux/linux命令.md",
-    "document/springboot/springboot 2.2 升级 2.3 指南.md"
+    "document/ddd/DDD落地步骤.md",
+    "document/ddd/领域划分.md",
+    "document/ddd/限界上下文.md",
+    "document/ddd/四色建模法.md",
+    "document/ddd/动名词建模.md",
+    "todo.md",
+    "document/ddd/DDD简介.md",
+    "document/ddd/贫血模型和充血模型.md",
+    "document/other/DAU 日活跃用户数量.md",
+    "index.md"
   ]
 }

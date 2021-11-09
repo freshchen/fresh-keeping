@@ -1,6 +1,6 @@
 ---
 begin: 2021-10-05
-status: ongoing
+status: half
 rating: 1
 ---
 
@@ -20,4 +20,4 @@ Chubby 由 Google 研发，未开源，是一个具有分布式锁功能的文�
 
 
 ##### 标签
-#chubby #distributed
+#distributed

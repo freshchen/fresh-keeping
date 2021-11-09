@@ -10,7 +10,7 @@
       "links": 0
     },
     "index.md": {
-      "size": 1250,
+      "size": 1249,
       "tags": 0,
       "links": 0
     },
@@ -26,16 +26,6 @@
     },
     "document/design/分页查询 page_token page_size.md": {
       "size": 725,
-      "tags": 2,
-      "links": 0
-    },
-    "document/architecture/Distribute History.md": {
-      "size": 149,
-      "tags": 3,
-      "links": 0
-    },
-    "document/architecture/原始分布式时代.md": {
-      "size": 545,
       "tags": 2,
       "links": 0
     },
@@ -81,11 +71,6 @@
     },
     "document/springboot/actuator监控.md": {
       "size": 1392,
-      "tags": 1,
-      "links": 0
-    },
-    "document/architecture/CDN简介.md": {
-      "size": 112,
       "tags": 1,
       "links": 0
     },
@@ -166,7 +151,7 @@
     },
     "document/cloud/istio/istio安装.md": {
       "size": 251,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "document/cloud/kubernetes/NodeLocal DNSCache.md": {
@@ -211,7 +196,7 @@
     },
     "document/distributed/chubby/Chubby简介.md": {
       "size": 296,
-      "tags": 2,
+      "tags": 1,
       "links": 0
     },
     "document/distributed/zookeeper/zookeeper简介.md": {
@@ -219,23 +204,98 @@
       "tags": 3,
       "links": 2
     },
-    "document/springboot/@Async.md": {
+    "document/architecture/Archunit-Java代码架构规范检查.md": {
+      "size": 468,
+      "tags": 2,
+      "links": 0
+    },
+    "document/springboot/@Async的使用.md": {
       "size": 144,
       "tags": 1,
       "links": 0
     },
-    "document/architecture/Archunit-Java代码架构规范检查.md": {
-      "size": 383,
+    "todo.md": {
+      "size": 584,
+      "tags": 0,
+      "links": 0
+    },
+    "document/distributed/原始分布式时代.md": {
+      "size": 545,
       "tags": 2,
       "links": 0
+    },
+    "document/distributed/Distribute History.md": {
+      "size": 149,
+      "tags": 3,
+      "links": 0
+    },
+    "document/ddd/DDD简介.md": {
+      "size": 2386,
+      "tags": 2,
+      "links": 3
+    },
+    "document/architecture/软件复杂的发展方向.md": {
+      "size": 1110,
+      "tags": 1,
+      "links": 1
+    },
+    "document/architecture/康威定律.md": {
+      "size": 1364,
+      "tags": 1,
+      "links": 0
+    },
+    "document/architecture/两个披萨原则.md": {
+      "size": 381,
+      "tags": 1,
+      "links": 0
+    },
+    "document/ddd/DDD落地步骤.md": {
+      "size": 701,
+      "tags": 2,
+      "links": 5
+    },
+    "document/ddd/限界上下文.md": {
+      "size": 2376,
+      "tags": 2,
+      "links": 4
+    },
+    "document/ddd/贫血模型和充血模型.md": {
+      "size": 513,
+      "tags": 2,
+      "links": 1
+    },
+    "document/ddd/领域划分.md": {
+      "size": 494,
+      "tags": 2,
+      "links": 0
+    },
+    "document/other/CDN简介.md": {
+      "size": 684,
+      "tags": 1,
+      "links": 0
+    },
+    "document/other/DAU 日活跃用户数量.md": {
+      "size": 536,
+      "tags": 0,
+      "links": 0
+    },
+    "document/ddd/动名词建模.md": {
+      "size": 2034,
+      "tags": 2,
+      "links": 0
+    },
+    "document/ddd/四色建模法.md": {
+      "size": 1461,
+      "tags": 2,
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 93,
-      "Create": 68,
-      "Link": 58,
-      "Expand": 100
+      "Refactor": 105,
+      "Create": 80,
+      "Link": 85,
+      "Expand": 145
     }
   },
   "dailyCommits": {
@@ -250,16 +310,16 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 8,
-      "11": 21,
-      "12": 65,
-      "13": 10,
-      "14": 62,
-      "15": 14,
-      "16": 27,
-      "17": 2,
-      "18": 7,
-      "19": 8,
+      "10": 11,
+      "11": 31,
+      "12": 75,
+      "13": 13,
+      "14": 70,
+      "15": 32,
+      "16": 40,
+      "17": 17,
+      "18": 11,
+      "19": 20,
       "20": 9,
       "21": 8,
       "22": 12,
@@ -268,8 +328,8 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 48,
-      "Tue": 58,
+      "Mon": 53,
+      "Tue": 149,
       "Wed": 64,
       "Thu": 41,
       "Fri": 47,
@@ -280,59 +340,71 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/other/DAU 日活跃用户数量.md\"> DAU 日活跃用户数量 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/两个披萨原则.md\"> 两个披萨原则 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/康威定律.md\"> 康威定律 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/康威定律.md\"> 康威定律 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/康威定律.md\"> 康威定律 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的因素.md\"> 软件复杂的因素 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的因素.md\"> 软件复杂的因素 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
         "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
         "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
         "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod重启和健康检查.md\"> Pod重启和健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/1.md\"> 1 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/研发过程资产管理.md\"> 研发过程资产管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/研发过程资产管理.md\"> 研发过程资产管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/研发过程资产管理.md\"> 研发过程资产管理 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/design/json简介.md\"> json简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/CDN简介.md\"> CDN简介 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/concept/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"todo.md\"> todo </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
         "<a class=\"internal-link\" href=\"document/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
         "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
@@ -371,21 +443,18 @@
         "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/caffeine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/java/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/design/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/other/DAU 日活跃用户数量.md\"> DAU 日活跃用户数量 </a>",
+        "<a class=\"internal-link\" href=\"document/other/DAU.md\"> DAU </a>",
+        "<a class=\"internal-link\" href=\"document/other/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/concept/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的发展方向.md\"> 软件复杂的发展方向 </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/CDN简介.md\"> CDN简介 </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/原始分布式时代.md\"> 原始分布式时代 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/@Async的使用.md\"> @Async的使用 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
         "<a class=\"internal-link\" href=\"document/distributed/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
@@ -427,18 +496,11 @@
         "<a class=\"internal-link\" href=\"document/tools/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/javase/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/javaee/caffeine/caffeine简介.md\"> caffeine简介 </a>",
-        "<a class=\"internal-link\" href=\"document/javase/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/caffeine/caffeine简介.md\"> caffeine简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis简介.md\"> mybatis简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/istio安装.md\"> istio安装 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/NodeLocal DNSCache.md\"> NodeLocal DNSCache </a>"
+        "<a class=\"internal-link\" href=\"document/javase/fastjson/fastjson简介.md\"> fastjson简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
         "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"document/idea/idea常用插件.md\"> idea常用插件 </a>",
@@ -479,14 +541,24 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/k8s命令.md\"> k8s命令 </a>",
         "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/istio安装.md\"> istio安装 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的因素.md\"> 软件复杂的因素 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/康威定律.md\"> 康威定律 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/两个披萨原则.md\"> 两个披萨原则 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
         "<a class=\"internal-link\" href=\"template/header.md\"> header </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/安卓投屏.md\"> 安卓投屏 </a>",
+        "<a class=\"internal-link\" href=\"index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -539,9 +611,26 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
         "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的因素.md\"> 软件复杂的因素 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>"
       ],
-      "Removed Tags from": [],
+      "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>"
+      ],
       "Removed Links from": []
     }
   },

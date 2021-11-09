@@ -63,4 +63,4 @@ zookeeper 是典型的 C/S 架构，分为 service 层 和 client 层。
 [架构简介](https://zookeeper.apache.org/doc/r3.6.3/zookeeperOver.html#sc_designGoals)
 
 ##### 标签
-#zookeeper #distributed #interview 
+#distributed #interview #zookeeper

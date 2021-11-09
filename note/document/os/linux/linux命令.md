@@ -1,6 +1,6 @@
 ---
 begin: 2021-11-02
-status: ongoing
+status: half
 rating: 1
 ---
 

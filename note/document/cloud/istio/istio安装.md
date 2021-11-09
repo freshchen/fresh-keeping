@@ -1,6 +1,6 @@
 ---
 begin: 2021-11-03
-status: ongoing
+status: half
 rating: 1
 ---
 
@@ -11,3 +11,4 @@ rating: 1
 https://istio.io/latest/docs/releases/supported-releases/
 
 ##### 标签
+#k8s 
