@@ -1,32 +1,45 @@
 {
   "main": {
-    "id": "826e267d8bde33dc",
+    "id": "531189d4f641ced1",
     "type": "split",
     "children": [
       {
-        "id": "a1e5dfc951607f4e",
+        "id": "b5c699d8957bfe0d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "document/java/TransmittableThreadLocal.md",
+            "mode": "source"
+          }
+        },
+        "group": "0020b27a93f8028b"
+      },
+      {
+        "id": "9f6c515c64bb8258",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "document/java/TransmittableThreadLocal.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "0020b27a93f8028b"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "329fabd1bfec775f",
+    "id": "c604fd2bf1889450",
     "type": "split",
     "children": [
       {
-        "id": "5e5c30e583f7027d",
+        "id": "4c1264467b7d0061",
         "type": "tabs",
         "children": [
           {
-            "id": "83d3a80bfa14de53",
+            "id": "9528545965a44210",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,22 +47,65 @@
             }
           },
           {
-            "id": "6cc42df594092e89",
+            "id": "522767af0d4604d7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#orm",
-                "matchingCase": true,
+                "query": "tag:#architecture",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7314f4d1aa4aa2b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e52492012655ac7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2522976a90e2fcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "document/java/TransmittableThreadLocal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           },
           {
-            "id": "08e4b7555df4d095",
+            "id": "dc5cba5ba44d2113",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "document/java/TransmittableThreadLocal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f3e8b020668f90f5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -60,64 +116,13 @@
             }
           },
           {
-            "id": "bd0cc1a1656d7610",
+            "id": "21ca678c5275bb92",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "document/java/TransmittableThreadLocal.md"
               }
-            }
-          },
-          {
-            "id": "9ee044147c664b52",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "index.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "a8d0b76ed167b894",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "index.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 235.5
-  },
-  "right": {
-    "id": "513b5492c3119da9",
-    "type": "split",
-    "children": [
-      {
-        "id": "15b694fd0d92103e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a31f8968760a1c8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
@@ -127,17 +132,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a1e5dfc951607f4e",
+  "active": "b5c699d8957bfe0d",
   "lastOpenFiles": [
-    "index.md",
-    "document/springboot/actuator监控.md",
-    "document/springboot/@Async的使用.md",
-    "document/ddd/DDD落地步骤.md",
-    "document/springboot/redisson/redisson集成springboot.md",
-    "document/tools/obsidian/obsidian知识管理.md",
-    "document/springboot/mybatis/mybatis避免动态SQL语句错误.md",
-    "document/springboot/mybatis/mybatis简介.md",
+    "document/java/TransmittableThreadLocal.md",
+    "document/ddd/限界上下文.md",
+    "document/architecture/软件复杂的发展方向.md",
+    "document/java/HashMap源码.md",
+    "document/java/ThreadLocal.md",
     "todo.md",
-    "document/ddd/限界上下文.md"
+    "index.md",
+    "document/ddd/四色建模法.md",
+    "document/ddd/限界纸笔建模法.md",
+    "document/ddd/二八定律.md"
   ]
 }

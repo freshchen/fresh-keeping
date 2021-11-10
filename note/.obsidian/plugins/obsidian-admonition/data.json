@@ -1,10 +1,21 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "note": {
+      "type": "note",
+      "color": "57, 90, 167",
+      "icon": {
+        "name": "book",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": "Note"
+    }
+  },
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "6.4.0",
-  "autoCollapse": false,
-  "defaultCollapseType": "open",
+  "autoCollapse": true,
+  "defaultCollapseType": "closed",
   "syncLinks": false,
   "enableMarkdownProcessor": false
 }

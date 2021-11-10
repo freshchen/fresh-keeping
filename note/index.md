@@ -4,22 +4,6 @@
 /
 ```
 
-```commits-recents
-project=/
-divWidth=50
-divHeight=300
-divAligh=left
-```
-
-```commits-type
-project=/
-divWidth=50
-divHeight=300
-divAligh=right
-```
-
-
-
 ## 标签
 
 ```dataviewjs
@@ -28,7 +12,6 @@ dv.paragraph(
   dv.pages("").file.tags.distinct().map(t => {return `[${t}](${t})`}).array().join(" | ")
 )
 ```
-
 
 ## 面试题...
 

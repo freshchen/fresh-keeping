@@ -47,6 +47,23 @@ obsidian不同项目配置不同，默认配置在项目当前 .obsidian 目录�
 ![image-20211003225501038](image/image-20211003225501038.png)
 
 
+### 插件备忘
+
+
+```commits-recents
+project=/
+divWidth=50
+divHeight=300
+divAligh=left
+```
+
+```commits-type
+project=/
+divWidth=50
+divHeight=300
+divAligh=right
+```
+
 
 ## 参考链接
 
