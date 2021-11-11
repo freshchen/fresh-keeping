@@ -245,9 +245,9 @@
       "links": 0
     },
     "document/ddd/DDD落地步骤.md": {
-      "size": 701,
+      "size": 1177,
       "tags": 2,
-      "links": 7
+      "links": 8
     },
     "document/ddd/限界上下文.md": {
       "size": 2903,
@@ -290,7 +290,7 @@
       "links": 12
     },
     "document/ddd/事件风暴.md": {
-      "size": 120,
+      "size": 463,
       "tags": 2,
       "links": 0
     },
@@ -337,10 +337,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 120,
+      "Refactor": 121,
       "Create": 89,
-      "Link": 100,
-      "Expand": 171
+      "Link": 102,
+      "Expand": 174
     }
   },
   "dailyCommits": {
@@ -356,7 +356,7 @@
       "8": 2,
       "9": 8,
       "10": 20,
-      "11": 44,
+      "11": 50,
       "12": 80,
       "13": 13,
       "14": 81,
@@ -376,7 +376,7 @@
       "Mon": 53,
       "Tue": 156,
       "Wed": 122,
-      "Thu": 41,
+      "Thu": 47,
       "Fri": 47,
       "Sat": 0,
       "Sun": 61
@@ -385,6 +385,9 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
@@ -428,9 +431,6 @@
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
@@ -679,14 +679,17 @@
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
         "<a class=\"internal-link\" href=\"document/design/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
       ],
       "Removed Links from": [
-        "<a class=\"internal-link\" href=\"index.md\"> index </a>"
+        "<a class=\"internal-link\" href=\"index.md\"> index </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ]
     }
   },

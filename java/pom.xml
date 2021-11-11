@@ -47,6 +47,7 @@
         <module>springboot/spring-actuator</module>
         <module>test/arch-unit</module>
         <module>tools/transmittable-thread-local</module>
+        <module>ddd-archetype</module>
     </modules>
 
     <properties>

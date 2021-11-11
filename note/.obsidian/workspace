@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/java/TransmittableThreadLocal.md",
+            "file": "document/ddd/DDD落地步骤.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/java/TransmittableThreadLocal.md",
+            "file": "document/ddd/DDD落地步骤.md",
             "mode": "preview"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/java/TransmittableThreadLocal.md",
+                "file": "document/ddd/DDD落地步骤.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/java/TransmittableThreadLocal.md",
+                "file": "document/ddd/DDD落地步骤.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/java/TransmittableThreadLocal.md"
+                "file": "document/ddd/DDD落地步骤.md"
               }
             }
           }
@@ -134,15 +134,15 @@
   },
   "active": "b5c699d8957bfe0d",
   "lastOpenFiles": [
-    "document/java/TransmittableThreadLocal.md",
+    "document/ddd/DDD落地步骤.md",
     "document/ddd/限界上下文.md",
+    "document/ddd/事件风暴.md",
+    "document/java/TransmittableThreadLocal.md",
     "document/architecture/软件复杂的发展方向.md",
     "document/java/HashMap源码.md",
     "document/java/ThreadLocal.md",
     "todo.md",
     "index.md",
-    "document/ddd/四色建模法.md",
-    "document/ddd/限界纸笔建模法.md",
-    "document/ddd/二八定律.md"
+    "document/ddd/四色建模法.md"
   ]
 }
