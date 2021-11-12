@@ -245,9 +245,9 @@
       "links": 0
     },
     "document/ddd/DDD落地步骤.md": {
-      "size": 1177,
+      "size": 1355,
       "tags": 2,
-      "links": 8
+      "links": 9
     },
     "document/ddd/限界上下文.md": {
       "size": 2903,
@@ -333,14 +333,19 @@
       "size": 183,
       "tags": 1,
       "links": 0
+    },
+    "document/ddd/领域模型设计.md": {
+      "size": 126,
+      "tags": 2,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 121,
-      "Create": 89,
-      "Link": 102,
-      "Expand": 174
+      "Refactor": 122,
+      "Create": 90,
+      "Link": 104,
+      "Expand": 176
     }
   },
   "dailyCommits": {
@@ -361,7 +366,7 @@
       "13": 13,
       "14": 81,
       "15": 40,
-      "16": 52,
+      "16": 58,
       "17": 17,
       "18": 11,
       "19": 20,
@@ -377,7 +382,7 @@
       "Tue": 156,
       "Wed": 122,
       "Thu": 47,
-      "Fri": 47,
+      "Fri": 53,
       "Sat": 0,
       "Sun": 61
     }
@@ -385,6 +390,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
@@ -433,11 +440,10 @@
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/ddd/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/未命名.md\"> 未命名 </a>",
@@ -487,10 +493,10 @@
         "<a class=\"internal-link\" href=\"document/api/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/json/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介~.md\"> json简介~ </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>"
+        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/transmittable-thread-local.md\"> transmittable-thread-local </a>",
         "<a class=\"internal-link\" href=\"document/springboot/transmittable-thread-local.md\"> transmittable-thread-local </a>",
@@ -540,10 +546,10 @@
         "<a class=\"internal-link\" href=\"document/design/json简介.md\"> json简介 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/Zettelkasten卡片盒笔记法.md\"> Zettelkasten卡片盒笔记法 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod 探针 Probes.md\"> Pod 探针 Probes </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod重启和健康检查.md\"> Pod重启和健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod重启和健康检查.md\"> Pod重启和健康检查 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
@@ -593,8 +599,7 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/k8s命令.md\"> k8s命令 </a>",
         "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/istio安装.md\"> istio安装 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -680,6 +685,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ],
