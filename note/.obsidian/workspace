@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9f6c515c64bb8258",
+        "id": "239416291b8462b9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/ddd/四色建模法.md",
-            "mode": "preview"
+            "file": "document/java/Java8新特性.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#architecture",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299
   },
   "right": {
     "id": "7314f4d1aa4aa2b0",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/ddd/四色建模法.md",
+                "file": "document/java/Java8新特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/ddd/四色建模法.md",
+                "file": "document/java/Java8新特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/ddd/四色建模法.md"
+                "file": "document/java/Java8新特性.md"
               }
             }
           }
@@ -119,17 +119,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f6c515c64bb8258",
+  "active": "239416291b8462b9",
   "lastOpenFiles": [
-    "document/ddd/四色建模法.md",
-    "document/ddd/限界纸笔建模法.md",
-    "document/ddd/限界上下文.md",
-    "document/ddd/DDD落地步骤.md",
-    "document/ddd/领域模型设计.md",
-    "document/ddd/事件风暴.md",
-    "document/java/TransmittableThreadLocal.md",
-    "document/architecture/软件复杂的发展方向.md",
+    "document/java/Java8新特性.md",
+    "document/java/Java8之接口默认实现.md",
+    "todo.md",
+    "document/tools/obsidian/obsidian知识管理.md",
+    "index.md",
+    "document/java/Java8之Lambda简介.md",
+    "document/java/Java8之Stream.md",
     "document/java/HashMap源码.md",
-    "document/java/ThreadLocal.md"
+    "document/java/Object源码.md",
+    "document/java/TransmittableThreadLocal.md"
   ]
 }

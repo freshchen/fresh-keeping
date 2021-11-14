@@ -3,15 +3,13 @@
   "dataview",
   "templater-obsidian",
   "obsidian-kanban",
-  "obsidian-outliner",
   "obsidian-emoji-toolbar",
   "obsidian-mind-map",
-  "folder-note-plugin",
   "obsidian-commits",
   "obsidian-activity-history",
   "obsidian-plantuml",
   "url-into-selection",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-tracker",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "obsidian-auto-link-title"
 ]
