@@ -1,4 +1,16 @@
-# 总览
+# Dashboard
+
+```dataviewjs
+let nofold = '!"attachment"'
+let allFile = dv.pages(nofold).file
+let totalMd = " 📚 "+
+    allFile.length+" notes"
+let totalTag = allFile.etags.distinct().length+" tags"
+dv.paragraph(
+    totalMd+" "+totalTag
+)
+```
+
 
 ```ActivityHistory
 /

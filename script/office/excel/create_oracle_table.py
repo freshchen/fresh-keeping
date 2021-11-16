@@ -55,16 +55,16 @@ def parse_sheet(sheet, table_name, row_begin):
 
 def main():
     path_list = [
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_GHMXB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_HZXX.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_CFZB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_JSMXB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_JSZFFSMXB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_JZMXB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_QTCFMX.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_SFMXB.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_YPCFMX.xlsx",
-        "/Users/chenling/Documents/work/sanyi/TB_MZ_ZDMXB.xlsx"
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_GHMXB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_HZXX.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_CFZB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_JSMXB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_JSZFFSMXB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_JZMXB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_QTCFMX.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_SFMXB.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_YPCFMX.xlsx",
+        "/Users/darcy/Documents/work/sanyi/TB_MZ_ZDMXB.xlsx"
     ]
 
     for path in path_list:
