@@ -3,7 +3,7 @@
 ```dataviewjs
 let nofold = '!"attachment"'
 let allFile = dv.pages(nofold).file
-let totalMd = " 📚 "+
+let totalMd = "- 📚 "+
     allFile.length+" notes"
 let totalTag = allFile.etags.distinct().length+" tags"
 dv.paragraph(
@@ -28,27 +28,27 @@ dv.paragraph(
 ## 面试题...
 
 ```dataviewjs
-dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('#interview')
+dv.table(["File", "Tags", "Rating", "Update"], dv.pages('#interview')
     .sort(b => b.rating, 'desc')
-    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.mday]))
 ```
 
 ## 已完成...
 
 ```dataviewjs
-dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('"document"')
+dv.table(["File", "Tags", "Rating", "Update"], dv.pages('"document"')
     .where(b => dv.equal(b.status, "done"))
     .sort(b => b.mday, 'desc')
-    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.mday]))
 ```
 
 
 ## 待补充...
 
 ```dataviewjs
-dv.table(["File", "Tags", "Rating", "Create", "Update"], dv.pages('"document"')
+dv.table(["File", "Tags", "Rating", "Update"], dv.pages('"document"')
     .where(b => dv.equal(b.status, "half"))
     .sort(b => b.mday, 'desc')
-    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.cday, b.file.mday]))
+    .map(b => [b.file.link, dv.array(b.file.tags).join(" "), b.rating, b.file.mday]))
 ```
 

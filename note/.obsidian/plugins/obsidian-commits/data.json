@@ -216,7 +216,7 @@
     },
     "document/distributed/Distribute History.md": {
       "size": 149,
-      "tags": 3,
+      "tags": 2,
       "links": 0
     },
     "document/ddd/DDD简介.md": {
@@ -320,7 +320,7 @@
       "links": 5
     },
     "document/java/ThreadLocal.md": {
-      "size": 155,
+      "size": 455,
       "tags": 2,
       "links": 0
     },
@@ -372,10 +372,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 138,
+      "Refactor": 139,
       "Create": 99,
       "Link": 115,
-      "Expand": 187
+      "Expand": 189
     }
   },
   "dailyCommits": {
@@ -391,10 +391,10 @@
       "8": 2,
       "9": 8,
       "10": 26,
-      "11": 52,
+      "11": 53,
       "12": 88,
       "13": 13,
-      "14": 81,
+      "14": 83,
       "15": 40,
       "16": 58,
       "17": 17,
@@ -409,7 +409,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 69,
-      "Tue": 156,
+      "Tue": 159,
       "Wed": 122,
       "Thu": 47,
       "Fri": 53,
@@ -420,6 +420,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"todo.md\"> todo </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
@@ -468,9 +470,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/领域划分.md\"> 领域划分 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"document/springboot/jooq/未命名.md\"> 未命名 </a>",
@@ -728,7 +728,8 @@
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
-        "<a class=\"internal-link\" href=\"document/design/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>"
+        "<a class=\"internal-link\" href=\"document/design/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",

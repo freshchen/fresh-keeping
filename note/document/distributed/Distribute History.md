@@ -11,4 +11,4 @@ rating: 1
 
 
 ##### 标签
-#distributed #architecture #interview 
+#distributed #architecture 

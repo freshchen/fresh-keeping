@@ -1,14 +1,16 @@
 ---
 begin: 2021-11-15
-status: JOOQ简介
+status: done
 rating: 1
 ---
 
-# 标题
+# JOOQ简介
 
 ## 简介
 
 [官网链接](https://www.jooq.org/)
+
+[代码地址](https://github.com/freshchen/fresh-keeping/tree/master/java/sql-orm/spring-jooq)
 
 JOOQ是一套持久层框架，主要特点是：
 
@@ -29,19 +31,29 @@ JOOQ是一套持久层框架，主要特点是：
 
 ## Springboot+JOOQ初体验
 
-持久层框架很多，这里参考官网和其他博客用Springboot迅速搭建一个简单demo看看是否好用
-
-![](https://cdn.jsdelivr.net/gh/freshchen@master/resource/img/jooq-2.png)
+持久层框架很多，这里参考官网和其他博客用Springboot迅速搭建一个简单demo
 
 ### 配置依赖
 
 #### pom.xml
 
+- 依赖
+
 ```xml
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-jooq</artifactId>
+<dependency>  
+	<groupId>org.springframework.boot</groupId>  
+	<artifactId>spring-boot-starter-jooq</artifactId>  
+</dependency>  
+<dependency>  
+	<groupId>mysql</groupId>  
+	<artifactId>mysql-connector-java</artifactId>  
+	<scope>runtime</scope>  
 </dependency>
+```
+
+- 构建
+
+```xml
 <build>
   <plugins>
     <plugin>
@@ -62,7 +74,6 @@ JOOQ是一套持久层框架，主要特点是：
         <dependency>
           <groupId>mysql</groupId>
           <artifactId>mysql-connector-java</artifactId>
-          <version>5.1.45</version>
         </dependency>
       </dependencies>
       <configuration>
@@ -85,8 +96,8 @@ JOOQ是一套持久层框架，主要特点是：
 ```properties
 #datasource
 spring.datasource.url=jdbc:mysql://localhost:3306/demo
-spring.datasource.username=root
-spring.datasource.password=123456
+spring.datasource.username=
+spring.datasource.password=
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ```
 
@@ -144,7 +155,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 #### 自动生成
 
-- 我们在mysql中创建demo库，并创建一张User表如下（点的比较快，年龄字段用的varchar勿喷）
+- 我们在mysql中创建demo库，并创建一张User表如下
 
 ```mysql
 mysql> describe user;
@@ -250,7 +261,7 @@ public class DemoServiceImpl implements DemoService {
 }
 ```
 
-[Demo源码地址](https://github.com/freshchen/fresh-java-practice/tree/master/springboot-jooq)
+
 
 
 ## 参考链接

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/springboot/jooq/JOOQ简介.md",
+            "file": "document/java/ThreadLocal.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/springboot/jooq/JOOQ简介.md",
+                "file": "document/java/ThreadLocal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/springboot/jooq/JOOQ简介.md",
+                "file": "document/java/ThreadLocal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/springboot/jooq/JOOQ简介.md"
+                "file": "document/java/ThreadLocal.md"
               }
             }
           }
@@ -121,15 +121,15 @@
   },
   "active": "239416291b8462b9",
   "lastOpenFiles": [
+    "document/java/ThreadLocal.md",
+    "document/java/Object源码.md",
     "document/springboot/jooq/JOOQ简介.md",
+    "todo.md",
+    "index.md",
+    "document/distributed/Distribute History.md",
     "document/springboot/mybatis/mybatis简介.md",
     "document/springboot/mybatis/mybatis扩展.md",
     "document/springboot/未命名.md",
-    "document/java/Java8之Stream.md",
-    "document/java/Java8之Lambda简介.md",
-    "document/java/Java8之接口默认实现.md",
-    "document/java/Java8新特性.md",
-    "index.md",
-    "template/header.md"
+    "document/java/Java8之Stream.md"
   ]
 }
