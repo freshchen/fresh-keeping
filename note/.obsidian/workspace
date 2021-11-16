@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/java/ThreadLocal.md",
+            "file": "document/architecture/软件架构分析方法.md",
             "mode": "source"
           }
         }
@@ -47,6 +47,27 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "21ca678c5275bb92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "document/architecture/软件架构分析方法.md"
+              }
+            }
+          },
+          {
+            "id": "f3e8b020668f90f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
@@ -68,13 +89,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/java/ThreadLocal.md",
+                "file": "document/architecture/软件架构分析方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -85,34 +106,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/java/ThreadLocal.md",
+                "file": "document/architecture/软件架构分析方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "f3e8b020668f90f5",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "21ca678c5275bb92",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "document/java/ThreadLocal.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -121,15 +122,15 @@
   },
   "active": "239416291b8462b9",
   "lastOpenFiles": [
-    "document/java/ThreadLocal.md",
-    "document/java/Object源码.md",
-    "document/springboot/jooq/JOOQ简介.md",
+    "document/architecture/软件架构分析方法.md",
+    "document/architecture/什么是软件架构.md",
+    "document/methodology/ADMEMS矩阵.md",
+    "document/methodology/SWOT分析.md",
+    "document/methodology/RAID矩阵.md",
+    "document/methodology/image/admems.png",
+    "document/cloud/kubernetes/容器规范High Observability Principle.md",
+    "document/cloud/kubernetes/容器规范.md",
     "todo.md",
-    "index.md",
-    "document/distributed/Distribute History.md",
-    "document/springboot/mybatis/mybatis简介.md",
-    "document/springboot/mybatis/mybatis扩展.md",
-    "document/springboot/未命名.md",
-    "document/java/Java8之Stream.md"
+    "document/springboot/mybatis/mybatis扩展.md"
   ]
 }

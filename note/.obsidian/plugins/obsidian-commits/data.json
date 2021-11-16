@@ -368,19 +368,59 @@
       "size": 7749,
       "tags": 3,
       "links": 0
+    },
+    "document/springboot/test/Spring Cloud Contract 微服务契约测试.md": {
+      "size": 9190,
+      "tags": 1,
+      "links": 3
+    },
+    "document/tools/SSL证书自签名使用及监控.md": {
+      "size": 10022,
+      "tags": 2,
+      "links": 0
+    },
+    "document/tools/Python 参数解析 argparse.md": {
+      "size": 12637,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/什么是软件架构.md": {
+      "size": 1244,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/软件架构分析方法.md": {
+      "size": 253,
+      "tags": 2,
+      "links": 3
+    },
+    "document/methodology/SWOT分析.md": {
+      "size": 154,
+      "tags": 1,
+      "links": 0
+    },
+    "document/methodology/ADMEMS矩阵.md": {
+      "size": 132,
+      "tags": 1,
+      "links": 1
+    },
+    "document/methodology/RAID矩阵.md": {
+      "size": 139,
+      "tags": 1,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 139,
-      "Create": 99,
-      "Link": 115,
-      "Expand": 189
+      "Refactor": 153,
+      "Create": 107,
+      "Link": 128,
+      "Expand": 199
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 30,
+      "0": 41,
       "1": 0,
       "2": 0,
       "3": 0,
@@ -402,15 +442,15 @@
       "19": 20,
       "20": 9,
       "21": 10,
-      "22": 27,
-      "23": 47
+      "22": 35,
+      "23": 73
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 69,
-      "Tue": 159,
-      "Wed": 122,
+      "Tue": 193,
+      "Wed": 133,
       "Thu": 47,
       "Fri": 53,
       "Sat": 0,
@@ -420,6 +460,16 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python 命令行参数解析工具 argparse.md\"> Python 命令行参数解析工具 argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
@@ -460,19 +510,17 @@
         "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
         "<a class=\"internal-link\" href=\"document/javase/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async的使用.md\"> @Async的使用 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis简介.md\"> mybatis简介 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis扩展.md\"> mybatis扩展 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/test/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"未命名看板.md\"> 未命名看板 </a>",
@@ -515,17 +563,23 @@
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/NodeLocal DNSCache.md\"> NodeLocal DNSCache </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/istio/istio安装.md\"> istio安装 </a>",
-        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
-        "<a class=\"internal-link\" href=\"template/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS.md\"> ADMEMS </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADME.md\"> ADME </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADE.md\"> ADE </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/SWOT.md\"> SWOT </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python argparse.md\"> Python argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python 命令行参数解析工具 argparse.md\"> Python 命令行参数解析工具 argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/actuator/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"dashboard.md\"> dashboard </a>",
@@ -562,23 +616,18 @@
         "<a class=\"internal-link\" href=\"document/distributed/原始分布式时代.md\"> 原始分布式时代 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async的使用.md\"> @Async的使用 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
-        "<a class=\"internal-link\" href=\"document/os/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
-        "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome/chrome.md\"> chrome </a>",
-        "<a class=\"internal-link\" href=\"document/idea/idea常用插件.md\"> idea常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/idea常用插件/idea常用插件.md\"> idea常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome/chrome常用插件.md\"> chrome常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/idea/idea常用插件.md\"> idea常用插件 </a>",
-        "<a class=\"internal-link\" href=\"document/idea/idea.md\"> idea </a>",
-        "<a class=\"internal-link\" href=\"document/api/page_token page_size 分页查询.md\"> page_token page_size 分页查询 </a>",
-        "<a class=\"internal-link\" href=\"document/api/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/distributed/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
+        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
@@ -620,16 +669,7 @@
         "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>",
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/研发过程资产管理.md\"> 研发过程资产管理 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod重启和健康检查.md\"> Pod重启和健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/springboot 2.2 升级 2.3 指南.md\"> springboot 2.2 升级 2.3 指南 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/软件项目管理.md\"> 软件项目管理 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/技术文档.md\"> 技术文档 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>"
+        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -724,7 +764,11 @@
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
