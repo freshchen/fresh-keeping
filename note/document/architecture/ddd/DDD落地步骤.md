@@ -1,6 +1,6 @@
 ---
 begin: 2021-11-09
-status: ongoing
+status: done
 rating: 5
 ---
 
@@ -53,11 +53,9 @@ rating: 5
 
 [领域模型设计](领域模型设计.md)
 
-### 模型实现
-
 
 ## 参考链接
 
 
 ##### 标签
-#architecture  #DDD
+#architecture  #DDD #interview 

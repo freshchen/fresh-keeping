@@ -34,6 +34,9 @@ proxy->ssl proxying settings 添加配置
 
 ![](image/Pasted%20image%2020211107121755.png)
 
+
+### 检查主机是否开了其他代理
+
 ## 参考链接
 
 

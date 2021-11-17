@@ -219,11 +219,6 @@
       "tags": 2,
       "links": 0
     },
-    "document/ddd/DDD简介.md": {
-      "size": 2386,
-      "tags": 2,
-      "links": 3
-    },
     "document/architecture/软件复杂的发展方向.md": {
       "size": 1110,
       "tags": 1,
@@ -239,26 +234,6 @@
       "tags": 1,
       "links": 0
     },
-    "document/ddd/DDD落地步骤.md": {
-      "size": 1355,
-      "tags": 2,
-      "links": 9
-    },
-    "document/ddd/限界上下文.md": {
-      "size": 3386,
-      "tags": 2,
-      "links": 7
-    },
-    "document/ddd/贫血模型和充血模型.md": {
-      "size": 513,
-      "tags": 2,
-      "links": 1
-    },
-    "document/ddd/领域划分.md": {
-      "size": 494,
-      "tags": 2,
-      "links": 0
-    },
     "document/other/CDN简介.md": {
       "size": 684,
       "tags": 1,
@@ -267,26 +242,6 @@
     "document/other/DAU 日活跃用户数量.md": {
       "size": 536,
       "tags": 0,
-      "links": 0
-    },
-    "document/ddd/动名词建模.md": {
-      "size": 2034,
-      "tags": 2,
-      "links": 0
-    },
-    "document/ddd/四色建模法.md": {
-      "size": 1461,
-      "tags": 2,
-      "links": 4
-    },
-    "document/ddd/限界纸笔建模法.md": {
-      "size": 1367,
-      "tags": 2,
-      "links": 12
-    },
-    "document/ddd/事件风暴.md": {
-      "size": 463,
-      "tags": 2,
       "links": 0
     },
     "document/architecture/正交原则.md": {
@@ -304,16 +259,6 @@
       "tags": 0,
       "links": 0
     },
-    "document/ddd/奥卡姆剃刀原理.md": {
-      "size": 213,
-      "tags": 1,
-      "links": 0
-    },
-    "document/ddd/二八定律.md": {
-      "size": 214,
-      "tags": 1,
-      "links": 0
-    },
     "document/java/HashMap源码.md": {
       "size": 3317,
       "tags": 3,
@@ -327,11 +272,6 @@
     "document/java/TransmittableThreadLocal.md": {
       "size": 183,
       "tags": 1,
-      "links": 0
-    },
-    "document/ddd/领域模型设计.md": {
-      "size": 126,
-      "tags": 2,
       "links": 0
     },
     "document/java/Object源码.md": {
@@ -408,14 +348,79 @@
       "size": 139,
       "tags": 1,
       "links": 1
+    },
+    "document/architecture/ddd/DDD简介.md": {
+      "size": 2386,
+      "tags": 2,
+      "links": 3
+    },
+    "document/architecture/ddd/DDD落地步骤.md": {
+      "size": 1355,
+      "tags": 3,
+      "links": 9
+    },
+    "document/architecture/ddd/事件风暴.md": {
+      "size": 463,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/ddd/二八定律.md": {
+      "size": 214,
+      "tags": 1,
+      "links": 0
+    },
+    "document/architecture/ddd/动名词建模.md": {
+      "size": 2034,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/ddd/四色建模法.md": {
+      "size": 1461,
+      "tags": 2,
+      "links": 4
+    },
+    "document/architecture/ddd/奥卡姆剃刀原理.md": {
+      "size": 213,
+      "tags": 1,
+      "links": 0
+    },
+    "document/architecture/ddd/贫血模型和充血模型.md": {
+      "size": 513,
+      "tags": 2,
+      "links": 1
+    },
+    "document/architecture/ddd/限界上下文.md": {
+      "size": 3386,
+      "tags": 2,
+      "links": 7
+    },
+    "document/architecture/ddd/限界纸笔建模法.md": {
+      "size": 1367,
+      "tags": 2,
+      "links": 12
+    },
+    "document/architecture/ddd/领域划分.md": {
+      "size": 494,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/ddd/领域模型设计.md": {
+      "size": 16203,
+      "tags": 2,
+      "links": 0
+    },
+    "document/architecture/springboot连接mysql失败.md": {
+      "size": 182,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 153,
-      "Create": 107,
-      "Link": 128,
-      "Expand": 199
+      "Refactor": 169,
+      "Create": 108,
+      "Link": 130,
+      "Expand": 204
     }
   },
   "dailyCommits": {
@@ -430,16 +435,16 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 26,
-      "11": 53,
+      "10": 39,
+      "11": 55,
       "12": 88,
       "13": 13,
       "14": 83,
       "15": 40,
       "16": 58,
       "17": 17,
-      "18": 11,
-      "19": 20,
+      "18": 12,
+      "19": 28,
       "20": 9,
       "21": 10,
       "22": 35,
@@ -450,7 +455,7 @@
     "/": {
       "Mon": 69,
       "Tue": 193,
-      "Wed": 133,
+      "Wed": 157,
       "Thu": 47,
       "Fri": 53,
       "Sat": 0,
@@ -460,6 +465,11 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
@@ -505,14 +515,10 @@
         "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/design/弹性.md\"> 弹性 </a>",
-        "<a class=\"internal-link\" href=\"document/javase/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/@Async的使用.md\"> @Async的使用 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mybatis/mybatis扩展.md\"> mybatis扩展 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
@@ -562,10 +568,25 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
         "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器生命周期回调.md\"> 容器生命周期回调 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/springboot数据库连接失败.md\"> springboot数据库连接失败 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/数据库连接失败.md\"> 数据库连接失败 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/数据库连接失败.md\"> 数据库连接失败 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域划分.md\"> 领域划分 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/限界上下文.md\"> 限界上下文 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/四色建模法.md\"> 四色建模法 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/动名词建模.md\"> 动名词建模 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/二八定律.md\"> 二八定律 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/事件风暴.md\"> 事件风暴 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD简介.md\"> DDD简介 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/ADMEMS.md\"> ADMEMS </a>",
@@ -600,25 +621,11 @@
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/单一抽象层次原则.md\"> 单一抽象层次原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/面向对象设计的五大原则.md\"> 面向对象设计的五大原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/正交原则.md\"> 正交原则 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/other/DAU 日活跃用户数量.md\"> DAU 日活跃用户数量 </a>",
-        "<a class=\"internal-link\" href=\"document/other/DAU.md\"> DAU </a>",
-        "<a class=\"internal-link\" href=\"document/other/CDN简介.md\"> CDN简介 </a>",
-        "<a class=\"internal-link\" href=\"document/concept/CDN简介.md\"> CDN简介 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的发展方向.md\"> 软件复杂的发展方向 </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/CDN简介.md\"> CDN简介 </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/原始分布式时代.md\"> 原始分布式时代 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/@Async的使用.md\"> @Async的使用 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/@Async.md\"> @Async </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
@@ -667,9 +674,7 @@
         "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
         "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
         "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/caffeine/caffeine简介.md\"> caffeine简介 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",

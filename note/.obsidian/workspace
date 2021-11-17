@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "239416291b8462b9",
+        "id": "91f1e69c1ee1427f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/architecture/软件架构分析方法.md",
-            "mode": "source"
+            "file": "document/architecture/springboot连接mysql失败.md",
+            "mode": "preview"
           }
         }
       }
@@ -54,7 +54,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/architecture/软件架构分析方法.md"
+                "file": "document/architecture/springboot连接mysql失败.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/architecture/软件架构分析方法.md",
+                "file": "document/architecture/springboot连接mysql失败.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,31 +106,39 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/architecture/软件架构分析方法.md",
+                "file": "document/architecture/springboot连接mysql失败.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "013451edb87eb0d8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "239416291b8462b9",
+  "active": "91f1e69c1ee1427f",
   "lastOpenFiles": [
+    "document/architecture/springboot连接mysql失败.md",
+    "document/architecture/ddd/领域模型设计.md",
+    "document/architecture/ddd/DDD落地步骤.md",
+    "document/architecture/ddd/二八定律.md",
+    "document/architecture/ddd/领域划分.md",
+    "document/tools/charles抓包.md",
     "document/architecture/软件架构分析方法.md",
     "document/architecture/什么是软件架构.md",
     "document/methodology/ADMEMS矩阵.md",
-    "document/methodology/SWOT分析.md",
-    "document/methodology/RAID矩阵.md",
-    "document/methodology/image/admems.png",
-    "document/cloud/kubernetes/容器规范High Observability Principle.md",
-    "document/cloud/kubernetes/容器规范.md",
-    "todo.md",
-    "document/springboot/mybatis/mybatis扩展.md"
+    "document/methodology/SWOT分析.md"
   ]
 }
