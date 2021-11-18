@@ -21,9 +21,7 @@ public class LogTraceIdFilter extends OncePerRequestFilter {
                                     HttpServletResponse response,
                                     FilterChain filterChain) throws ServletException, IOException {
         String tid = request.getHeader("tid");
-        if (StringUtils.isBlank(tid)) {
-            TraceIdContextHolder.initTraceId();
-        }
+        TraceIdContextHolder.setTraceId(tid);
         filterChain.doFilter(request, response);
     }
 
