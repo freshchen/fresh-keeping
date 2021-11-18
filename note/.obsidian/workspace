@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "531189d4f641ced1",
+    "id": "c36a971271168dd1",
     "type": "split",
     "children": [
       {
-        "id": "91f1e69c1ee1427f",
+        "id": "0dcd55d146555ab3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/architecture/springboot连接mysql失败.md",
-            "mode": "preview"
+            "file": "document/java/TransmittableThreadLocal.md",
+            "mode": "source"
           }
         }
       }
@@ -54,7 +54,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/architecture/springboot连接mysql失败.md"
+                "file": "document/java/TransmittableThreadLocal.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/architecture/springboot连接mysql失败.md",
+                "file": "document/java/TransmittableThreadLocal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/architecture/springboot连接mysql失败.md",
+                "file": "document/java/TransmittableThreadLocal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "91f1e69c1ee1427f",
+  "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "document/architecture/springboot连接mysql失败.md",
-    "document/architecture/ddd/领域模型设计.md",
+    "document/java/TransmittableThreadLocal.md",
+    "document/java/InheritableThreadLocal.md",
+    "document/java/ThreadLocal.md",
+    "tools.md",
+    "index.md",
+    "todo.md",
+    "document/cloud/kubernetes/Pod健康检查.md",
+    "document/architecture/软件复杂的发展方向.md",
     "document/architecture/ddd/DDD落地步骤.md",
-    "document/architecture/ddd/二八定律.md",
-    "document/architecture/ddd/领域划分.md",
-    "document/tools/charles抓包.md",
-    "document/architecture/软件架构分析方法.md",
-    "document/architecture/什么是软件架构.md",
-    "document/methodology/ADMEMS矩阵.md",
-    "document/methodology/SWOT分析.md"
+    "document/architecture/ddd/事件风暴.md"
   ]
 }

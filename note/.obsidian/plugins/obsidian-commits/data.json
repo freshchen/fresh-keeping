@@ -150,7 +150,7 @@
       "links": 0
     },
     "document/cloud/kubernetes/Pod健康检查.md": {
-      "size": 1073,
+      "size": 6902,
       "tags": 1,
       "links": 2
     },
@@ -265,14 +265,14 @@
       "links": 5
     },
     "document/java/ThreadLocal.md": {
-      "size": 455,
-      "tags": 2,
-      "links": 0
+      "size": 2585,
+      "tags": 3,
+      "links": 3
     },
     "document/java/TransmittableThreadLocal.md": {
-      "size": 183,
+      "size": 353,
       "tags": 1,
-      "links": 0
+      "links": 1
     },
     "document/java/Object源码.md": {
       "size": 10497,
@@ -410,17 +410,27 @@
       "links": 0
     },
     "document/architecture/springboot连接mysql失败.md": {
-      "size": 182,
+      "size": 483,
       "tags": 1,
       "links": 0
+    },
+    "tools.md": {
+      "size": 145,
+      "tags": 0,
+      "links": 0
+    },
+    "document/java/InheritableThreadLocal.md": {
+      "size": 709,
+      "tags": 2,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 169,
-      "Create": 108,
-      "Link": 130,
-      "Expand": 204
+      "Refactor": 178,
+      "Create": 115,
+      "Link": 137,
+      "Expand": 222
     }
   },
   "dailyCommits": {
@@ -435,17 +445,17 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 39,
+      "10": 45,
       "11": 55,
-      "12": 88,
-      "13": 13,
-      "14": 83,
-      "15": 40,
-      "16": 58,
-      "17": 17,
-      "18": 12,
-      "19": 28,
-      "20": 9,
+      "12": 90,
+      "13": 18,
+      "14": 88,
+      "15": 42,
+      "16": 65,
+      "17": 26,
+      "18": 14,
+      "19": 29,
+      "20": 11,
       "21": 10,
       "22": 35,
       "23": 73
@@ -455,8 +465,8 @@
     "/": {
       "Mon": 69,
       "Tue": 193,
-      "Wed": 157,
-      "Thu": 47,
+      "Wed": 159,
+      "Thu": 86,
       "Fri": 53,
       "Sat": 0,
       "Sun": 92
@@ -465,6 +475,24 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
@@ -497,27 +525,16 @@
         "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/单一抽象层次原则.md\"> 单一抽象层次原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/单一抽象层次原则.md\"> 单一抽象层次原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/单一抽象层次原则.md\"> 单一抽象层次原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/单一抽象层次原则.md\"> 单一抽象层次原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/面向对象设计的五大原则.md\"> 面向对象设计的五大原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/面向对象设计的五大原则.md\"> 面向对象设计的五大原则 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/正交原则.md\"> 正交原则 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/正交原则.md\"> 正交原则 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/未命名看板.md\"> 未命名看板 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查~.md\"> Pod健康检查~ </a>",
+        "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2021-11-18 10.48.19.excalidraw.md\"> Drawing 2021-11-18 10.48.19.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"source.excalidraw/Drawing 2021-11-18 10.48.03.excalidraw.md\"> Drawing 2021-11-18 10.48.03.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2021-11-18 10.42.23.excalidraw.md\"> Drawing 2021-11-18 10.42.23.excalidraw </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
@@ -561,16 +578,13 @@
         "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
         "<a class=\"internal-link\" href=\"document/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
         "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis简介.md\"> mybatis简介 </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
-        "<a class=\"internal-link\" href=\"document/linux/linux命令.md\"> linux命令 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>"
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
+        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
+        "<a class=\"internal-link\" href=\"未命名看板.md\"> 未命名看板 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/springboot数据库连接失败.md\"> springboot数据库连接失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/数据库连接失败.md\"> 数据库连接失败 </a>",
@@ -617,13 +631,11 @@
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/transmittable-thread-local.md\"> transmittable-thread-local </a>",
         "<a class=\"internal-link\" href=\"document/springboot/transmittable-thread-local.md\"> transmittable-thread-local </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名未命名.md\"> 未命名未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/未命名未命名.md\"> 未命名未命名 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
@@ -672,9 +684,7 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/原始分布式时代.md\"> 原始分布式时代 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Distribute History.md\"> Distribute History </a>"
+        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -721,9 +731,18 @@
         "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"kanban.md\"> kanban </a>",
         "<a class=\"internal-link\" href=\"dashboard.md\"> dashboard </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2021-11-18 10.42.23.excalidraw.md\"> Drawing 2021-11-18 10.42.23.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"source.excalidraw/Drawing 2021-11-18 10.48.03.excalidraw.md\"> Drawing 2021-11-18 10.48.03.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2021-11-18 10.48.19.excalidraw.md\"> Drawing 2021-11-18 10.48.19.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查~.md\"> Pod健康检查~ </a>",
+        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
         "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
@@ -770,10 +789,7 @@
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

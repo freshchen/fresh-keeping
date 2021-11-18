@@ -11,5 +11,7 @@
   "url-into-selection",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
-  "obsidian-auto-link-title"
+  "obsidian-auto-link-title",
+  "obsidian-excalidraw-plugin",
+  "oz-image-plugin"
 ]

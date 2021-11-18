@@ -48,7 +48,8 @@
         <module>test/arch-unit</module>
         <module>tools/transmittable-thread-local</module>
         <module>ddd-archetype</module>
-<!--        编译会连接数据库代码自动生成-->
+        <module>web/spring-trace</module>
+        <!--        编译会连接数据库代码自动生成-->
 <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
 
