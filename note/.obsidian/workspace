@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "document/java/TransmittableThreadLocal.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -73,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 299,
+    "collapsed": true
   },
   "right": {
     "id": "7314f4d1aa4aa2b0",
@@ -133,12 +134,12 @@
     "document/java/TransmittableThreadLocal.md",
     "document/java/InheritableThreadLocal.md",
     "document/java/ThreadLocal.md",
-    "tools.md",
-    "index.md",
-    "todo.md",
-    "document/cloud/kubernetes/Pod健康检查.md",
-    "document/architecture/软件复杂的发展方向.md",
-    "document/architecture/ddd/DDD落地步骤.md",
-    "document/architecture/ddd/事件风暴.md"
+    "document/java/bytebuddy/ByteBuddy简介.md",
+    "document/cloud/openTelemetry/OpenTelemetry简介.md",
+    "document/cloud/log/分布式日志简介.md",
+    "document/cloud/trace/Trace简介.md",
+    "document/cloud/metrics/Metrics简介.md",
+    "document/cloud/baggage/Baggage简介.md",
+    "tools.md"
   ]
 }

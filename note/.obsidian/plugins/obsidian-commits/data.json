@@ -270,9 +270,9 @@
       "links": 3
     },
     "document/java/TransmittableThreadLocal.md": {
-      "size": 660,
+      "size": 3405,
       "tags": 1,
-      "links": 1
+      "links": 2
     },
     "document/java/Object源码.md": {
       "size": 10497,
@@ -423,14 +423,44 @@
       "size": 709,
       "tags": 2,
       "links": 1
+    },
+    "document/cloud/openTelemetry/OpenTelemetry简介.md": {
+      "size": 2925,
+      "tags": 2,
+      "links": 6
+    },
+    "document/cloud/baggage/Baggage简介.md": {
+      "size": 1277,
+      "tags": 0,
+      "links": 0
+    },
+    "document/cloud/log/分布式日志简介.md": {
+      "size": 809,
+      "tags": 0,
+      "links": 0
+    },
+    "document/cloud/metrics/Metrics简介.md": {
+      "size": 2619,
+      "tags": 0,
+      "links": 0
+    },
+    "document/cloud/trace/Trace简介.md": {
+      "size": 3376,
+      "tags": 0,
+      "links": 0
+    },
+    "document/java/bytebuddy/ByteBuddy简介.md": {
+      "size": 104,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 178,
-      "Create": 115,
-      "Link": 137,
-      "Expand": 225
+      "Refactor": 188,
+      "Create": 121,
+      "Link": 143,
+      "Expand": 242
     }
   },
   "dailyCommits": {
@@ -445,13 +475,13 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 45,
-      "11": 55,
-      "12": 90,
+      "10": 56,
+      "11": 74,
+      "12": 92,
       "13": 18,
-      "14": 88,
-      "15": 42,
-      "16": 65,
+      "14": 89,
+      "15": 47,
+      "16": 66,
       "17": 26,
       "18": 14,
       "19": 29,
@@ -463,11 +493,11 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 69,
+      "Mon": 107,
       "Tue": 193,
       "Wed": 159,
       "Thu": 88,
-      "Fri": 54,
+      "Fri": 55,
       "Sat": 0,
       "Sun": 92
     }
@@ -475,6 +505,23 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
@@ -508,26 +555,15 @@
         "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
         "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/Python 命令行参数解析工具 argparse.md\"> Python 命令行参数解析工具 argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
-        "<a class=\"internal-link\" href=\"todo.md\"> todo </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/obsidian/obsidian知识管理.md\"> obsidian知识管理 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/Python 命令行参数解析工具 argparse.md\"> Python 命令行参数解析工具 argparse </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/java/bytebuddy/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/metrics/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/log/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/baggage/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/未命名看板.md\"> 未命名看板 </a>",
@@ -572,15 +608,19 @@
         "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"todo.md\"> todo </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/Archunit-Java代码架构规范检查.md\"> Archunit-Java代码架构规范检查 </a>",
-        "<a class=\"internal-link\" href=\"document/zookeeper/zookeeper简介.md\"> zookeeper简介 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/log/Log简介.md\"> Log简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry总体架构.md\"> OpenTelemetry总体架构 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry架构.md\"> OpenTelemetry架构 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
         "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
@@ -621,19 +661,11 @@
         "<a class=\"internal-link\" href=\"kanban.md\"> kanban </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之Lambda简介.md\"> Java8之Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性之接口默认实现.md\"> Java8新特性之接口默认实现 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性之接口默认方法.md\"> Java8新特性之接口默认方法 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/transmittable-thread-local.md\"> transmittable-thread-local </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/transmittable-thread-local.md\"> transmittable-thread-local </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名未命名.md\"> 未命名未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Java8之Lambda简介.md\"> Java8之Lambda简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
@@ -682,9 +714,7 @@
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis扩展.md\"> mybatis扩展 </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis编写mapper.md\"> mybatis编写mapper </a>",
         "<a class=\"internal-link\" href=\"document/mybatis/mybatis $ 和 井 区别.md\"> mybatis $ 和 井 区别 </a>",
-        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/Graphviz 安装.md\"> Graphviz 安装 </a>",
-        "<a class=\"internal-link\" href=\"document/redisson/redisson集成springboot.md\"> redisson集成springboot </a>"
+        "<a class=\"internal-link\" href=\"document/mybatis/mybatis避免动态SQL语句错误.md\"> mybatis避免动态SQL语句错误 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -740,6 +770,10 @@
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
@@ -785,11 +819,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

@@ -24,8 +24,8 @@
         <module>tools/mapstruct</module>
         <module>springboot/spring-validation</module>
         <!--    生成的 contract stub 无仓库保存故注释-->
-<!--        <module>test/cloud-contract-provider-rest</module>-->
-<!--        <module>test/cloud-contract-consumer-rest</module>-->
+        <!--        <module>test/cloud-contract-provider-rest</module>-->
+        <!--        <module>test/cloud-contract-consumer-rest</module>-->
         <module>distributed-lock/redisson-distributed-lock</module>
         <module>distributed-lock/spring-integration-distributed-lock</module>
         <module>design-pattern</module>
@@ -49,8 +49,9 @@
         <module>tools/transmittable-thread-local</module>
         <module>ddd-archetype</module>
         <module>web/spring-trace</module>
+        <module>springboot/spring-ttl-threadpool</module>
         <!--        编译会连接数据库代码自动生成-->
-<!--        <module>sql-orm/spring-jooq</module>-->
+        <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
 
     <properties>
@@ -84,6 +85,7 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <archunit.version>0.22.0</archunit.version>
         <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
+        <opentelemetry.version>1.7.1</opentelemetry.version>
     </properties>
 
     <dependencies>
@@ -107,6 +109,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.opentelemetry</groupId>
+                <artifactId>opentelemetry-bom</artifactId>
+                <version>${opentelemetry.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -138,6 +147,11 @@
             <dependency>
                 <groupId>com.github.freshchen.keeping</groupId>
                 <artifactId>common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.freshchen.keeping</groupId>
+                <artifactId>spring-trace</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -281,7 +295,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 
 
     <licenses>

@@ -24,16 +24,16 @@ public class TtlExecutorsTest {
         ScheduledExecutorService pool = Executors.newScheduledThreadPool(2);
         IntStream.range(0, 10).forEach(value -> {
             pool.execute(() -> {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    Thread.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
                 System.out.println(Thread.currentThread().getName() + " context:" + context.get());
             });
 
         });
-        Thread.sleep(100000);
+//        Thread.sleep(100000);
     }
 
     @Test
@@ -45,11 +45,11 @@ public class TtlExecutorsTest {
         ScheduledExecutorService pool = Executors.newScheduledThreadPool(2);
         IntStream.range(0, 10).forEach(value -> {
             pool.execute(() -> {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    Thread.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
                 System.out.println(Thread.currentThread().getName() + " context:" + context.get());
             });
 
@@ -66,7 +66,7 @@ public class TtlExecutorsTest {
             });
 
         });
-        Thread.sleep(100000);
+//        Thread.sleep(100000);
     }
 
     @Test
@@ -78,11 +78,11 @@ public class TtlExecutorsTest {
         Executor ttlExecutor = TtlExecutors.getTtlExecutor(pool);
         IntStream.range(0, 10).forEach(value -> {
             ttlExecutor.execute(() -> {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    Thread.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
                 System.out.println(Thread.currentThread().getName() + " context:" + context.get());
             });
 
@@ -99,6 +99,6 @@ public class TtlExecutorsTest {
             });
 
         });
-        Thread.sleep(100000);
+//        Thread.sleep(100000);
     }
 }

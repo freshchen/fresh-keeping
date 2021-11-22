@@ -62,7 +62,10 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>com.github.freshchen.keeping</groupId>
+            <artifactId>spring-trace</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
