@@ -1,6 +1,6 @@
 ---
 begin: 2021-11-10
-status: ongoing
+status: done
 rating: 1
 ---
 
@@ -9,6 +9,8 @@ rating: 1
 用于线程池等线程复用情况下上下文信息传递。
 
 [Github](https://github.com/alibaba/transmittable-thread-local)
+
+代码中使用 TransmittableThreadLocal 定义线程变量，并且通过 java agent 增强所有 Java 线程，线程池
 
 ## 源码分析
 

@@ -9,7 +9,11 @@ rating: 1
 ```bash
       
 # 指定命名空间安装
-kubectl apply -f <>.yaml --namespace=istio-booking-demo
+kubectl apply -f <>.yaml --namespace=<>
+
+# 查看POD 详情 可以看到 POD的 IP 以及实际部署的 Node
+
+kubectl get pod -o wide
 
 ```
 

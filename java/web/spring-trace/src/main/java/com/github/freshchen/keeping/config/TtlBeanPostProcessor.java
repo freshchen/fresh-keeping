@@ -16,13 +16,13 @@ public class TtlBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-//        if (bean instanceof Executor) {
-//            Executor executor = (Executor) bean;
-//            if (TtlExecutors.isTtlWrapper(executor)) {
-//                return executor;
-//            }
-//            return TtlExecutors.getTtlExecutor(executor);
-//        }
+        if (bean instanceof Executor) {
+            Executor executor = (Executor) bean;
+            if (TtlExecutors.isTtlWrapper(executor)) {
+                return executor;
+            }
+            return TtlExecutors.getTtlExecutor(executor);
+        }
         return bean;
     }
 }

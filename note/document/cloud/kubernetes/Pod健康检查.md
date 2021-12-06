@@ -124,5 +124,7 @@ https://kubernetes.io/zh/docs/tasks/configure-pod-container/configure-liveness-r
 
 https://www.magalix.com/blog/kubernetes-and-containers-best-practices-health-probes
 
+[https://segmentfault.com/a/1190000008232770](https://segmentfault.com/a/1190000008232770)
+
 ##### 标签
 #k8s 

@@ -3,6 +3,8 @@ package com.github.freshchen.keeping;
 import com.alibaba.ttl.threadpool.TtlExecutors;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.annotation.EnableAsync;
@@ -17,6 +19,7 @@ import static com.github.freshchen.keeping.TtlThreadPoolConstants.CORE;
  * @author darcy
  * @since 2021/11/19
  */
+@ConditionalOnProperty(name = "ttl.thread.pool.default.async.enable", matchIfMissing = true)
 @EnableAsync
 @Slf4j
 @Configuration

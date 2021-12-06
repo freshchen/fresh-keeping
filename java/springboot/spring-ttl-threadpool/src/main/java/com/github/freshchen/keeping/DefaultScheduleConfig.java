@@ -16,6 +16,7 @@ import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 public class DefaultScheduleConfig implements SchedulingConfigurer {
 
     @Override
+
     public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
     }
 }
