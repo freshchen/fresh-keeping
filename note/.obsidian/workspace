@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tools.md",
-            "mode": "preview"
+            "file": "document/design/状态模式.md",
+            "mode": "source"
           }
         }
       }
@@ -54,7 +54,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools.md"
+                "file": "document/design/状态模式.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools.md",
+                "file": "document/design/状态模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools.md",
+                "file": "document/design/状态模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,15 +130,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "tools.md",
+    "document/design/状态模式.md",
+    "document/springboot/mysql/springboot连接mysql失败.md",
     "document/springboot/actuator/actuator监控.md",
-    "document/cloud/kubernetes/未命名.md",
-    "document/cloud/kubernetes/Pod健康检查.md",
     "document/java/TransmittableThreadLocal.md",
-    "document/springboot/mysql/JDBC使用Java8的日期.md",
-    "document/cloud/istio/配置 Istio 注入.md",
-    "document/cloud/istio/istio安装.md",
-    "document/cloud/kubernetes/k8s命令.md",
-    "document/architecture/Archunit-Java代码架构规范检查.md"
+    "document/java/InheritableThreadLocal.md",
+    "document/java/ThreadLocal.md",
+    "document/java/bytebuddy/ByteBuddy简介.md",
+    "document/cloud/openTelemetry/OpenTelemetry简介.md",
+    "document/cloud/log/分布式日志简介.md",
+    "document/cloud/trace/Trace简介.md"
   ]
 }

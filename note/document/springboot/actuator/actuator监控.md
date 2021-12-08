@@ -54,5 +54,7 @@ POST http://localhost:8080/shutdown
 ## 参考链接
 https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
 
+[Spring Boot 2.3 新特性优雅停机详解 - 冷冷沉思录 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/giegie/blog/4282378)
+
 ##### 标签
 #springboot 
