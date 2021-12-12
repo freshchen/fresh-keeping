@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.12.RELEASE</version>
+        <version>2.5.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github.freshchen.keeping</groupId>
@@ -29,9 +29,9 @@
         <module>distributed-lock/redisson-distributed-lock</module>
         <module>distributed-lock/spring-integration-distributed-lock</module>
         <module>design-pattern</module>
-        <module>remote-call/spring-fegin-hytrix-sdk</module>
-        <module>remote-call/spring-fegin-hytrix-server</module>
-        <module>remote-call/spring-fegin-hytrix-client</module>
+<!--        <module>remote-call/spring-fegin-hytrix-sdk</module>-->
+<!--        <module>remote-call/spring-fegin-hytrix-server</module>-->
+<!--        <module>remote-call/spring-fegin-hytrix-client</module>-->
         <module>web/spring-web</module>
         <module>cache/spring-cache</module>
         <module>sql-orm/spring-tx</module>
@@ -51,13 +51,17 @@
         <module>web/spring-trace</module>
         <module>springboot/spring-ttl-threadpool</module>
         <module>springboot/statemachine</module>
+        <module>remote-call/order-fegin-contract</module>
+        <module>remote-call/order-fegin-client</module>
+        <module>remote-call/order-fegin</module>
+        <module>remote-call/mall-fegin</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
 
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+        <spring-cloud.version>2020.0.4</spring-cloud.version>
         <docker.image.version>latest</docker.image.version>
         <apollo.version>1.4.0</apollo.version>
         <guava.version>29.0-jre</guava.version>
