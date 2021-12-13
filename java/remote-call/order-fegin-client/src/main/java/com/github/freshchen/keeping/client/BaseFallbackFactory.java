@@ -15,5 +15,5 @@ public abstract class BaseFallbackFactory<T> implements FallbackFactory<T> {
         return createFallback();
     }
 
-    abstract T createFallback();
+    public abstract T createFallback();
 }

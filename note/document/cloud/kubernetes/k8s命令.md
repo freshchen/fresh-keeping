@@ -15,6 +15,13 @@ kubectl apply -f <>.yaml --namespace=<>
 
 kubectl get pod -o wide
 
+# 查看POD label
+kubectl get pod --show-labels
+
+# 指定label查找
+
+kubectl get pod -l app=order
+
 ```
 
 

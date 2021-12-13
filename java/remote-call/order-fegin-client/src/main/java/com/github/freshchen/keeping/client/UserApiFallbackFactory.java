@@ -12,7 +12,7 @@ import java.util.List;
  **/
 public class UserApiFallbackFactory extends BaseFallbackFactory<UserApi> {
     @Override
-    UserApi createFallback() {
+    public UserApi createFallback() {
         return new UserApi() {
             @Override
             public JsonResult<Void> create(UserDTO dto) {

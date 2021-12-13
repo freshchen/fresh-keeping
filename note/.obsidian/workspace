@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/design/状态模式.md",
+            "file": "document/springboot/Spring 配置.md",
             "mode": "source"
           }
         }
@@ -54,7 +54,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/design/状态模式.md"
+                "file": "document/springboot/Spring 配置.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/design/状态模式.md",
+                "file": "document/springboot/Spring 配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/design/状态模式.md",
+                "file": "document/springboot/Spring 配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,15 +130,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "document/design/状态模式.md",
-    "document/springboot/mysql/springboot连接mysql失败.md",
-    "document/springboot/actuator/actuator监控.md",
-    "document/java/TransmittableThreadLocal.md",
-    "document/java/InheritableThreadLocal.md",
-    "document/java/ThreadLocal.md",
-    "document/java/bytebuddy/ByteBuddy简介.md",
-    "document/cloud/openTelemetry/OpenTelemetry简介.md",
-    "document/cloud/log/分布式日志简介.md",
-    "document/cloud/trace/Trace简介.md"
+    "document/springboot/Spring 配置.md",
+    "document/springboot/openfeign/openfeign源码.md",
+    "document/springboot/openfeign/openfeign使用注意.md",
+    "document/cloud/kubernetes/k8s实战笔记书籍.md",
+    "document/cloud/kubernetes/k8s命令.md",
+    "document/design/有限状态机.md",
+    "document/springboot/statemachine/Spring StateMachine.md",
+    "document/design/design-pattern/状态模式.md",
+    "document/design/design-pattern/设计模式.md",
+    "index.md"
   ]
 }

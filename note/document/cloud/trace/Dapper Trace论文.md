@@ -4,11 +4,12 @@ status: ongoing
 rating: 1
 ---
 
-# 状态模式
+# Dapper论文
 
-![](image/Pasted%20image%2020211208233418.png)
+![](image/Dapper.pdf)
 
 ## 参考链接
 
 
 ##### 标签
+#trace #distributed 
