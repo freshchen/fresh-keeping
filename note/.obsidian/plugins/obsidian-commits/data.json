@@ -520,12 +520,12 @@
       "links": 0
     },
     "document/springboot/openfeign/openfeign源码.md": {
-      "size": 191,
+      "size": 379,
       "tags": 2,
       "links": 0
     },
     "document/springboot/Spring 配置.md": {
-      "size": 327,
+      "size": 540,
       "tags": 2,
       "links": 1
     }
@@ -535,7 +535,7 @@
       "Refactor": 226,
       "Create": 142,
       "Link": 173,
-      "Expand": 282
+      "Expand": 284
     }
   },
   "dailyCommits": {
@@ -560,7 +560,7 @@
       "17": 32,
       "18": 17,
       "19": 38,
-      "20": 32,
+      "20": 34,
       "21": 10,
       "22": 35,
       "23": 75
@@ -568,7 +568,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 130,
+      "Mon": 132,
       "Tue": 228,
       "Wed": 195,
       "Thu": 116,
@@ -580,6 +580,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
@@ -628,9 +630,7 @@
         "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
