@@ -155,7 +155,7 @@
       "links": 2
     },
     "document/cloud/kubernetes/k8s命令.md": {
-      "size": 421,
+      "size": 390,
       "tags": 2,
       "links": 0
     },
@@ -209,16 +209,6 @@
       "tags": 0,
       "links": 0
     },
-    "document/distributed/原始分布式时代.md": {
-      "size": 545,
-      "tags": 2,
-      "links": 0
-    },
-    "document/distributed/Distribute History.md": {
-      "size": 149,
-      "tags": 2,
-      "links": 0
-    },
     "document/architecture/软件复杂的发展方向.md": {
       "size": 1110,
       "tags": 1,
@@ -270,7 +260,7 @@
       "links": 3
     },
     "document/java/TransmittableThreadLocal.md": {
-      "size": 4188,
+      "size": 4065,
       "tags": 1,
       "links": 3
     },
@@ -410,7 +400,7 @@
       "links": 0
     },
     "tools.md": {
-      "size": 205,
+      "size": 199,
       "tags": 0,
       "links": 0
     },
@@ -449,93 +439,93 @@
       "tags": 0,
       "links": 0
     },
-    "document/springboot/spring-boot二方库开发.md": {
-      "size": 630,
-      "tags": 1,
-      "links": 0
-    },
     "document/cloud/istio/Istio.md": {
-      "size": 434,
+      "size": 405,
       "tags": 1,
       "links": 0
     },
     "document/cloud/istio/配置 Istio 注入.md": {
-      "size": 385,
+      "size": 357,
+      "tags": 1,
+      "links": 0
+    },
+    "document/springboot/spring-boot二方库开发.md": {
+      "size": 594,
       "tags": 1,
       "links": 0
     },
     "document/springboot/mysql/JDBC使用Java8的日期.md": {
-      "size": 1533,
+      "size": 1492,
       "tags": 2,
       "links": 1
     },
-    "document/springboot/mysql/springboot连接mysql失败.md": {
-      "size": 483,
-      "tags": 1,
+    "document/tools/git/分支对比.md": {
+      "size": 408,
+      "tags": 2,
+      "links": 1
+    },
+    "document/springboot/jackson/ObjectMapper 配置.md": {
+      "size": 544,
+      "tags": 0,
       "links": 0
-    },
-    "document/cloud/kubernetes/k8s实战笔记书籍.md": {
-      "size": 203,
-      "tags": 1,
-      "links": 1
-    },
-    "document/cloud/trace/Dapper Trace论文.md": {
-      "size": 157,
-      "tags": 2,
-      "links": 1
-    },
-    "document/cloud/trace/zipkin/Zipkin Brave简介.md": {
-      "size": 4677,
-      "tags": 2,
-      "links": 0
-    },
-    "document/design/design-pattern/状态模式.md": {
-      "size": 430,
-      "tags": 1,
-      "links": 1
-    },
-    "document/design/design-pattern/设计模式.md": {
-      "size": 176,
-      "tags": 2,
-      "links": 1
-    },
-    "document/design/有限状态机.md": {
-      "size": 2294,
-      "tags": 2,
-      "links": 4
     },
     "document/springboot/cloud-sleuth/Sleuth 简介.md": {
-      "size": 2641,
+      "size": 2587,
       "tags": 1,
       "links": 3
     },
-    "document/springboot/jackson/ObjectMapper 配置.md": {
-      "size": 572,
+    "document/cloud/trace/zipkin/Zipkin Brave简介.md": {
+      "size": 4612,
+      "tags": 2,
+      "links": 0
+    },
+    "document/cloud/trace/Dapper Trace论文.md": {
+      "size": 143,
+      "tags": 2,
+      "links": 1
+    },
+    "document/cloud/kubernetes/k8s实战笔记书籍.md": {
+      "size": 190,
+      "tags": 1,
+      "links": 1
+    },
+    "document/springboot/mysql/springboot连接mysql失败.md": {
+      "size": 480,
+      "tags": 1,
+      "links": 0
+    },
+    "document/design/design-pattern/状态模式.md": {
+      "size": 416,
+      "tags": 1,
+      "links": 1
+    },
+    "document/design/有限状态机.md": {
+      "size": 2024,
+      "tags": 2,
+      "links": 4
+    },
+    "document/design/design-pattern/设计模式.md": {
+      "size": 161,
+      "tags": 2,
+      "links": 1
+    },
+    "document/springboot/statemachine/Spring StateMachine.md": {
+      "size": 107,
       "tags": 0,
       "links": 0
     },
     "document/springboot/openfeign/openfeign使用注意.md": {
-      "size": 525,
+      "size": 494,
       "tags": 1,
       "links": 0
     },
     "document/springboot/openfeign/openfeign源码.md": {
-      "size": 403,
+      "size": 379,
       "tags": 2,
       "links": 0
-    },
-    "document/springboot/statemachine/Spring StateMachine.md": {
-      "size": 120,
-      "tags": 0,
-      "links": 0
-    },
-    "document/tools/git/分支对比.md": {
-      "size": 435,
-      "tags": 2,
-      "links": 1
     },
     "document/springboot/Spring 配置类.md": {
-      "size": 1274,
+      "size": 1230,
       "tags": 2,
       "links": 1
     },
@@ -543,14 +533,39 @@
       "size": 111,
       "tags": 1,
       "links": 0
+    },
+    "document/tools/maven/Maven脚手架.md": {
+      "size": 714,
+      "tags": 1,
+      "links": 2
+    },
+    "document/java/ThreadLocal源码分析.md": {
+      "size": 4387,
+      "tags": 1,
+      "links": 1
+    },
+    "document/tools/markdown/markdown目录描述.md": {
+      "size": 1411,
+      "tags": 0,
+      "links": 0
+    },
+    "document/os/linux/SSL证书自签名使用及监控.md": {
+      "size": 10028,
+      "tags": 1,
+      "links": 0
+    },
+    "document/java/Java四种引用类型.md": {
+      "size": 752,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 194,
-      "Create": 140,
-      "Link": 171,
-      "Expand": 249
+      "Refactor": 235,
+      "Create": 150,
+      "Link": 182,
+      "Expand": 303
     }
   },
   "dailyCommits": {
@@ -565,108 +580,118 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 56,
-      "11": 74,
-      "12": 92,
-      "13": 18,
-      "14": 89,
-      "15": 47,
-      "16": 66,
-      "17": 26,
-      "18": 17,
-      "19": 29,
-      "20": 11,
+      "10": 60,
+      "11": 106,
+      "12": 118,
+      "13": 19,
+      "14": 97,
+      "15": 81,
+      "16": 82,
+      "17": 33,
+      "18": 30,
+      "19": 38,
+      "20": 34,
       "21": 10,
-      "22": 69,
-      "23": 98
+      "22": 35,
+      "23": 75
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 147,
-      "Tue": 193,
-      "Wed": 176,
-      "Thu": 88,
-      "Fri": 55,
+      "Mon": 156,
+      "Tue": 228,
+      "Wed": 195,
+      "Thu": 129,
+      "Fri": 69,
       "Sat": 0,
-      "Sun": 95
+      "Sun": 93
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
-        "<a class=\"internal-link\" href=\"document/springboot/spring/IOC容器.md\"> IOC容器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s命令.md\"> k8s命令 </a>",
-        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s命令.md\"> k8s命令 </a>",
-        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator/actuator监控.md\"> actuator监控 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>"
-      ],
-      "Created": [
-        "<a class=\"internal-link\" href=\"document/springboot/spring/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/statemachine/Spring StateMachine.md\"> Spring StateMachine </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/markdown/markdown目录描述.md\"> markdown目录描述 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign使用注意.md\"> openfeign使用注意 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s命令.md\"> k8s命令 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/statemachine/Spring StateMachine.md\"> Spring StateMachine </a>",
         "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
         "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
         "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/actuator/actuator监控.md\"> actuator监控 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Brave简介.md\"> Brave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>"
+      ],
+      "Created": [
+        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/os/linux/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/markdown/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/spring/IOC容器.md\"> IOC容器 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置类.md\"> Spring 配置类 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfegin/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/statemachine/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/design/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/配置 Istio 注入.md\"> 配置 Istio 注入 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/Istio.md\"> Istio </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/spring-boot二方库开发.md\"> spring-boot二方库开发 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/jackson/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/git/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/bytebuddy/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/metrics/未命名.md\"> 未命名 </a>",
@@ -688,23 +713,47 @@
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jooq/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"未命名看板.md\"> 未命名看板 </a>",
-        "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/test/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
-        "<a class=\"internal-link\" href=\"document/springboot/spring/IOC容器.md\"> IOC容器 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置类.md\"> Spring 配置类 </a>",
-        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/markdown/markdown目录描述.md\"> markdown目录描述 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/markdown/目录描述.md\"> 目录描述 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign使用注意.md\"> openfeign使用注意 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/使用注意.md\"> 使用注意 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/openfegin/使用注意.md\"> 使用注意 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/statemachine/Spring StateMachine.md\"> Spring StateMachine </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/statemachine/StateMachine.md\"> StateMachine </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/实战笔记书籍.md\"> 实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/实战书籍.md\"> 实战书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper论文.md\"> Dapper论文 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper.md\"> Dapper </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/ZiBrave简介.md\"> ZiBrave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Brave简介.md\"> Brave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/简介.md\"> 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC.md\"> JDBC </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/spring-boot二方库开发.md\"> spring-boot二方库开发 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/spring-boot库类开发之 SPI.md\"> spring-boot库类开发之 SPI </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/spring boot 库类开发之 SPI.md\"> spring boot 库类开发之 SPI </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/spring boot SPI.md\"> spring boot SPI </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/配置 Istio 注入.md\"> 配置 Istio 注入 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/关闭 Istio 注入.md\"> 关闭 Istio 注入 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/Istio.md\"> Istio </a>",
         "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
@@ -717,60 +766,32 @@
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
-        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
-        "<a class=\"internal-link\" href=\"未命名看板.md\"> 未命名看板 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/springboot数据库连接失败.md\"> springboot数据库连接失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/数据库连接失败.md\"> 数据库连接失败 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/数据库连接失败.md\"> 数据库连接失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/领域划分.md\"> 领域划分 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/动名词建模.md\"> 动名词建模 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/事件风暴.md\"> 事件风暴 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD简介.md\"> DDD简介 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS.md\"> ADMEMS </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADME.md\"> ADME </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADE.md\"> ADE </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/SWOT.md\"> SWOT </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/Python argparse.md\"> Python argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/Python 命令行参数解析工具 argparse.md\"> Python 命令行参数解析工具 argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator/actuator监控.md\"> actuator监控 </a>",
-        "<a class=\"internal-link\" href=\"dashboard.md\"> dashboard </a>"
+        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
+        "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置类.md\"> Spring 配置类 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/spring/IOC容器.md\"> IOC容器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign使用注意.md\"> openfeign使用注意 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/mysql/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/Istio.md\"> Istio </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/配置 Istio 注入.md\"> 配置 Istio 注入 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/spring-boot二方库开发.md\"> spring-boot二方库开发 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/Istio.md\"> Istio </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/istio/配置 Istio 注入.md\"> 配置 Istio 注入 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
@@ -798,13 +819,7 @@
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/面向对象设计的五大原则.md\"> 面向对象设计的五大原则 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/事件风暴.md\"> 事件风暴 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界纸笔建模法.md\"> 限界纸笔建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/动名词建模.md\"> 动名词建模 </a>",
-        "<a class=\"internal-link\" href=\"document/chrome常用插件/chrome常用插件.md\"> chrome常用插件 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -815,7 +830,7 @@
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
         "<a class=\"internal-link\" href=\"todo.md\"> todo </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/spring/IOC容器.md\"> IOC容器 </a>"
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",
@@ -858,18 +873,30 @@
         "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2021-11-18 10.48.19.excalidraw.md\"> Drawing 2021-11-18 10.48.19.excalidraw </a>",
         "<a class=\"internal-link\" href=\"document/cloud/kubernetes/Pod健康检查~.md\"> Pod健康检查~ </a>",
         "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
-        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>"
+        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>",
+        "<a class=\"internal-link\" href=\"document/distributed/原始分布式时代.md\"> 原始分布式时代 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Linked": [
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置类.md\"> Spring 配置类 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
+        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
+        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
-        "<a class=\"internal-link\" href=\"document/design/状态模式.md\"> 状态模式 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
@@ -906,12 +933,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/四色建模法.md\"> 四色建模法 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
