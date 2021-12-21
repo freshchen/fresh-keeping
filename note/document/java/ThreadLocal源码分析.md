@@ -97,7 +97,7 @@ private void set(ThreadLocal<?> key, Object value) {
 	int len = tab.length;
 	// 类似 hashmap 算 hash 定位桶，threadLocalHashCode 每次递增 0x61c88647（斐波那契数），使得分布更加均匀
 	int i = key.threadLocalHashCode & (len-1);
-	// 处理碰撞
+	// 通过开放地址法处理碰撞，直到找到null的桶
 	for (Entry e = tab[i];
 		 e != null;
 		 e = tab[i = nextIndex(i, len)]) {
@@ -109,6 +109,7 @@ private void set(ThreadLocal<?> key, Object value) {
 		}
 		// 
 		if (k == null) {
+			// 此时说明 Entry 过期了，也就是 ThreadLocal 被 GC 回收了，进行一次整理，释放掉泄漏的 value，然后占用这个桶
 			replaceStaleEntry(key, value, i);
 			return;
 		}
@@ -116,6 +117,7 @@ private void set(ThreadLocal<?> key, Object value) {
 
 	tab[i] = new Entry(key, value);
 	int sz = ++size;
+	// 统一清理一次过期的 Entry，如果还是满了，则执行2倍扩容
 	if (!cleanSomeSlots(i, sz) && sz >= threshold)
 		rehash();
 }
