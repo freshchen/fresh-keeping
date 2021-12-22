@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/java/ThreadLocal源码分析.md",
+            "file": "document/java/TransmittableThreadLocal源码.md",
             "mode": "preview"
           }
         }
@@ -54,7 +54,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/java/ThreadLocal源码分析.md"
+                "file": "document/java/TransmittableThreadLocal源码.md"
               }
             }
           },
@@ -69,12 +69,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 299,
+    "collapsed": true
   },
   "right": {
     "id": "7314f4d1aa4aa2b0",
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/java/ThreadLocal源码分析.md",
+                "file": "document/java/TransmittableThreadLocal源码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/java/ThreadLocal源码分析.md",
+                "file": "document/java/TransmittableThreadLocal源码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
+    "document/java/TransmittableThreadLocal源码.md",
+    "document/java/TransmittableThreadLocal.md",
     "document/java/ThreadLocal源码分析.md",
+    "document/java/image/Pasted image 20211220164453.png",
+    "document/java/image/Pasted image 20211114232823.png",
+    "document/java/image/Pasted image 20211020112905.png",
     "document/java/Java四种引用类型.md",
     "document/java/Object源码.md",
     "document/java/ThreadLocal.md",
-    "document/java/TransmittableThreadLocal.md",
-    "document/os/linux/SSL证书自签名使用及监控.md",
-    "document/tools/未命名.md",
-    "index.md",
-    "document/tools/markdown/markdown目录描述.md",
-    "document/tools/maven/Maven脚手架.md"
+    "document/os/linux/SSL证书自签名使用及监控.md"
   ]
 }

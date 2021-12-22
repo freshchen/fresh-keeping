@@ -540,7 +540,7 @@
       "links": 2
     },
     "document/java/ThreadLocal源码分析.md": {
-      "size": 4387,
+      "size": 8612,
       "tags": 1,
       "links": 1
     },
@@ -558,14 +558,19 @@
       "size": 752,
       "tags": 1,
       "links": 0
+    },
+    "document/java/TransmittableThreadLocal源码.md": {
+      "size": 1264,
+      "tags": 1,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 235,
-      "Create": 150,
-      "Link": 182,
-      "Expand": 303
+      "Refactor": 236,
+      "Create": 151,
+      "Link": 184,
+      "Expand": 310
     }
   },
   "dailyCommits": {
@@ -580,7 +585,7 @@
       "7": 0,
       "8": 2,
       "9": 8,
-      "10": 60,
+      "10": 63,
       "11": 106,
       "12": 118,
       "13": 19,
@@ -590,8 +595,8 @@
       "17": 33,
       "18": 30,
       "19": 38,
-      "20": 34,
-      "21": 10,
+      "20": 38,
+      "21": 14,
       "22": 35,
       "23": 75
     }
@@ -600,7 +605,7 @@
     "/": {
       "Mon": 156,
       "Tue": 228,
-      "Wed": 195,
+      "Wed": 206,
       "Thu": 129,
       "Fri": 69,
       "Sat": 0,
@@ -610,6 +615,13 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
@@ -653,16 +665,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Brave简介.md\"> Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
@@ -712,10 +718,10 @@
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
         "<a class=\"internal-link\" href=\"document/tools/markdown/markdown目录描述.md\"> markdown目录描述 </a>",
@@ -765,10 +771,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry架构.md\"> OpenTelemetry架构 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>",
         "<a class=\"internal-link\" href=\"tools.md\"> tools </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
@@ -818,8 +824,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/二八定律.md\"> 二八定律 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -883,6 +888,7 @@
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置类.md\"> Spring 配置类 </a>",
@@ -932,8 +938,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
