@@ -55,6 +55,7 @@
         <module>remote-call/order-fegin-client</module>
         <module>remote-call/order-fegin</module>
         <module>remote-call/mall-fegin</module>
+        <module>springboot/spring-property-spi</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>

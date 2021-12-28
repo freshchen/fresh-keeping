@@ -12,6 +12,8 @@ rating: 1
 
 上文 [ThreadLocal源码分析](ThreadLocal源码分析.md) 对 ThreadLocal 以及 InheritableThreadLocal 有大致的了解，本文探讨 TransmittableThreadLocal 究竟是如何解决线程池上下文传递问题的。
 
+[https://github.com/alibaba/transmittable-thread-local/blob/master/docs/performance-test.md](https://github.com/alibaba/transmittable-thread-local/blob/master/docs/performance-test.md)
+
 # 源码分析
 
 >transmittable-thread-local 2.12.2
