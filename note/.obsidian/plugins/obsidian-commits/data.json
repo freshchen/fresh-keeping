@@ -560,17 +560,27 @@
       "links": 0
     },
     "document/java/TransmittableThreadLocal源码.md": {
-      "size": 1264,
+      "size": 2128,
       "tags": 1,
+      "links": 1
+    },
+    "document/springboot/Spring基于注解和配置文件实现SPI机制.md": {
+      "size": 5243,
+      "tags": 2,
+      "links": 0
+    },
+    "document/springboot/cloud-sleuth/Sleuth自动配置.md": {
+      "size": 2587,
+      "tags": 0,
       "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 236,
-      "Create": 151,
-      "Link": 184,
-      "Expand": 310
+      "Refactor": 238,
+      "Create": 153,
+      "Link": 187,
+      "Expand": 330
     }
   },
   "dailyCommits": {
@@ -586,17 +596,17 @@
       "8": 2,
       "9": 8,
       "10": 63,
-      "11": 106,
-      "12": 118,
-      "13": 19,
-      "14": 97,
+      "11": 111,
+      "12": 122,
+      "13": 21,
+      "14": 100,
       "15": 81,
       "16": 82,
-      "17": 33,
-      "18": 30,
-      "19": 38,
-      "20": 38,
-      "21": 14,
+      "17": 40,
+      "18": 33,
+      "19": 39,
+      "20": 39,
+      "21": 15,
       "22": 35,
       "23": 75
     }
@@ -605,8 +615,8 @@
     "/": {
       "Mon": 156,
       "Tue": 228,
-      "Wed": 206,
-      "Thu": 129,
+      "Wed": 232,
+      "Thu": 130,
       "Fri": 69,
       "Sat": 0,
       "Sun": 93
@@ -615,6 +625,26 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
@@ -645,29 +675,11 @@
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign使用注意.md\"> openfeign使用注意 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s命令.md\"> k8s命令 </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/statemachine/Spring StateMachine.md\"> Spring StateMachine </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/actuator/actuator监控.md\"> actuator监控 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/未命名.md\"> 未命名 </a>",
@@ -716,11 +728,11 @@
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
@@ -769,11 +781,11 @@
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry总体架构.md\"> OpenTelemetry总体架构 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry架构.md\"> OpenTelemetry架构 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"tools.md\"> tools </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
         "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
@@ -822,9 +834,7 @@
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/奥卡姆剃刀原理.md\"> 奥卡姆剃刀原理 </a>"
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -888,6 +898,7 @@
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
@@ -937,8 +948,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

@@ -16,5 +16,7 @@
   "showFrontmatter": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
-  "communityThemeSortOrder": "download"
+  "communityThemeSortOrder": "download",
+  "legacyEditor": false,
+  "livePreview": true
 }
