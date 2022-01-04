@@ -7,6 +7,9 @@ rating: 1
 # Sleuth自动配置
 
 [Spring Cloud Sleuth Reference Documentation](https://docs.spring.io/spring-cloud-sleuth/docs/3.0.4/reference/htmlsingle/#common-application-properties)
+[brave/brave at master · openzipkin/brave · GitHub](https://github.com/openzipkin/brave/tree/master/brave)
+[brave/brave at master · openzipkin/brave · GitHub](https://github.com/openzipkin/brave/tree/master/brave#baggage)
+[brave/instrumentation/http at master · openzipkin/brave · GitHub](https://github.com/openzipkin/brave/tree/master/instrumentation/http)
 
 
 ### TraceWebServletConfiguration
@@ -57,7 +60,131 @@ org.springframework.cloud.sleuth.zipkin2.RestTemplateSender#sendSpans 通过 dea
 [{"traceId":"ee2037edf4679df9","id":"ee2037edf4679df9","kind":"SERVER","name":"get /trace3","timestamp":1640783010184175,"duration":7924950,"localEndpoint":{"serviceName":"test","ipv4":"172.18.6.142"},"remoteEndpoint":{"ipv6":"::1","port":60781},"tags":{"http.method":"GET","http.path":"/trace3","mvc.controller.class":"Trace","mvc.controller.method":"trace3"}}]
 
 
+
+## BraveAutoConfiguration
+注册关键 bean Tracer
+
+`@Value("${spring.zipkin.service.name:${spring.application.name:default}}")`
+
+BraveBridgeConfiguration
+
+
+id 生成 brave.propagation.TraceContext#traceIdString
+
+## ZipkinAutoConfiguration
+配置 Reporter
+
+
+采样率是全局的，因此需要对接口指定采样
+
+### BraveRedisAutoConfiguration
+
+
+# 扩展发送到
+
+```java
+@Builder
+public class ZipkinRpcSender extends Sender {
+
+    final int messageMaxBytes;
+    final BytesMessageEncoder messageEncoder;
+    volatile boolean closeCalled;
+
+    @Override
+    public Encoding encoding() {
+        return Encoding.JSON;
+    }
+
+    @Override
+    public int messageMaxBytes() {
+        return messageMaxBytes;
+    }
+
+    @Override
+    public int messageSizeInBytes(List<byte[]> encodedSpans) {
+        return encoding().listSizeInBytes(encodedSpans);
+    }
+
+    @Override
+    public Call<Void> sendSpans(List<byte[]> encodedSpans) {
+        if (closeCalled) {
+            throw new ClosedSenderException();
+        }
+        byte[] encode = messageEncoder.encode(encodedSpans);
+        return new BrpcCall(encode);
+    }
+
+    @Override
+    public void close() throws IOException {
+        this.closeCalled = true;
+    }
+
+    @AllArgsConstructor
+    @Slf4j
+    static class BrpcCall extends Call.Base<Void> {
+
+        private final byte[] message;
+
+        @Override
+        protected Void doExecute() throws IOException {
+            System.out.println(new String(message, StandardCharsets.UTF_8));
+            return null;
+        }
+
+        @Override
+        protected void doEnqueue(Callback<Void> callback) {
+            try {
+                System.out.println(new String(message, StandardCharsets.UTF_8));
+                callback.onSuccess(null);
+            } catch (RuntimeException | Error e) {
+                callback.onError(e);
+            }
+        }
+
+        @Override
+        public Call<Void> clone() {
+            return new ZipkinRpcSender.BrpcCall(this.message);
+        }
+
+    }
+}
+```
+
+```java
+@Configuration(proxyBeanMethods = false)
+@ConditionalOnMissingBean(name = ZipkinAutoConfiguration.SENDER_BEAN_NAME)
+@ConditionalOnProperty(value = "spring.zipkin.sender.type", havingValue = "rpc", matchIfMissing = false)
+@AutoConfigureAfter(rpc的自动化配置)
+public class ZipkinBrpcSenderConfiguration {
+
+    @Configuration(proxyBeanMethods = false)
+//    @ConditionalOnBean(ActiveMQConnectionFactory.class)
+    static class ZipkinRpcSenderBeanConfiguration {
+
+        /**
+         * 默认超过 1M 的 Span 丢弃
+         */
+        @Value("${spring.zipkin.rpc.message-max-bytes:1048576}")
+        private int messageMaxBytes;
+
+        @Bean(ZipkinAutoConfiguration.SENDER_BEAN_NAME)
+        Sender rpcSender() {
+            return ZipkinRpcSender.builder()
+                .messageMaxBytes(messageMaxBytes)
+                .messageEncoder(BytesMessageEncoder.JSON)
+                .build();
+        }
+
+    }
+
+}
+
+```
+
+
 ## 参考链接
 
+[spring-cloud-sleuth源码学习二 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1884429?from=10680)
+[spring-cloud-sleuth源码学习三 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1886833?from=10680)
 
 ##### 标签

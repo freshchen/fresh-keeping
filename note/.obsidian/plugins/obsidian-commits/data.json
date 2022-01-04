@@ -570,17 +570,22 @@
       "links": 0
     },
     "document/springboot/cloud-sleuth/Sleuth自动配置.md": {
-      "size": 2587,
+      "size": 6149,
       "tags": 0,
       "links": 1
+    },
+    "document/cloud/trace/Dapper 论文阅读笔记.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 238,
-      "Create": 153,
+      "Refactor": 239,
+      "Create": 154,
       "Link": 187,
-      "Expand": 330
+      "Expand": 333
     }
   },
   "dailyCommits": {
@@ -597,13 +602,13 @@
       "9": 8,
       "10": 63,
       "11": 111,
-      "12": 122,
+      "12": 123,
       "13": 21,
       "14": 100,
       "15": 81,
       "16": 82,
-      "17": 40,
-      "18": 33,
+      "17": 43,
+      "18": 34,
       "19": 39,
       "20": 39,
       "21": 15,
@@ -613,11 +618,11 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 156,
-      "Tue": 228,
+      "Mon": 158,
+      "Tue": 229,
       "Wed": 232,
-      "Thu": 130,
-      "Fri": 69,
+      "Thu": 131,
+      "Fri": 70,
       "Sat": 0,
       "Sun": 93
     }
@@ -625,6 +630,9 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
@@ -672,12 +680,10 @@
         "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
         "<a class=\"internal-link\" href=\"document/tools/maven/Maven脚手架.md\"> Maven脚手架 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/openfeign/openfeign源码.md\"> openfeign源码 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
@@ -727,10 +733,10 @@
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper 论文阅读笔记.md\"> Dapper 论文阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
@@ -780,8 +786,7 @@
         "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry总体架构.md\"> OpenTelemetry总体架构 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry架构.md\"> OpenTelemetry架构 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/架构.md\"> 架构 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry架构.md\"> OpenTelemetry架构 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
