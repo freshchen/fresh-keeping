@@ -38,7 +38,7 @@ LazyTracingFilter 是 servlet 拦截器，拦截器顺序 spring.sleuth.web.filt
 	- brave.http.HttpRequestParser.Default#parse 指定 trace 的名称
 ![](image/Pasted%20image%2020211229181647.png)
 
-
+brave.Tracer#_toSpan
 
 执行业务请求
 
@@ -55,9 +55,19 @@ SpanFilter 可以控制是不是要上报，默认有个根据 名字过滤
 spring.sleuth.span-filter.enabled
 SpanIgnoringSpanFilter，配置如下spring.sleuth.span-filter
 
+
+brave.internal.handler.NoopAwareSpanHandler.CompositeSpanHandler#end
+org.springframework.cloud.sleuth.brave.bridge.CompositeSpanHandler#shouldProcess
+zipkin2.reporter.brave.ZipkinSpanHandler#end
+
+如果没采样是 brave.Span#isNoop NoopSpan 其他是RealSpan
+
+
 org.springframework.cloud.sleuth.zipkin2.RestTemplateSender#sendSpans 通过 deamon 都线程后台发送
 
 [{"traceId":"ee2037edf4679df9","id":"ee2037edf4679df9","kind":"SERVER","name":"get /trace3","timestamp":1640783010184175,"duration":7924950,"localEndpoint":{"serviceName":"test","ipv4":"172.18.6.142"},"remoteEndpoint":{"ipv6":"::1","port":60781},"tags":{"http.method":"GET","http.path":"/trace3","mvc.controller.class":"Trace","mvc.controller.method":"trace3"}}]
+
+
 
 
 
@@ -79,6 +89,23 @@ id 生成 brave.propagation.TraceContext#traceIdString
 
 ### BraveRedisAutoConfiguration
 
+扩展 背包增加来源模块名
+
+
+### BraveSamplerConfiguration
+[https://github.com/openzipkin/brave/blob/master/brave/README.md#sampling](https://github.com/openzipkin/brave/blob/master/brave/README.md#sampling)
+
+
+### BraveHttpConfiguration
+org.springframework.cloud.sleuth.autoconfig.brave.instrument.web.BraveHttpConfiguration#httpTracingBuilder
+SamplerFunction
+
+### BraveBaggageConfiguration
+
+### BraveWebClientAutoConfiguration
+
+### TraceWebClientAutoConfiguration
+brave.propagation.B3Propagation.Format#inject
 
 # 扩展发送到
 
