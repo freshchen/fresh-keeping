@@ -470,7 +470,7 @@
       "links": 0
     },
     "document/springboot/cloud-sleuth/Sleuth 简介.md": {
-      "size": 2587,
+      "size": 6135,
       "tags": 1,
       "links": 3
     },
@@ -540,7 +540,7 @@
       "links": 2
     },
     "document/java/ThreadLocal源码分析.md": {
-      "size": 8612,
+      "size": 10104,
       "tags": 1,
       "links": 1
     },
@@ -560,7 +560,7 @@
       "links": 0
     },
     "document/java/TransmittableThreadLocal源码.md": {
-      "size": 2128,
+      "size": 2571,
       "tags": 1,
       "links": 1
     },
@@ -575,7 +575,12 @@
       "links": 1
     },
     "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md": {
-      "size": 1280,
+      "size": 3540,
+      "tags": 1,
+      "links": 2
+    },
+    "document/java/Java8 Lambda.md": {
+      "size": 6595,
       "tags": 1,
       "links": 0
     }
@@ -583,23 +588,23 @@
   "commitTypes": {
     "/": {
       "Refactor": 241,
-      "Create": 154,
-      "Link": 188,
-      "Expand": 340
+      "Create": 155,
+      "Link": 191,
+      "Expand": 348
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 46,
-      "1": 5,
+      "0": 54,
+      "1": 6,
       "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 1,
       "7": 0,
-      "8": 2,
-      "9": 8,
+      "8": 3,
+      "9": 10,
       "10": 63,
       "11": 111,
       "12": 123,
@@ -620,7 +625,7 @@
     "/": {
       "Mon": 158,
       "Tue": 229,
-      "Wed": 232,
+      "Wed": 244,
       "Thu": 131,
       "Fri": 70,
       "Sat": 0,
@@ -635,8 +640,16 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
@@ -672,17 +685,10 @@
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/os/linux/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
@@ -732,8 +738,7 @@
         "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
@@ -789,6 +794,7 @@
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry总体架构.md\"> OpenTelemetry总体架构 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
@@ -838,8 +844,7 @@
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
         "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/领域模型设计.md\"> 领域模型设计 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -904,6 +909,8 @@
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
@@ -952,9 +959,7 @@
         "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
         "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/贫血模型和充血模型.md\"> 贫血模型和充血模型 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

@@ -31,6 +31,7 @@ disableIgnoreNullValueSemantics 默认为 false，也就说当我们设置 `tran
 ### 1.2 holder
 
 ```java
+// holder 自己就是一个 InheritableThreadLocal，里面存放的 WeakHashMap，帮助垃圾回收，实际 WeakHashMap 当作 Set 在用，也就是 value 都是 null
 private static final InheritableThreadLocal<WeakHashMap<TransmittableThreadLocal<Object>, ?>> holder =
 	new InheritableThreadLocal<WeakHashMap<TransmittableThreadLocal<Object>, ?>>() {
 		@Override
@@ -39,6 +40,7 @@ private static final InheritableThreadLocal<WeakHashMap<TransmittableThreadLocal
 		}
 
 		@Override
+		// 拷贝
 		protected WeakHashMap<TransmittableThreadLocal<Object>, ?> childValue(WeakHashMap<TransmittableThreadLocal<Object>, ?> parentValue) {
 			return new WeakHashMap<TransmittableThreadLocal<Object>, Object>(parentValue);
 		}
