@@ -575,29 +575,34 @@
       "links": 1
     },
     "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md": {
-      "size": 3540,
+      "size": 10385,
       "tags": 1,
-      "links": 2
+      "links": 7
     },
     "document/java/Java8 Lambda.md": {
       "size": 6595,
       "tags": 1,
       "links": 0
+    },
+    "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md": {
+      "size": 9602,
+      "tags": 1,
+      "links": 4
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 241,
-      "Create": 155,
-      "Link": 191,
-      "Expand": 348
+      "Refactor": 242,
+      "Create": 156,
+      "Link": 201,
+      "Expand": 366
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 54,
-      "1": 6,
-      "2": 0,
+      "0": 55,
+      "1": 8,
+      "2": 1,
       "3": 0,
       "4": 0,
       "5": 0,
@@ -605,36 +610,54 @@
       "7": 0,
       "8": 3,
       "9": 10,
-      "10": 63,
-      "11": 111,
+      "10": 64,
+      "11": 113,
       "12": 123,
-      "13": 21,
-      "14": 100,
-      "15": 81,
+      "13": 22,
+      "14": 101,
+      "15": 83,
       "16": 82,
       "17": 43,
       "18": 34,
       "19": 39,
-      "20": 39,
-      "21": 15,
+      "20": 51,
+      "21": 18,
       "22": 35,
-      "23": 75
+      "23": 79
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 158,
+      "Mon": 161,
       "Tue": 229,
       "Wed": 244,
       "Thu": 131,
       "Fri": 70,
       "Sat": 0,
-      "Sun": 103
+      "Sun": 130
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
@@ -667,27 +690,10 @@
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal源码.md\"> TransmittableThreadLocal源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal源码分析.md\"> ThreadLocal源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java四种引用类型.md\"> Java四种引用类型 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
@@ -737,10 +743,10 @@
         "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2021-11-18 10.42.23.excalidraw.md\"> Drawing 2021-11-18 10.42.23.excalidraw </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper 论文阅读笔记.md\"> Dapper 论文阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
@@ -790,10 +796,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/log/Log简介.md\"> Log简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry总体架构.md\"> OpenTelemetry总体架构 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
@@ -843,8 +849,7 @@
         "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
         "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Object源码.md\"> Object源码 </a>"
+        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -909,6 +914,15 @@
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
@@ -950,16 +964,7 @@
         "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件复杂的因素.md\"> 软件复杂的因素 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD简介.md\"> DDD简介 </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/限界上下文.md\"> 限界上下文 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

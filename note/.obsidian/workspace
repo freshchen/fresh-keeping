@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
+            "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md"
+                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md"
               }
             }
           },
@@ -70,11 +70,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 187
   },
   "right": {
     "id": "7314f4d1aa4aa2b0",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
+                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
+                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +132,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
-    "document/cloud/trace/image/Pasted image 20220112005045.png",
-    "document/cloud/trace/image/Dapper.pdf",
-    "document/springboot/cloud-sleuth/Sleuth 简介.md",
-    "document/springboot/cloud-sleuth/Sleuth自动配置.md",
-    "document/cloud/trace/Dapper Trace论文.md",
-    "document/cloud/trace/Trace简介.md",
+    "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
     "document/cloud/trace/zipkin/Zipkin Brave简介.md",
-    "document/springboot/Spring基于注解和配置文件实现SPI机制.md",
-    "document/springboot/spring/IOC容器.md"
+    "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
+    "document/cloud/trace/image/Pasted image 20220112005328.png",
+    "document/cloud/trace/image/Pasted image 20220115230719.png",
+    "document/cloud/trace/image/Pasted image 20220115230819.png",
+    "document/cloud/trace/image/Pasted image 20220112085033.png",
+    "document/cloud/trace/image/Dapper.pdf",
+    "document/cloud/trace/image/Pasted image 20220112005045.png",
+    "document/springboot/cloud-sleuth/Sleuth 简介.md"
   ]
 }
