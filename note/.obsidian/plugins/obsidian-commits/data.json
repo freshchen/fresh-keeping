@@ -585,23 +585,28 @@
       "links": 0
     },
     "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md": {
-      "size": 9602,
+      "size": 11089,
       "tags": 1,
       "links": 4
+    },
+    "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md": {
+      "size": 532,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 242,
-      "Create": 156,
-      "Link": 201,
-      "Expand": 366
+      "Refactor": 247,
+      "Create": 157,
+      "Link": 202,
+      "Expand": 370
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 55,
-      "1": 8,
+      "0": 56,
+      "1": 18,
       "2": 1,
       "3": 0,
       "4": 0,
@@ -629,7 +634,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 161,
-      "Tue": 229,
+      "Tue": 240,
       "Wed": 244,
       "Thu": 131,
       "Fri": 70,
@@ -640,6 +645,10 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 请求头传播规范.md\"> Zipkin 链路上下文 B3 请求头传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
@@ -686,13 +695,10 @@
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth自动配置.md\"> Sleuth自动配置 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring基于注解和配置文件实现SPI机制.md\"> Spring基于注解和配置文件实现SPI机制 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
@@ -742,10 +748,14 @@
         "<a class=\"internal-link\" href=\"source.excalidraw/Drawing 2021-11-18 10.48.03.excalidraw.md\"> Drawing 2021-11-18 10.48.03.excalidraw </a>",
         "<a class=\"internal-link\" href=\"Excalidraw/Drawing 2021-11-18 10.42.23.excalidraw.md\"> Drawing 2021-11-18 10.42.23.excalidraw </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 请求头传播规范.md\"> Zipkin 链路上下文 B3 请求头传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin B3请求头传播规范.md\"> Zipkin B3请求头传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 传播规范.md\"> Zipkin 传播规范 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/ip.md\"> ip </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper 论文阅读笔记.md\"> Dapper 论文阅读笔记 </a>",
@@ -791,14 +801,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/istio/关闭 Istio 注入.md\"> 关闭 Istio 注入 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/istio/Istio.md\"> Istio </a>",
         "<a class=\"internal-link\" href=\"document/java/bytebuddy/ByteBuddy简介.md\"> ByteBuddy简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/metrics/Metrics简介.md\"> Metrics简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/log/分布式日志简介.md\"> 分布式日志简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/log/Log简介.md\"> Log简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/baggage/Baggage简介.md\"> Baggage简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 请求头传播规范.md\"> Zipkin 链路上下文 B3 请求头传播规范 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8 Lambda.md\"> Java8 Lambda </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md\"> 分布式链路追踪论文-Dapper阅读笔记 </a>",
@@ -848,8 +854,7 @@
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Lambda简介.md\"> Lambda简介 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
+            "file": "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md"
+                "file": "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md"
               }
             }
           },
@@ -70,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
+                "file": "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
+                "file": "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,15 +131,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
+    "document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md",
     "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
+    "document/cloud/trace/image/Pasted image 20220116202455.png",
+    "document/cloud/trace/image/Pasted image 20220116202748.png",
     "document/cloud/trace/zipkin/Zipkin Brave简介.md",
     "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
     "document/cloud/trace/image/Pasted image 20220112005328.png",
     "document/cloud/trace/image/Pasted image 20220115230719.png",
     "document/cloud/trace/image/Pasted image 20220115230819.png",
-    "document/cloud/trace/image/Pasted image 20220112085033.png",
-    "document/cloud/trace/image/Dapper.pdf",
-    "document/cloud/trace/image/Pasted image 20220112005045.png",
-    "document/springboot/cloud-sleuth/Sleuth 简介.md"
+    "document/cloud/trace/image/Pasted image 20220112085033.png"
   ]
 }
