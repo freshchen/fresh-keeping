@@ -11,6 +11,7 @@ rating: 1
 [brave/brave at master · openzipkin/brave · GitHub](https://github.com/openzipkin/brave/tree/master/brave#baggage)
 [brave/instrumentation/http at master · openzipkin/brave · GitHub](https://github.com/openzipkin/brave/tree/master/instrumentation/http)
 
+[Spring Cloud Sleuth Reference Documentation](https://docs.spring.io/spring-cloud-sleuth/docs/3.0.4/reference/htmlsingle/#sleuth-integration)
 
 ### TraceWebServletConfiguration
 spring.sleuth.web.enabled=`true` 开启 web 服务的拦截
@@ -68,15 +69,14 @@ org.springframework.cloud.sleuth.zipkin2.RestTemplateSender#sendSpans 通过 dea
 [{"traceId":"ee2037edf4679df9","id":"ee2037edf4679df9","kind":"SERVER","name":"get /trace3","timestamp":1640783010184175,"duration":7924950,"localEndpoint":{"serviceName":"test","ipv4":"172.18.6.142"},"remoteEndpoint":{"ipv6":"::1","port":60781},"tags":{"http.method":"GET","http.path":"/trace3","mvc.controller.class":"Trace","mvc.controller.method":"trace3"}}]
 
 
-
-
-
 ## BraveAutoConfiguration
 注册关键 bean Tracer
 
 `@Value("${spring.zipkin.service.name:${spring.application.name:default}}")`
 
 BraveBridgeConfiguration
+
+org.springframework.cloud.sleuth.autoconfig.brave.BraveAutoConfiguration#sleuthCurrentTraceContext
 
 
 id 生成 brave.propagation.TraceContext#traceIdString
@@ -90,6 +90,7 @@ id 生成 brave.propagation.TraceContext#traceIdString
 ### BraveRedisAutoConfiguration
 
 扩展 背包增加来源模块名
+[Spring Boot 链路追踪 Zipkin 入门_其他_大数据知识库](https://www.saoniuhuo.com/article/detail-36059.html)
 
 
 ### BraveSamplerConfiguration
@@ -106,6 +107,21 @@ SamplerFunction
 
 ### TraceWebClientAutoConfiguration
 brave.propagation.B3Propagation.Format#inject
+
+
+## TraceAsyncDefaultAutoConfiguration
+
+### TraceWebClientAutoConfiguration
+RestTemplateConfig
+
+### TraceFeignClientAutoConfiguration
+fegin
+
+## BraveMessagingAutoConfiguration
+kafka 不支持批量消息
+
+## BraveMongoDbAutoConfiguration
+
 
 # 扩展发送到
 
