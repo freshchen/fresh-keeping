@@ -1,6 +1,7 @@
 package com.github.freshchen.keeping.util;
 
 
+import com.github.freshchen.keeping.common.lib.util.Id;
 import com.github.freshchen.keeping.common.lib.util.Valids;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -71,5 +72,11 @@ public class ValidsTest {
     public void ipv41() {
         boolean b = Valids.ipv4("192.256.0.1");
         Assertions.assertFalse(b);
+    }
+
+    @Test
+    void genId() {
+        String l = Id.genId();
+        System.out.println(l);
     }
 }
