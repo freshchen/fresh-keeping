@@ -7,11 +7,9 @@
         "id": "0dcd55d146555ab3",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
-            "mode": "source",
-            "source": false
+            "file": "document/tools/idea/image/Pasted image 20220210211648.png"
           }
         }
       }
@@ -55,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md"
+                "file": "document/tools/idea/image/Pasted image 20220210211648.png"
               }
             }
           },
@@ -70,8 +68,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
+                "file": "document/tools/idea/image/Pasted image 20220210211648.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
+                "file": "document/tools/idea/image/Pasted image 20220210211648.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,15 +129,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
-    "document/cloud/trace/Zipkin 链路上下文源码分析.md",
-    "document/cloud/trace/Zipkin B3 链路传播规范源码分析.md",
-    "document/cloud/trace/image/Pasted image 20220116151511.png",
-    "document/cloud/trace/image/Pasted image 20220116111538.png",
-    "document/cloud/trace/image/Pasted image 20220115235507.png",
-    "document/cloud/trace/image/Pasted image 20220112085033.png",
+    "document/tools/idea/image/Pasted image 20220210211648.png",
+    "document/tools/idea/编码规范 重载的方法必须放在一起 解决办法.md",
+    "document/springboot/cloud-sleuth/Sleuth自动配置.md",
+    "document/springboot/cloud-sleuth/Sleuth 简介.md",
     "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
     "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
-    "document/springboot/cloud-sleuth/Sleuth自动配置.md"
+    "document/cloud/trace/Dapper Trace论文.md",
+    "document/cloud/trace/Trace简介.md",
+    "document/cloud/trace/Zipkin 链路上下文源码分析.md",
+    "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md"
   ]
 }
