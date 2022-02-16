@@ -123,6 +123,8 @@ kafka 不支持批量消息
 ## BraveMongoDbAutoConfiguration
 
 
+## ZipkinSenderConfigurationImportSelector
+
 # 扩展发送到
 
 ```java
