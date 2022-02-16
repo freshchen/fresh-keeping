@@ -149,7 +149,108 @@ brave 提供了简单的跨线程作用域使用方式如下
 
 ### 1.5 默认实现类
 
-CurrentTraceContext 中有一个默认实现类 Default，
+CurrentTraceContext 中有一个默认实现类 Default，Default 继承了 ThreadLocalCurrentTraceContext。下面让我们着重分析 ThreadLocalCurrentTraceContext 的实现。
+
+## 2 ThreadLocalCurrentTraceContext
+ThreadLocalCurrentTraceContext 继承自 CurrentTraceContext。首先来看其重要属性，从类名可以猜到肯定有一个 ThreadLocal 属性
+
+```java
+static final ThreadLocal<TraceContext> DEFAULT = new ThreadLocal<>();
+// 默认值是 DEFAULT 
+final ThreadLocal<TraceContext> local
+```
+
+### 2.1 两种 Scope 实现
+ThreadLocalCurrentTraceContext 提供了 1.1 Scope 的两种实现
+
+```java
+  static final class RevertToNullScope implements Scope {
+    final ThreadLocal<TraceContext> local;
+
+	// 作用域开始时带入当前 TraceContext
+    RevertToNullScope(ThreadLocal<TraceContext> local) {
+      this.local = local;
+    }
+	// 作用域结束时设置原 TraceContext 为空
+    @Override public void close() {
+      local.set(null);
+    }
+  }
+
+
+  static final class RevertToPreviousScope implements Scope {
+    final ThreadLocal<TraceContext> local;
+    final TraceContext previous;
+
+    // 作用域开始时带入当前和先前的 TraceContext
+    RevertToPreviousScope(ThreadLocal<TraceContext> local, TraceContext previous) {
+      this.local = local;
+      this.previous = previous;
+    }
+	// 作用域结束时设置回先前的 TraceContext
+    @Override public void close() {
+      local.set(previous);
+    }
+  }
+```
+
+### 2.2 重写的核心方法
+
+```java
+  // 获取当前线程的 TraceContext
+  @Override public TraceContext get() {
+    return local.get();
+  }
+
+  @Override public Scope newScope(@Nullable TraceContext currentSpan) {
+    // 获取当前线程的 TraceContext 记录为先前 previous
+    final TraceContext previous = local.get();
+	// 方法传入的 TraceContext 设置进当前线程，从而开启了新的作用域
+    local.set(currentSpan); 
+	// 创建作用域，如果先前有 TraceContext，此作用域结束之后当前线程 TraceContext 自动恢复为 previous，否则恢复为 null 
+    Scope result = previous != null ? new RevertToPreviousScope(local, previous) : revertToNull;
+    // 对 currentSpan 作用域调用所有增强方法
+    return decorateScope(currentSpan, result);
+  }
+```
+
+### 测试及使用案例
+
+```java
+    @Test
+    @DisplayName("测试 ThreadLocalCurrentTraceContext")
+    public void test1() {
+        CurrentTraceContext currentTraceContext = ThreadLocalCurrentTraceContext.create();
+        // 当前无上下文
+        Assertions.assertEquals(null, currentTraceContext.get());
+        TraceContext tc1 = TraceContext.newBuilder().traceId(1).spanId(1).build();
+        // maybeScope 会调用 newScope
+        try (CurrentTraceContext.Scope scope1 = currentTraceContext.maybeScope(tc1)) {
+            // 先前无作用域所以是 RevertToNullScope
+            Assertions.assertEquals("RevertToNullScope", scope1.getClass().getSimpleName());
+            // try 块内就是作用域内, 上下文内应该都是 tc1
+            Assertions.assertEquals(tc1, currentTraceContext.get());
+            TraceContext tc2 = TraceContext.newBuilder().traceId(2).spanId(2).build();
+            // 嵌套作用域
+            try (CurrentTraceContext.Scope scope2 = currentTraceContext.maybeScope(tc2)) {
+                // 先前有作用域所以是 RevertToPreviousScope
+                Assertions.assertEquals("RevertToPreviousScope", scope2.getClass().getSimpleName());
+                // try 块内就是作用域内, 上下文内应该都是 tc2
+                Assertions.assertEquals(tc2, currentTraceContext.get());
+                // 测试跨线程，使用默认包装
+                Executor executor = currentTraceContext.executor(Executors.newFixedThreadPool(1));
+                // 这里隐式的又嵌套了一个作用域，Runnable 前设置了 tc2，Runnable 内上下文内应该也是 tc2
+                executor.execute(() -> Assertions.assertEquals(tc2, currentTraceContext.get()));
+                // 跨线程隐式的上下文结束，检查上下文是否还原回 tc2
+                Assertions.assertEquals(tc2, currentTraceContext.get());
+            }
+            // 作用域结束了，因为先前有作用域所以会还原
+            Assertions.assertEquals(tc1, currentTraceContext.get());
+        }
+        // 作用域结束了，因为先前无作用域所以还是 null
+        Assertions.assertEquals(null, currentTraceContext.get());
+    }
+```
 
 ## 参考链接
 
