@@ -4,6 +4,7 @@ import brave.Span;
 import brave.Tracer;
 import brave.propagation.TraceContextOrSamplingFlags;
 import brave.propagation.TraceIdContext;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -19,6 +20,7 @@ import java.io.IOException;
  * @since 2022/01/30
  **/
 @RestController
+@Slf4j
 public class TraceController {
 
     @Autowired
@@ -27,7 +29,7 @@ public class TraceController {
     @Autowired
     private Tracer tracer;
 
-    @GetMapping("test1")
+    @GetMapping("/test1")
     public String test1() throws IOException {
         CloseableHttpClient client = httpClientBuilder.build();
         CloseableHttpResponse response = client.execute(new HttpGet("http://localhost:8080/test2"));
@@ -35,8 +37,7 @@ public class TraceController {
         TraceIdContext traceIdContext = TraceIdContext.newBuilder().traceId(1L).sampled(true).build();
         TraceContextOrSamplingFlags traceContextOrSamplingFlags = TraceContextOrSamplingFlags.create(traceIdContext);
         Span span = tracer.nextSpan(traceContextOrSamplingFlags);
-
-
+        log.info("test1");
         return "test1";
     }
 
