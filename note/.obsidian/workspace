@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -126,19 +126,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
     "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
-    "document/cloud/trace/分布式链路追踪论文-Dapper阅读笔记.md",
-    "document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md",
-    "document/cloud/trace/Dapper Trace论文.md",
+    "document/cloud/trace/Zipkin B3 链路传播规范源码分析.md",
     "document/cloud/trace/Zipkin Jedis 链路追踪库.md",
-    "document/cloud/trace/Zipkin 跨度 Span 源码分析.md",
-    "document/springboot/cloud-sleuth/Sleuth自动配置.md",
-    "document/springboot/cloud-sleuth/Sleuth 简介.md",
+    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md",
     "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
-    "document/cloud/trace/Zipkin 链路上下文源码分析.md"
+    "document/cloud/trace/Zipkin 链路上下文源码分析.md",
+    "document/cloud/trace/image/b43087b1fa728e1f3dc21685208bc6f.jpg",
+    "document/cloud/trace/image/af509f1854497f55d595473ec20a6f9.jpg",
+    "document/cloud/trace/image/Pasted image 20220116210226.png",
+    "document/cloud/trace/image/Untitled Diagram.drawio.png"
   ]
 }

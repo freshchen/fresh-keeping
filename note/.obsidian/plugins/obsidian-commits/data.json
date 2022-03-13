@@ -620,23 +620,28 @@
       "links": 6
     },
     "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md": {
-      "size": 1494,
+      "size": 7704,
       "tags": 0,
       "links": 0
+    },
+    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md": {
+      "size": 7165,
+      "tags": 0,
+      "links": 2
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 259,
-      "Create": 164,
-      "Link": 199,
-      "Expand": 401
+      "Refactor": 260,
+      "Create": 165,
+      "Link": 201,
+      "Expand": 410
     }
   },
   "dailyCommits": {
     "/": {
       "0": 75,
-      "1": 9,
+      "1": 10,
       "2": 1,
       "3": 0,
       "4": 0,
@@ -648,17 +653,17 @@
       "10": 63,
       "11": 111,
       "12": 123,
-      "13": 25,
+      "13": 28,
       "14": 101,
-      "15": 82,
-      "16": 95,
+      "15": 84,
+      "16": 98,
       "17": 43,
       "18": 35,
       "19": 52,
       "20": 45,
-      "21": 20,
-      "22": 40,
-      "23": 92
+      "21": 21,
+      "22": 42,
+      "23": 93
     }
   },
   "weeklyCommits": {
@@ -669,7 +674,7 @@
       "Thu": 143,
       "Fri": 87,
       "Sat": 0,
-      "Sun": 127
+      "Sun": 140
     }
   },
   "recentCommits": {
@@ -679,8 +684,17 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
@@ -716,18 +730,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin B3 链路传播规范源码分析.md\"> Zipkin B3 链路传播规范源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin B3 链路传播规范源码分析.md\"> Zipkin B3 链路传播规范源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范源码分析.md\"> Zipkin 链路上下文 B3 传播规范源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范源码分析.md\"> Zipkin 链路上下文 B3 传播规范源码分析 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
@@ -777,10 +783,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/log/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/baggage/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/java/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Span跨度源码分析.md\"> Zipkin Span跨度源码分析 </a>",
@@ -830,8 +836,7 @@
         "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC.md\"> JDBC </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/spring-boot二方库开发.md\"> spring-boot二方库开发 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/spring-boot库类开发之 SPI.md\"> spring-boot库类开发之 SPI </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/spring-boot二方库开发.md\"> spring-boot二方库开发 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
@@ -954,6 +959,8 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范~.md\"> Zipkin 链路上下文 B3 传播规范~ </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
@@ -1002,9 +1009,7 @@
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
         "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/charles抓包.md\"> charles抓包 </a>"
+        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
