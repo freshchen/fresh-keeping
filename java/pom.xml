@@ -80,7 +80,7 @@
         <jodd-bean.version>3.7.1</jodd-bean.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
         <skywalking.version>8.0.0</skywalking.version>
-        <jackson.version>2.11.3</jackson.version>
+        <jackson.version>2.12.6.1</jackson.version>
         <pinyin.version>2.5.1</pinyin.version>
         <joda.version>2.10.2</joda.version>
         <junit4.version>4.13.1</junit4.version>
