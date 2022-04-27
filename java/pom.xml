@@ -48,7 +48,7 @@
         <module>test/arch-unit</module>
         <module>tools/transmittable-thread-local</module>
         <module>ddd-archetype</module>
-        <module>web/spring-trace</module>
+        <module>trace/spring-trace</module>
         <module>springboot/spring-ttl-threadpool</module>
         <module>springboot/statemachine</module>
         <module>remote-call/order-fegin-contract</module>
@@ -57,6 +57,9 @@
         <module>remote-call/mall-fegin</module>
         <module>springboot/spring-property-spi</module>
         <module>trace/sleuth</module>
+        <module>tools/byte-buddy</module>
+        <module>circuit-breaker/resilience4J</module>
+        <module>tools/disruptor</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
@@ -94,6 +97,7 @@
         <transmittable-thread-local.version>2.12.2</transmittable-thread-local.version>
         <opentelemetry.version>1.7.1</opentelemetry.version>
         <spring-statemachine.version>3.0.1</spring-statemachine.version>
+        <resilience4j.version>1.7.1</resilience4j.version>
     </properties>
 
     <dependencies>
