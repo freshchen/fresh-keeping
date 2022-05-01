@@ -60,6 +60,7 @@
         <module>tools/byte-buddy</module>
         <module>circuit-breaker/resilience4J</module>
         <module>tools/disruptor</module>
+        <module>rule-engine/spring-drools</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>

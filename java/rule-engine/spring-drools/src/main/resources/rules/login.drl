@@ -1,0 +1,21 @@
+package rules
+import com.github.freshchen.keeping.spring.drools.LoginForm
+import com.github.freshchen.keeping.spring.drools.DroolsApp
+
+
+function void echo(){
+    System.out.println("asdasdas");
+}
+
+global com.github.freshchen.keeping.spring.drools.LoginService loginService
+
+
+rule "login-rule"
+agenda-group "gruop-1"
+when
+    $loginForm: LoginForm(age < 18)
+then
+    echo();
+    loginService.echo();
+    $loginForm.setRisk(true);
+ end
