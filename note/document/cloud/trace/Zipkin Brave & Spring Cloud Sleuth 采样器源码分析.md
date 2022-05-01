@@ -27,7 +27,7 @@ Dapper 论文中指出在 Google 在分布式链路追踪实际过程中，降�
 
 # 采样器源码分析
 
-## Sampler
+## Sampler 前置采样
 
 Sampler 是一个抽象类，属于前置采样，仅执行一次，相当于对链路的高考
 
@@ -203,6 +203,153 @@ public final class BoundarySampler extends Sampler {
 
 }
 ```
+
+
+## RateLimitingSampler
+
+RateLimitingSampler  是 brave 中  Sampler 控制每秒采样个数的实现，可以和采样率控制配合使用。
+
+```java
+public class RateLimitingSampler extends Sampler {
+
+  // 一秒等于多少纳秒
+  static final long NANOS_PER_SECOND = TimeUnit.SECONDS.toNanos(1);
+  // AtLeast10 会把 1 秒再拆成 10 段，用于判断是那一段
+  static final long NANOS_PER_DECISECOND = NANOS_PER_SECOND / 10;
+
+  final MaxFunction maxFunction;
+  final AtomicInteger usage = new AtomicInteger(0);
+  // 一秒一个窗口，记录下次窗口重置的纳秒时间
+  final AtomicLong nextReset;
+
+  RateLimitingSampler(int tracesPerSecond) {
+    // 根据每秒限制采用不同的策略
+    this.maxFunction =
+      tracesPerSecond < 10 ? new LessThan10(tracesPerSecond) : new AtLeast10(tracesPerSecond);
+    long now = System.nanoTime();
+    this.nextReset = new AtomicLong(now + NANOS_PER_SECOND);
+  }
+
+  @Override public boolean isSampled(long ignoredTraceId) {
+    long now = System.nanoTime(), updateAt = nextReset.get();
+    // 本窗口剩余时间
+    long nanosUntilReset = -(now - updateAt);
+    if (nanosUntilReset <= 0) {
+	    // case1 创建采样器到接收到第一个请求之间可能超过了一秒，通过递归设置真实的第一个窗口时间
+	    // case2 一个窗口下一个窗口开始
+      if (nextReset.compareAndSet(updateAt, now + NANOS_PER_SECOND)) usage.set(0);
+      return isSampled(ignoredTraceId);
+    }
+
+    // 获取本窗口最大采样个数
+    int max = maxFunction.max(nanosUntilReset);
+    int prev, next;
+    do {
+      prev = usage.get();
+      next = prev + 1;
+      if (next > max) return false;
+    } while (!usage.compareAndSet(prev, next));
+    return true;
+  }
+
+  static abstract class MaxFunction {
+    // 返回本窗口剩余时间 nanosUntilReset 能采样的最大个数
+    abstract int max(long nanosUntilReset);
+  }
+
+  static final class LessThan10 extends MaxFunction {
+    final int tracesPerSecond;
+
+    LessThan10(int tracesPerSecond) {
+      this.tracesPerSecond = tracesPerSecond;
+    }
+
+    @Override int max(long nanosUntilResetIgnored) {
+      return tracesPerSecond;
+    }
+  }
+
+
+  static final class AtLeast10 extends MaxFunction {
+    final int[] max;
+
+    AtLeast10(int tracesPerSecond) {
+      int tracesPerDecisecond = tracesPerSecond / 10, remainder = tracesPerSecond % 10;
+      // 把每秒的限制拆成 10 个小窗口
+      max = new int[10];
+      // 第一个窗口最大，如果限制每秒 1024 个，则第一个窗口 124 其他九个窗口 100
+      max[0] = tracesPerDecisecond + remainder;
+      for (int i = 1; i < 10; i++) {
+        max[i] = max[i - 1] + tracesPerDecisecond;
+      }
+    }
+
+    @Override int max(long nanosUntilReset) {
+      // 前 100 毫秒
+      if (nanosUntilReset > NANOS_PER_SECOND - NANOS_PER_DECISECOND) return max[0];
+      // 最后 100 毫秒
+      if (nanosUntilReset < NANOS_PER_DECISECOND) return max[9];
+      int decisecondsUntilReset = (int) (nanosUntilReset / NANOS_PER_DECISECOND);
+      return max[10 - decisecondsUntilReset];
+    }
+  }
+}
+
+```
+
+# SamplerFunction 前置采样 & 单元采样
+
+通过 Sampler 根据 traceId 决定采样扩展性比较差，我们往往需要针对不同的跨度类型，采用不同的采样策略，例如对于 HTTP 的跨度，仅采样 /api 开头的请求，因为可能会破坏链路所有请求都被采样的规则，因此属于单元采样。brave 提供了 SamplerFunction 接口帮助我们针对不同业务进行扩展。需要注意的是 SamplerFunction 往往在 Sampler 前执行。
+
+```java
+public interface SamplerFunction<T> {
+  // 返回 null 表示使用 Sampler 根据 traceId 决定是否采样
+  @Nullable Boolean trySample(@Nullable T arg);
+}
+```
+
+## SkipPatternSampler
+
+SkipPatternSampler 是 sleuth 中针对 http 请求 url 决定采样的实现
+
+```java
+abstract class SkipPatternSampler implements SamplerFunction<HttpRequest> {
+
+	private Pattern pattern;
+
+	@Override
+	public final Boolean trySample(HttpRequest request) {
+		String url = request.path();
+		boolean shouldSkip = pattern().matcher(url).matches();
+		if (shouldSkip) {
+			return false;
+		}
+		return null;
+	}
+
+}
+
+```
+
+
+# SpanHandler 后置采样 & 单元采样
+
+SpanHandler 是 brave 中提供的扩展，实现 end 方法我们可以控制跨度最终是否需要上报到 Zipkin 等链路收集后端，此阶段我们能获得跨度的所有信息实现后置采样或者单元采样。如果我们需要根据延迟时间决定是否上报，简单实现如下：
+
+```java
+public class TimeSpanHandler extends SpanHandler {
+
+    @Override
+    public boolean end(TraceContext context, MutableSpan span, Cause cause) {
+        // 如果我们只需要执行时间超过 5 秒的跨度
+        if (span.finishTimestamp() - span.startTimestamp() > 5000){
+            return true;
+        }
+        return false;
+    }
+}
+```
+
 
 ## 参考链接
 

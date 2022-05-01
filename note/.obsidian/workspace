@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
+            "file": "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zipkin",
+                "query": "tag:#install",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md"
+                "file": "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
+                "file": "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
+                "file": "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,15 +131,15 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
-    "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md",
-    "document/cloud/trace/Zipkin B3 链路传播规范源码分析.md",
+    "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
+    "index.md",
+    "document/tools/plantuml/Graphviz 安装.md",
+    "todo.md",
+    "document/java/io/Time, Clocks, and theOrdering of Events ina Distributed System.md",
+    "document/java/bytebuddy/ByteBuddy简介.md",
+    "document/cloud/trace/基于 Zipkin brave 制作链路采集器.md",
     "document/cloud/trace/Zipkin Jedis 链路追踪库.md",
-    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md",
-    "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md",
-    "document/cloud/trace/Zipkin 链路上下文源码分析.md",
-    "document/cloud/trace/image/b43087b1fa728e1f3dc21685208bc6f.jpg",
-    "document/cloud/trace/image/af509f1854497f55d595473ec20a6f9.jpg",
-    "document/cloud/trace/image/Pasted image 20220116210226.png",
-    "document/cloud/trace/image/Untitled Diagram.drawio.png"
+    "document/cloud/trace/Zipkin B3 链路传播规范源码分析.md",
+    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md"
   ]
 }

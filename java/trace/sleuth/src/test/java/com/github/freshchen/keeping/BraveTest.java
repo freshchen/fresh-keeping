@@ -19,7 +19,7 @@ public class BraveTest {
 
     @Test
     public void test2() {
-        Sampler sampler = RateLimitingSampler.create(100);
+        Sampler sampler = RateLimitingSampler.create(5);
         sampler.isSampled(1231231232L);
     }
 }
