@@ -7,7 +7,7 @@ import lombok.Data;
  * @since 2022/4/28
  */
 @Data
-public class LoginForm {
+public class LoginFact {
 
     private Integer age;
     private String name;

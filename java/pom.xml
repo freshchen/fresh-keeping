@@ -99,6 +99,7 @@
         <opentelemetry.version>1.7.1</opentelemetry.version>
         <spring-statemachine.version>3.0.1</spring-statemachine.version>
         <resilience4j.version>1.7.1</resilience4j.version>
+        <mybatis-plus.version>3.5.1</mybatis-plus.version>
     </properties>
 
     <dependencies>
@@ -147,6 +148,11 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.squareup.retrofit2</groupId>

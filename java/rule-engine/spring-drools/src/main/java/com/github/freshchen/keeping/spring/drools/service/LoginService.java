@@ -1,4 +1,4 @@
-package com.github.freshchen.keeping.spring.drools;
+package com.github.freshchen.keeping.spring.drools.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

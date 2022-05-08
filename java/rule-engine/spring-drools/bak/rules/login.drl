@@ -1,0 +1,9 @@
+package rules
+import com.github.freshchen.keeping.spring.drools.LoginFact
+
+rule "login-rule"
+when
+    $loginFact: LoginFact(age < 18)
+then
+    $loginFact.setRisk(true);
+ end
