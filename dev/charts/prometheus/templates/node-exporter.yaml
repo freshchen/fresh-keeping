@@ -1,0 +1,54 @@
+{{- if .Values.prometheusEnabled -}}
+
+kind: DaemonSet
+apiVersion: apps/v1
+metadata: 
+  labels:
+    app: node-exporter
+  name: node-exporter
+  namespace: default
+spec:
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: node-exporter
+  template:
+    metadata:
+      labels:
+        app: node-exporter
+    spec:
+      containers:
+        - name: node-exporter
+          image: prom/node-exporter:v0.18.1
+          ports:
+            - containerPort: 9100
+              protocol: TCP
+              name:	http
+          env:
+            - name: TZ
+              value: "Asia/Shanghai"
+      hostNetwork: true
+      hostPID: true
+      tolerations:
+        - effect: NoSchedule
+          operator: Exists
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  labels:
+    app: node-exporter
+  name: node-exporter-service
+  namespace: default
+spec:
+  ports:
+    - name:	http
+      port: 9100
+      nodePort: 31672
+      protocol: TCP
+  type: NodePort
+  selector:
+    app: node-exporter
+
+{{- end }}

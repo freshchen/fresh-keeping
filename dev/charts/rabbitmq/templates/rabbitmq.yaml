@@ -1,0 +1,64 @@
+{{- if .Values.rabbitmqEnabled -}}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbitmq
+  labels:
+    app: rabbitmq
+spec:
+  type: NodePort
+  ports:
+    - port: 15672
+      nodePort: 30007
+      name: rabbitmq-m
+    - port: 5672
+      nodePort: 31003
+      targetPort: 5672
+      name: rabbitmq
+  selector:
+    app: rabbitmq
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rabbitmq
+  labels:
+    app: rabbitmq
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rabbitmq
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: rabbitmq
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+        - name: rabbitmq
+          resources:
+            limits:
+              memory: "1024Mi"
+          imagePullPolicy: Never
+          image: "docker.io/library/rabbitmq:3.8.3-management-alpine"
+          ports:
+            - containerPort: 15672
+              name: rabbitmq-m
+            - containerPort: 5672
+              name: rabbitmq
+          volumeMounts:
+            - name: "rabbitmq-persistent-storage"
+              mountPath: /var/lib/rabbitmq
+      volumes:
+        - name: "rabbitmq-persistent-storage"
+          hostPath:
+            path: "/mnt/k8s/infrastructure/rabbitmq/data"
+
+{{- end }}

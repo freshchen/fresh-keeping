@@ -1,0 +1,50 @@
+# Default values for infrastructure.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# enable kubernetes dashboard
+kubernetesDashboardEnabled: false
+
+zookeeper:
+  zookeeperEnabled: true
+
+kafka:
+  kafkaEnabled: true
+  host: "192.168.1.29"
+
+flink:
+  flinkEnabled: true
+
+apollo:
+  apolloEnabled: false
+  mysqlPassword: "z123456"
+  mysqlHost: "192.168.1.29"
+
+skywalking:
+  skywalkingEnabled: false
+
+efk:
+  elasticsearchEnabled: false
+  fluentdEnabled: false
+  kibanaEnabled: false
+
+mysql:
+  mysqlEnabled: false
+  mysqlPassword: "z123456"
+
+redis:
+  redisEnabled: true
+
+rabbitmq:
+  rabbitmqEnabled: false
+
+prometheus:
+  prometheusEnabled: false
+
+seata:
+  seataEnabled: false
+
+xxl-job:
+  xxlJobEnabled: false
+  mysqlPassword: "z123456"
+  mysqlHost: "192.168.1.17"

@@ -1,0 +1,3 @@
+{{- if .Values.mysqlEnabled -}}
+Mysql is enabled. Connect localhost:31006 by root/"{{ .Values.mysqlPassword }}"
+{{- end }}

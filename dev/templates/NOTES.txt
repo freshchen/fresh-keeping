@@ -1,0 +1,3 @@
+{{- if .Values.kubernetesDashboardEnabled -}}
+Kubernetes dashboard is enabled. Please Visit http://localhost:30001/
+{{- end }}

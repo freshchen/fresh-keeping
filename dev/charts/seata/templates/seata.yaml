@@ -1,0 +1,80 @@
+{{- if .Values.seataEnabled  -}}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+spec:
+  type: NodePort
+  ports:
+    - port: 8091
+      protocol: TCP
+      nodePort: 31005
+      name: http
+  selector:
+    app: {{ .Chart.Name }}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: {{ .Chart.Name }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: docker.io/seataio/seata-server:1.3.0
+          imagePullPolicy: Never
+          env:
+            - name: SEATA_CONFIG_NAME
+              value: file:/root/seata-config/registry
+          ports:
+            - name: http
+              containerPort: 8091
+              protocol: TCP
+          volumeMounts:
+            - name: seata-config
+              mountPath: /root/seata-config
+      volumes:
+        - name: seata-config
+          configMap:
+            name: seata-server-config
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: seata-server-config
+data:
+  registry.conf: |
+    registry {
+      type = "file"
+      file {
+        name = "file.conf"
+      }
+    }
+    config {
+      type = "apollo"
+      apollo {
+        appId = "common"
+        apolloMeta = "http://apollo:8080"
+        namespace = "seata-server"
+      }
+    }
+
+{{- end }}

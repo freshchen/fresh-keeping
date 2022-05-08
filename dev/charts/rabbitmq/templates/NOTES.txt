@@ -1,0 +1,3 @@
+{{- if .Values.rabbitmqEnabled -}}
+Rabbitmq is enabled. Visit rabbitmq manager localhost:30007 by guest/guest"
+{{- end }}

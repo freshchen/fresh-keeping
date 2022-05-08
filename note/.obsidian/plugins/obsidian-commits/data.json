@@ -648,14 +648,19 @@
       "size": 569,
       "tags": 0,
       "links": 0
+    },
+    "document/installation/本地环境.md": {
+      "size": 224,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 264,
-      "Create": 169,
-      "Link": 202,
-      "Expand": 420
+      "Refactor": 267,
+      "Create": 170,
+      "Link": 203,
+      "Expand": 423
     }
   },
   "dailyCommits": {
@@ -669,9 +674,9 @@
       "6": 1,
       "7": 0,
       "8": 2,
-      "9": 8,
-      "10": 63,
-      "11": 111,
+      "9": 11,
+      "10": 67,
+      "11": 112,
       "12": 123,
       "13": 28,
       "14": 101,
@@ -694,12 +699,15 @@
       "Thu": 143,
       "Fri": 87,
       "Sat": 0,
-      "Sun": 159
+      "Sun": 167
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
@@ -747,12 +755,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/paper/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/io/未命名.md\"> 未命名 </a>",
@@ -802,10 +808,11 @@
         "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/java/bytebuddy/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/metrics/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
+        "<a class=\"internal-link\" href=\"document/installation/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md\"> Time, Clocks, and theOrdering of Events ina Distributed System </a>",
         "<a class=\"internal-link\" href=\"document/java/io/Time, Clocks, and theOrdering of Events ina Distributed System.md\"> Time, Clocks, and theOrdering of Events ina Distributed System </a>",
@@ -854,11 +861,10 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/ZiBrave简介.md\"> ZiBrave简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Brave简介.md\"> Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/简介.md\"> 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jackson/ObjectMapper 配置.md\"> ObjectMapper 配置 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md\"> Time, Clocks, and theOrdering of Events ina Distributed System </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/分布式链路追踪系统 Zipkin 简介.md\"> 分布式链路追踪系统 Zipkin 简介 </a>",
@@ -908,8 +914,7 @@
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
         "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8新特性.md\"> Java8新特性 </a>"
+        "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -925,7 +930,8 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin B3 链路传播规范源码分析.md\"> Zipkin B3 链路传播规范源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"template/1.md\"> 1 </a>",

@@ -1,0 +1,3 @@
+{{- if .Values.kibanaEnabled -}}
+EFK log system is enabled. Please Visit http://localhost:30003
+{{- end }}

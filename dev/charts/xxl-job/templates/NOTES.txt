@@ -1,0 +1,3 @@
+{{- if .Values.xxlJobEnabled -}}
+XXL-Job is enabled. Visit http://localhost:30008/xxl-job-admin by admin/123456"
+{{- end }}

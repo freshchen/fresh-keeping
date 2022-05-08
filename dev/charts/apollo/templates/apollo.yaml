@@ -1,0 +1,69 @@
+{{- if .Values.apolloEnabled -}}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+spec:
+  type: NodePort
+  ports:
+    - port: 8070
+      name: rest
+      nodePort: 30002
+    - port: 8080
+      name: inter-node
+      nodePort: 31002
+  selector:
+    app: {{ .Chart.Name }}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: {{ .Chart.Name }}
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: nobodyiam/apollo-quick-start:latest
+          resources:
+            requests:
+              memory: "256Mi"
+            limits:
+              memory: "1024Mi"
+          imagePullPolicy: Never
+          env:
+            - name: TZ
+              value: "Asia/Shanghai"
+          ports:
+            - containerPort: 8080
+              name: inter-node
+            - containerPort: 8070
+              name: rest
+          command: ["/bin/sh","-c"]
+          args: ["
+          sed -i 's/apollo-db:3306/{{ .Values.mysqlHost }}:3306/g' /apollo-quick-start/demo.sh &&
+          sed -i 's/apollo_config_db_password=/apollo_config_db_password={{ .Values.mysqlPassword }}/g' /apollo-quick-start/demo.sh &&
+          sed -i 's/apollo_portal_db_password=/apollo_portal_db_password={{ .Values.mysqlPassword }}/g' /apollo-quick-start/demo.sh &&
+          sed -i 's/BASE_JAVA_OPTS=\"-Denv=dev\"/BASE_JAVA_OPTS=\"-Xms256m -Xmx256m -Denv=dev\"/g' /apollo-quick-start/demo.sh &&
+          /apollo-quick-start/demo.sh start
+          "]
+
+{{- end }}

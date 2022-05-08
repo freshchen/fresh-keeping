@@ -1,0 +1,3 @@
+{{- if .Values.apolloEnabled -}}
+Apollo is enabled. Please Visit http://localhost:30002 by apollo/admin
+{{- end }}

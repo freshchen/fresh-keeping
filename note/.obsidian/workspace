@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/tools/drools/Drools 笔记.md",
+            "file": "document/installation/本地环境.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/tools/drools/Drools 笔记.md"
+                "file": "document/installation/本地环境.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/tools/drools/Drools 笔记.md",
+                "file": "document/installation/本地环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/tools/drools/Drools 笔记.md",
+                "file": "document/installation/本地环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,6 +131,8 @@
   },
   "active": "0dcd55d146555ab3",
   "lastOpenFiles": [
+    "document/installation/本地环境.md",
+    "document/os/随机读写和顺序读写.md",
     "document/tools/drools/Drools 笔记.md",
     "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
     "index.md",
@@ -138,8 +140,6 @@
     "todo.md",
     "document/java/io/Time, Clocks, and theOrdering of Events ina Distributed System.md",
     "document/java/bytebuddy/ByteBuddy简介.md",
-    "document/cloud/trace/基于 Zipkin brave 制作链路采集器.md",
-    "document/cloud/trace/Zipkin Jedis 链路追踪库.md",
-    "document/cloud/trace/Zipkin B3 链路传播规范源码分析.md"
+    "document/cloud/trace/基于 Zipkin brave 制作链路采集器.md"
   ]
 }

@@ -1,0 +1,8 @@
+# Default values for apollo.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+xxlJobEnabled: true
+
+mysqlPassword: "z123456"
+mysqlHost: "192.168.1.17"

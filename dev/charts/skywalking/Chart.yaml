@@ -1,0 +1,6 @@
+apiVersion: v2
+name: skywalking
+home: https://skywalking.apache.org
+version: 2.0.0
+appVersion: 7.0.0
+description: Apache SkyWalking APM System

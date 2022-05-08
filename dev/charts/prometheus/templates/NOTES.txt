@@ -1,0 +1,6 @@
+{{- if .Values.prometheusEnabled -}}
+
+Grafana is enabled. Connect localhost:30004
+prometheus is enabled. Connect localhost:30002
+
+{{- end }}

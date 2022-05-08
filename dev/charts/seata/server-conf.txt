@@ -1,0 +1,46 @@
+transport.type = TCP
+transport.server = NIO
+transport.heartbeat = true
+transport.serialization = seata
+transport.compressor = none
+transport.threadFactory.bossThreadPrefix = NettyBoss
+transport.threadFactory.workerThreadPrefix = NettyServerNIOWorker
+transport.threadFactory.serverExecutorThreadPrefix = NettyServerBizHandler
+transport.threadFactory.shareBossWorker = false
+transport.threadFactory.clientSelectorThreadPrefix = NettyClientSelector
+transport.threadFactory.clientSelectorThreadSize = 1
+transport.threadFactory.clientWorkerThreadPrefix = NettyClientWorkerThread
+transport.threadFactory.bossThreadSize = 1
+transport.threadFactory.workerThreadSize = default
+transport.shutdown.wait = 3
+
+service.vgroupMapping.seata-demo = default
+service.enableDegrade = false
+service.disableGlobalTransaction = false
+
+registry.type = file
+config.type = apollo
+store.mode = db
+store.db.datasource = druid
+store.db.dbType = mysql
+store.db.driverClassName = com.mysql.jdbc.Driver
+store.db.url = jdbc:mysql://172.16.10.21:3306/demo?useUnicode=true
+store.db.user = root
+store.db.password = z123456
+store.db.minConn = 5
+store.db.maxConn = 30
+store.db.globalTable = global_table
+store.db.branchTable = branch_table
+store.db.queryLimit = 100
+store.db.lockTable = lock_table
+store.db.maxWait = 5000
+
+server.recovery.committingRetryPeriod = 1000
+server.recovery.asynCommittingRetryPeriod = 1000
+server.recovery.rollbackingRetryPeriod = 1000
+server.recovery.timeoutRetryPeriod = 1000
+server.maxCommitRetryTimeout = -1
+server.maxRollbackRetryTimeout = -1
+server.rollbackRetryTimeoutUnlockEnable = false
+server.undo.logSaveDays = 7
+server.undo.logDeletePeriod = 86400000

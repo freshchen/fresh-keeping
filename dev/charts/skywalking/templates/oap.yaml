@@ -1,0 +1,70 @@
+{{- if .Values.skywalkingEnabled -}}
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: skywalking-oap
+  labels:
+    app: skywalking-oap
+spec:
+  ports:
+    - port: 12800
+      name: rest
+    - port: 11800
+      name: grpc
+  selector:
+    app: skywalking-oap
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skywalking-oap
+  labels:
+    app: skywalking-oap
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skywalking-oap
+  template:
+    metadata:
+      labels:
+        app: skywalking-oap
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+        - name: skywalking-oap
+          image: "apache/skywalking-oap-server:7.0.0-es7"
+          imagePullPolicy: Never
+          livenessProbe:
+            tcpSocket:
+              port: 12800
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          readinessProbe:
+            tcpSocket:
+              port: 12800
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          ports:
+            - containerPort: 11800
+              name: grpc
+            - containerPort: 12800
+              name: rest
+          env:
+            - name: JAVA_OPTS
+              value: "-Xmx1g -Xms1g"
+            - name: SW_CLUSTER
+              value: standalone
+            - name: SKYWALKING_COLLECTOR_UID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.uid
+            - name: SW_STORAGE
+              value: elasticsearch7
+            - name: SW_STORAGE_ES_CLUSTER_NODES
+              value: "elasticsearch.default.svc.cluster.local:9200"
+
+{{- end }}

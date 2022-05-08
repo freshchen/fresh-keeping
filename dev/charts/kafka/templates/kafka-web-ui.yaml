@@ -1,0 +1,53 @@
+{{- if .Values.kafkaEnabled -}}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka-web-ui
+  labels:
+    app: kafka-web-ui
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      nodePort: 31092
+  selector:
+    app: kafka-web-ui
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-web-ui
+  labels:
+    app: kafka-web-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka-web-ui
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: kafka-web-ui
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+        - name: kafka-web-ui
+          imagePullPolicy: Never
+          image: provectuslabs/kafka-ui
+          ports:
+            - containerPort: 8080
+          env:
+            - name: KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS
+              value: "kafka-single:9092"
+            - name: KAFKA_CLUSTERS_0_NAME
+              value: "dev"
+            - name: KAFKA_CLUSTERS_0_ZOOKEEPER
+              value: "zookeeper:2181"
+
+{{- end }}

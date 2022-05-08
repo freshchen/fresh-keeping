@@ -1,0 +1,49 @@
+{{- if .Values.skywalkingEnabled -}}
+
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: skywalking-ui
+  name: skywalking-ui
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 8080
+      protocol: TCP
+      nodePort: 30005
+  selector:
+    app: skywalking-ui
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skywalking-ui
+  labels:
+    app: skywalking-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skywalking-ui
+  template:
+    metadata:
+      labels:
+        app: skywalking-ui
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+        - name: skywalking-ui
+          image: "apache/skywalking-ui:7.0.0"
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+              name: page
+          env:
+            - name: SW_OAP_ADDRESS
+              value: "skywalking-oap:12800"
+
+{{- end }}

@@ -1,0 +1,61 @@
+{{- if .Values.mysqlEnabled -}}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  type: NodePort
+  ports:
+    - port: 3306
+      nodePort: 31001
+  selector:
+    app: mysql
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql
+  labels:
+    app: mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers:
+        - name: mysql
+          imagePullPolicy: Never
+          image: mysql:5.7
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: "{{ .Values.mysqlPassword }}"
+            - name: MYSQL_PASSWORD
+              value: "{{ .Values.mysqlPassword }}"
+            - name: MYSQL_USER
+              value: "root"
+            - name: TZ
+              value: "Asia/Shanghai"
+          ports:
+            - containerPort: 3306
+              name: mysql
+          volumeMounts:
+            - name: "mysql-persistent-storage"
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: "mysql-persistent-storage"
+          hostPath:
+            path: "/mnt/k8s/infrastructure/mysql/data"
+
+{{- end }}

@@ -1,0 +1,3 @@
+{{- if .Values.redisEnabled -}}
+Redis is enabled. Please Visit http://localhost:31004
+{{- end }}

@@ -1,0 +1,3 @@
+{{- if .Values.skywalkingEnabled -}}
+Skywalking is enabled. Please Visit http://localhost:30005 by apollo/admin
+{{- end }}
