@@ -650,7 +650,7 @@
       "links": 0
     },
     "document/installation/本地环境.md": {
-      "size": 224,
+      "size": 702,
       "tags": 1,
       "links": 0
     }
@@ -660,12 +660,12 @@
       "Refactor": 267,
       "Create": 170,
       "Link": 203,
-      "Expand": 423
+      "Expand": 425
     }
   },
   "dailyCommits": {
     "/": {
-      "0": 75,
+      "0": 77,
       "1": 14,
       "2": 3,
       "3": 0,
@@ -696,7 +696,7 @@
       "Mon": 176,
       "Tue": 239,
       "Wed": 251,
-      "Thu": 143,
+      "Thu": 145,
       "Fri": 87,
       "Sat": 0,
       "Sun": 167
@@ -705,6 +705,8 @@
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
@@ -751,8 +753,6 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>"

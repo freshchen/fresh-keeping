@@ -61,6 +61,7 @@
         <module>circuit-breaker/resilience4J</module>
         <module>tools/disruptor</module>
         <module>rule-engine/spring-drools</module>
+        <module>big-data/flink</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
@@ -100,6 +101,7 @@
         <spring-statemachine.version>3.0.1</spring-statemachine.version>
         <resilience4j.version>1.7.1</resilience4j.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
+        <flink.version>1.15.0</flink.version>
     </properties>
 
     <dependencies>
@@ -318,6 +320,26 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>transmittable-thread-local</artifactId>
                 <version>${transmittable-thread-local.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-streaming-java</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-clients</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-connector-kafka</artifactId>
+                <version>${flink.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.flink</groupId>
+                <artifactId>flink-connector-base</artifactId>
+                <version>${flink.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
