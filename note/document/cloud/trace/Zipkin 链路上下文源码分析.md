@@ -1,6 +1,6 @@
 ---
 begin: 2022-02-03
-status: ongoing
+status: done
 rating: 1
 ---
 
@@ -164,3 +164,4 @@ TraceContext 还引入了一些新的方法，比较重要的是 spanIdString，
 
 
 ##### 标签
+#trace 

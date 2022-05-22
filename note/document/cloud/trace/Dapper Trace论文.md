@@ -1,6 +1,6 @@
 ---
 begin: 2021-12-08
-status: ongoing
+status: done
 rating: 1
 ---
 

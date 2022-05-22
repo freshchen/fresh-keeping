@@ -1,6 +1,6 @@
 ---
 begin: 2022-03-02
-status: ongoing
+status: done
 rating: 1
 ---
 
@@ -84,3 +84,4 @@ jedis.get("key");
 
 
 ##### 标签
+#trace 

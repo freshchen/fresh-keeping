@@ -62,6 +62,7 @@
         <module>tools/disruptor</module>
         <module>rule-engine/spring-drools</module>
         <module>big-data/flink</module>
+        <module>search/spring-elasticsearch</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>

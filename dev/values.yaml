@@ -6,14 +6,14 @@
 kubernetesDashboardEnabled: false
 
 zookeeper:
-  zookeeperEnabled: true
+  zookeeperEnabled: false
 
 kafka:
-  kafkaEnabled: true
+  kafkaEnabled: false
   host: "192.168.1.29"
 
 flink:
-  flinkEnabled: true
+  flinkEnabled: false
 
 apollo:
   apolloEnabled: false
@@ -22,6 +22,11 @@ apollo:
 
 skywalking:
   skywalkingEnabled: false
+
+elasticsearch:
+  elasticsearchEnabled: true
+  fluentdEnabled: false
+  kibanaEnabled: true
 
 efk:
   elasticsearchEnabled: false
@@ -33,7 +38,7 @@ mysql:
   mysqlPassword: "z123456"
 
 redis:
-  redisEnabled: true
+  redisEnabled: false
 
 rabbitmq:
   rabbitmqEnabled: false

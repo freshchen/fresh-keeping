@@ -1,0 +1,3 @@
+{{- if .Values.kibanaEnabled -}}
+Please Visit http://localhost:30003
+{{- end }}

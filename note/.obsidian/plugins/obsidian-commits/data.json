@@ -429,11 +429,6 @@
       "tags": 0,
       "links": 0
     },
-    "document/cloud/trace/Trace简介.md": {
-      "size": 3376,
-      "tags": 0,
-      "links": 0
-    },
     "document/java/bytebuddy/ByteBuddy简介.md": {
       "size": 104,
       "tags": 0,
@@ -596,42 +591,42 @@
     },
     "document/cloud/trace/Zipkin 链路上下文源码分析.md": {
       "size": 7337,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "document/cloud/trace/Zipkin 链路上下文作用域源码分析.md": {
       "size": 10865,
-      "tags": 0,
+      "tags": 1,
       "links": 1
     },
     "document/tools/idea/编码规范 重载的方法必须放在一起 解决办法.md": {
       "size": 702,
-      "tags": 0,
+      "tags": 1,
       "links": 3
     },
     "document/cloud/trace/Zipkin Jedis 链路追踪库.md": {
       "size": 2761,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "document/cloud/trace/Zipkin 跨度 Span 源码分析.md": {
       "size": 9944,
-      "tags": 0,
+      "tags": 1,
       "links": 6
     },
     "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md": {
       "size": 11395,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "document/cloud/trace/Zipkin Vault 链路追踪采集器.md": {
       "size": 7165,
-      "tags": 0,
+      "tags": 1,
       "links": 2
     },
     "document/cloud/trace/基于 Zipkin brave 制作链路采集器.md": {
       "size": 7451,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "document/java/io/Time, Clocks, and theOrdering of Events ina Distributed System.md": {
@@ -644,23 +639,38 @@
       "tags": 1,
       "links": 0
     },
-    "document/tools/drools/Drools 笔记.md": {
+    "document/installation/本地环境.md": {
+      "size": 702,
+      "tags": 1,
+      "links": 0
+    },
+    "document/rule-engine/drools/Drools 笔记.md": {
       "size": 569,
       "tags": 0,
       "links": 0
     },
-    "document/installation/本地环境.md": {
-      "size": 702,
+    "document/search/elasticsearch 简介.md": {
+      "size": 11982,
       "tags": 1,
+      "links": 12
+    },
+    "document/search/elasticsearch 命令.md": {
+      "size": 650,
+      "tags": 1,
+      "links": 0
+    },
+    "source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md": {
+      "size": 871,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 267,
-      "Create": 170,
-      "Link": 203,
-      "Expand": 425
+      "Refactor": 271,
+      "Create": 173,
+      "Link": 221,
+      "Expand": 437
     }
   },
   "dailyCommits": {
@@ -674,18 +684,18 @@
       "6": 1,
       "7": 0,
       "8": 2,
-      "9": 11,
+      "9": 14,
       "10": 67,
       "11": 112,
-      "12": 123,
-      "13": 28,
-      "14": 101,
-      "15": 84,
-      "16": 101,
-      "17": 43,
+      "12": 137,
+      "13": 32,
+      "14": 106,
+      "15": 86,
+      "16": 102,
+      "17": 46,
       "18": 35,
-      "19": 53,
-      "20": 48,
+      "19": 57,
+      "20": 49,
       "21": 21,
       "22": 43,
       "23": 98
@@ -696,15 +706,27 @@
       "Mon": 176,
       "Tue": 239,
       "Wed": 251,
-      "Thu": 145,
+      "Thu": 146,
       "Fri": 87,
       "Sat": 0,
-      "Sun": 167
+      "Sun": 203
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md\"> Drawing 2022-05-22 09.39.45.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
@@ -743,21 +765,12 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md\"> Drawing 2022-05-22 09.39.45.excalidraw </a>",
+        "<a class=\"internal-link\" href=\"document/search/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/search/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/paper/未命名.md\"> 未命名 </a>",
@@ -805,12 +818,12 @@
         "<a class=\"internal-link\" href=\"document/cloud/kubernetes/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/java/bytebuddy/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/rule-engine/drools/Drools 笔记.md\"> Drools 笔记 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
@@ -858,12 +871,19 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper论文.md\"> Dapper论文 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper.md\"> Dapper </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/ZiBrave简介.md\"> ZiBrave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Brave简介.md\"> Brave简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文作用域源码分析.md\"> Zipkin 链路上下文作用域源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文源码分析.md\"> Zipkin 链路上下文源码分析 </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/基于 Zipkin brave 制作链路采集器.md\"> 基于 Zipkin brave 制作链路采集器 </a>",
+        "<a class=\"internal-link\" href=\"document/tools/idea/编码规范 重载的方法必须放在一起 解决办法.md\"> 编码规范 重载的方法必须放在一起 解决办法 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md\"> Time, Clocks, and theOrdering of Events ina Distributed System </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范.md\"> Zipkin 链路上下文 B3 传播规范 </a>",
@@ -904,17 +924,7 @@
         "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
         "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
         "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/什么是软件架构.md\"> 什么是软件架构 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/SWOT分析.md\"> SWOT分析 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/Python 参数解析 argparse.md\"> Python 参数解析 argparse </a>",
-        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/SSL证书自签名使用及监控.md\"> SSL证书自签名使用及监控 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/test/Spring Cloud Contract 微服务契约测试.md\"> Spring Cloud Contract 微服务契约测试 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jooq/JOOQ简介.md\"> JOOQ简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之Stream.md\"> Java8之Stream </a>",
-        "<a class=\"internal-link\" href=\"document/java/Java8之接口默认实现.md\"> Java8之接口默认实现 </a>"
+        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -982,9 +992,18 @@
         "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/Spring 配置.md\"> Spring 配置 </a>",
         "<a class=\"internal-link\" href=\"document/tools/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范~.md\"> Zipkin 链路上下文 B3 传播规范~ </a>"
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 链路上下文 B3 传播规范~.md\"> Zipkin 链路上下文 B3 传播规范~ </a>",
+        "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
@@ -1027,15 +1046,7 @@
         "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
         "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/java/HashMap源码.md\"> HashMap源码 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范High Observability Principle.md\"> 容器规范High Observability Principle </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/容器规范.md\"> 容器规范 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>",
-        "<a class=\"internal-link\" href=\"document/kubernetes/Pod健康检查.md\"> Pod健康检查 </a>"
+        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",

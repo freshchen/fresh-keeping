@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0dcd55d146555ab3",
+        "id": "0e44a1d053c7b4a0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/installation/本地环境.md",
+            "file": "document/search/elasticsearch 简介.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#install",
+                "query": "tag:#trace",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/installation/本地环境.md"
+                "file": "document/search/elasticsearch 简介.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/installation/本地环境.md",
+                "file": "document/search/elasticsearch 简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/installation/本地环境.md",
+                "file": "document/search/elasticsearch 简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,20 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "0dcd55d146555ab3",
+  "active": "0e44a1d053c7b4a0",
   "lastOpenFiles": [
+    "document/search/elasticsearch 简介.md",
+    "document/search/elasticsearch 命令.md",
+    "source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md",
     "document/installation/本地环境.md",
-    "document/os/随机读写和顺序读写.md",
-    "document/tools/drools/Drools 笔记.md",
-    "document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md",
-    "index.md",
-    "document/tools/plantuml/Graphviz 安装.md",
+    "document/tools/idea/编码规范 重载的方法必须放在一起 解决办法.md",
     "todo.md",
-    "document/java/io/Time, Clocks, and theOrdering of Events ina Distributed System.md",
-    "document/java/bytebuddy/ByteBuddy简介.md",
-    "document/cloud/trace/基于 Zipkin brave 制作链路采集器.md"
+    "document/springboot/springboot 2.2 升级 2.3 指南.md",
+    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md",
+    "document/cloud/trace/Zipkin Jedis 链路追踪库.md",
+    "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md"
   ]
 }
