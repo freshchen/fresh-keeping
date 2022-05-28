@@ -1,0 +1,9 @@
+package fact2
+import com.github.freshchen.keeping.drools.Fact
+
+rule "rule2"
+when
+    $loginFact: Fact(age < 18 || (sub != null && sub.score < 100) || map["count"] < 20)
+then
+    $loginFact.setRisk(true);
+end

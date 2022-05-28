@@ -14,6 +14,7 @@ import org.kie.api.builder.model.KieSessionModel;
 import org.kie.api.cdi.KContainer;
 import org.kie.api.conf.EqualityBehaviorOption;
 import org.kie.api.conf.EventProcessingOption;
+import org.kie.api.conf.SequentialOption;
 import org.kie.api.io.Resource;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.StatelessKieSession;
@@ -60,8 +61,13 @@ public class RefreshRules implements ApplicationRunner {
         KieFileSystem kfs = kieServices.newKieFileSystem();
 
         KieModuleModel kieModuleModel = kieServices.newKieModuleModel();
-        KieBaseModel kieBaseModel1 = kieModuleModel.newKieBaseModel("rules").setDefault(true).setEqualsBehavior(EqualityBehaviorOption.EQUALITY).setEventProcessingMode(EventProcessingOption.STREAM);
-        kieBaseModel1.newKieSessionModel("all-rules").setDefault(true).setType(KieSessionModel.KieSessionType.STATELESS).setClockType(ClockTypeOption.get("realtime"));
+        KieBaseModel kieBaseModel1 = kieModuleModel.newKieBaseModel("rules")
+                .setDefault(true).setEqualsBehavior(EqualityBehaviorOption.EQUALITY)
+                .setSequential(SequentialOption.YES)
+                .setEventProcessingMode(EventProcessingOption.STREAM);
+        kieBaseModel1.newKieSessionModel("all-rules").setDefault(true)
+                .setType(KieSessionModel.KieSessionType.STATELESS)
+                .setClockType(ClockTypeOption.get("realtime"));
         kfs.writeKModuleXML(kieModuleModel.toXML());
         rules.forEach(r -> {
             kfs.delete("src/main/resources/rules/login.drl");

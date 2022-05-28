@@ -6,4 +6,4 @@ when
     $loginFact: LoginFact(age < 18)
 then
     $loginFact.setRisk(true);
- end
+end

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+    <kbase name="fact1" packages="fact1">
+        <ksession name="fact1" type="stateless"/>
+    </kbase>
+<!--    sequential="true" 加速，规则-->
+    <kbase name="fact2" packages="fact2" sequential="true">
+        <ksession name="fact2" type="stateless"/>
+    </kbase>
+</kmodule>

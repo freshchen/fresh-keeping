@@ -1,0 +1,11 @@
+package fact1
+import com.github.freshchen.keeping.drools.Fact
+global java.util.List list
+
+rule "rule1"
+when
+    $loginFact: Fact(age < 18)
+then
+    $loginFact.setRisk(true);
+    list.add($loginFact.getName());
+ end
