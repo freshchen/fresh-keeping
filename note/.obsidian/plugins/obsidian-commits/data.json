@@ -104,11 +104,6 @@
       "tags": 1,
       "links": 0
     },
-    "document/springboot/caffeine/caffeine简介.md": {
-      "size": 2134,
-      "tags": 1,
-      "links": 0
-    },
     "document/springboot/fastjson/fastjson简介.md": {
       "size": 1345,
       "tags": 2,
@@ -663,14 +658,49 @@
       "size": 871,
       "tags": 0,
       "links": 0
+    },
+    "document/cache/caffeine/caffeine简介.md": {
+      "size": 2134,
+      "tags": 1,
+      "links": 0
+    },
+    "document/cache/redis/redis 简介.md": {
+      "size": 423,
+      "tags": 1,
+      "links": 3
+    },
+    "document/big-data/元数据管理/元数据管理资料.md": {
+      "size": 806,
+      "tags": 1,
+      "links": 0
+    },
+    "document/big-data/元数据管理/LinkedIn Databub.md": {
+      "size": 380,
+      "tags": 0,
+      "links": 0
+    },
+    "document/mq/kafka/Kafka 简介.md": {
+      "size": 3241,
+      "tags": 0,
+      "links": 4
+    },
+    "document/mq/kafka/Kafka 安装和命令.md": {
+      "size": 2562,
+      "tags": 0,
+      "links": 4
+    },
+    "document/mq/kafka/Kafka 开发.md": {
+      "size": 9866,
+      "tags": 0,
+      "links": 13
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 271,
-      "Create": 173,
-      "Link": 221,
-      "Expand": 437
+      "Refactor": 283,
+      "Create": 179,
+      "Link": 242,
+      "Expand": 472
     }
   },
   "dailyCommits": {
@@ -687,18 +717,18 @@
       "9": 14,
       "10": 67,
       "11": 112,
-      "12": 137,
-      "13": 32,
-      "14": 106,
-      "15": 86,
-      "16": 102,
-      "17": 46,
-      "18": 35,
+      "12": 141,
+      "13": 48,
+      "14": 112,
+      "15": 92,
+      "16": 103,
+      "17": 57,
+      "18": 41,
       "19": 57,
-      "20": 49,
-      "21": 21,
-      "22": 43,
-      "23": 98
+      "20": 55,
+      "21": 26,
+      "22": 48,
+      "23": 106
     }
   },
   "weeklyCommits": {
@@ -709,12 +739,47 @@
       "Thu": 146,
       "Fri": 87,
       "Sat": 0,
-      "Sun": 203
+      "Sun": 277
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装和命令.md\"> Kafka 安装和命令 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装和命令.md\"> Kafka 安装和命令 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装.md\"> Kafka 安装 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md\"> Drawing 2022-05-22 09.39.45.excalidraw </a>",
@@ -730,44 +795,15 @@
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
         "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
-        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
-        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/drools/Drools 笔记.md\"> Drools 笔记 </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/paper/Time, Clocks, and theOrdering of Events ina Distributed System.md\"> Time, Clocks, and theOrdering of Events ina Distributed System </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/基于 Zipkin brave 制作链路采集器.md\"> 基于 Zipkin brave 制作链路采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/基于 Zipkin brave 制作链路采集器.md\"> 基于 Zipkin brave 制作链路采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/基于 Zipkin brave 制作链路采集器.md\"> 基于 Zipkin brave 制作链路采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/基于 Zipkin brave 制作链路采集器.md\"> 基于 Zipkin brave 制作链路采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Vault 链路追踪采集器.md\"> Zipkin Vault 链路追踪采集器 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin 跨度 Span 源码分析.md\"> Zipkin 跨度 Span 源码分析 </a>"
+        "<a class=\"internal-link\" href=\"document/installation/本地环境.md\"> 本地环境 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"document/mq/kafka/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/未命名.md\"> 未命名 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md\"> Drawing 2022-05-22 09.39.45.excalidraw </a>",
         "<a class=\"internal-link\" href=\"document/search/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/search/未命名.md\"> 未命名 </a>",
@@ -812,15 +848,19 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/未命名.md\"> 未命名 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/jackson/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/git/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/未命名.md\"> 未命名 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/istio/未命名.md\"> 未命名 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/jackson/未命名.md\"> 未命名 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装和命令.md\"> Kafka 安装和命令 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装.md\"> Kafka 安装 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/kafka 简介.md\"> kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/资料.md\"> 资料 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/caffeine/caffeine简介.md\"> caffeine简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/rule-engine/drools/Drools 笔记.md\"> Drools 笔记 </a>",
@@ -861,19 +901,12 @@
         "<a class=\"internal-link\" href=\"document/springboot/openfeign/使用注意.md\"> 使用注意 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/openfegin/使用注意.md\"> 使用注意 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/statemachine/Spring StateMachine.md\"> Spring StateMachine </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/statemachine/StateMachine.md\"> StateMachine </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/设计模式.md\"> 设计模式 </a>",
-        "<a class=\"internal-link\" href=\"document/design/有限状态机.md\"> 有限状态机 </a>",
-        "<a class=\"internal-link\" href=\"document/design/design-pattern/状态模式.md\"> 状态模式 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/k8s实战笔记书籍.md\"> k8s实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/实战笔记书籍.md\"> 实战笔记书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/kubernetes/实战书籍.md\"> 实战书籍 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper论文.md\"> Dapper论文 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper.md\"> Dapper </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/trace/zipkin/Zipkin Brave简介.md\"> Zipkin Brave简介 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/statemachine/StateMachine.md\"> StateMachine </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/元数据管理资料.md\"> 元数据管理资料 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 命令.md\"> elasticsearch 命令 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md\"> Zipkin Brave & Spring Cloud Sleuth 采样器源码分析 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Zipkin Jedis 链路追踪库.md\"> Zipkin Jedis 链路追踪库 </a>",
@@ -921,10 +954,7 @@
         "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
         "<a class=\"internal-link\" href=\"document/architecture/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>",
-        "<a class=\"internal-link\" href=\"document/architecture/软件架构分析方法.md\"> 软件架构分析方法 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/ADMEMS矩阵.md\"> ADMEMS矩阵 </a>",
-        "<a class=\"internal-link\" href=\"document/methodology/RAID矩阵.md\"> RAID矩阵 </a>"
+        "<a class=\"internal-link\" href=\"document/architecture/springboot连接mysql失败.md\"> springboot连接mysql失败 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"document/json/Google json 风格规范.md\"> Google json 风格规范 </a>",
@@ -996,6 +1026,24 @@
         "<a class=\"internal-link\" href=\"document/cloud/trace/Trace简介.md\"> Trace简介 </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 安装和命令.md\"> Kafka 安装和命令 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 简介.md\"> Kafka 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
+        "<a class=\"internal-link\" href=\"document/cache/redis/redis 简介.md\"> redis 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
         "<a class=\"internal-link\" href=\"document/search/elasticsearch 简介.md\"> elasticsearch 简介 </a>",
@@ -1028,34 +1076,18 @@
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
         "<a class=\"internal-link\" href=\"document/cloud/trace/Dapper Trace论文.md\"> Dapper Trace论文 </a>",
         "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>",
-        "<a class=\"internal-link\" href=\"document/tools/git/分支对比.md\"> 分支对比 </a>",
-        "<a class=\"internal-link\" href=\"document/springboot/mysql/JDBC使用Java8的日期.md\"> JDBC使用Java8的日期 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/cloud/openTelemetry/OpenTelemetry简介.md\"> OpenTelemetry简介 </a>",
-        "<a class=\"internal-link\" href=\"document/java/TransmittableThreadLocal.md\"> TransmittableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/InheritableThreadLocal.md\"> InheritableThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/java/ThreadLocal.md\"> ThreadLocal </a>",
-        "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
-        "<a class=\"internal-link\" href=\"document/json/json简介.md\"> json简介 </a>",
-        "<a class=\"internal-link\" href=\"document/json/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/fastjson/fastjson简介.md\"> fastjson简介 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>",
-        "<a class=\"internal-link\" href=\"document/plantuml/PlantUML使用.md\"> PlantUML使用 </a>"
+        "<a class=\"internal-link\" href=\"document/springboot/cloud-sleuth/Sleuth 简介.md\"> Sleuth 简介 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"document/distributed/chubby/Chubby简介.md\"> Chubby简介 </a>",
         "<a class=\"internal-link\" href=\"document/design/分页查询 page_token page_size.md\"> 分页查询 page_token page_size </a>",
-        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>"
+        "<a class=\"internal-link\" href=\"document/distributed/Distribute History.md\"> Distribute History </a>",
+        "<a class=\"internal-link\" href=\"document/big-data/元数据管理/LinkedIn Databub.md\"> LinkedIn Databub </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"index.md\"> index </a>",
-        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>"
+        "<a class=\"internal-link\" href=\"document/ddd/DDD落地步骤.md\"> DDD落地步骤 </a>",
+        "<a class=\"internal-link\" href=\"document/mq/kafka/Kafka 开发.md\"> Kafka 开发 </a>"
       ]
     }
   },

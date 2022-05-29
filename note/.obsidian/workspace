@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "document/search/elasticsearch 简介.md",
+            "file": "document/mq/kafka/Kafka 开发.md",
             "mode": "source",
             "source": false
           }
@@ -55,7 +55,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/search/elasticsearch 简介.md"
+                "file": "document/mq/kafka/Kafka 开发.md"
               }
             }
           },
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 299,
+    "collapsed": true
   },
   "right": {
     "id": "7314f4d1aa4aa2b0",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/search/elasticsearch 简介.md",
+                "file": "document/mq/kafka/Kafka 开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/search/elasticsearch 简介.md",
+                "file": "document/mq/kafka/Kafka 开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,19 +127,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "0e44a1d053c7b4a0",
   "lastOpenFiles": [
+    "document/mq/kafka/Kafka 开发.md",
+    "document/mq/kafka/Kafka 安装和命令.md",
+    "document/installation/本地环境.md",
+    "document/mq/kafka/Kafka 简介.md",
+    "document/cache/redis/redis 简介.md",
+    "document/big-data/元数据管理/LinkedIn Databub.md",
+    "document/big-data/元数据管理/元数据管理资料.md",
     "document/search/elasticsearch 简介.md",
     "document/search/elasticsearch 命令.md",
-    "source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md",
-    "document/installation/本地环境.md",
-    "document/tools/idea/编码规范 重载的方法必须放在一起 解决办法.md",
-    "todo.md",
-    "document/springboot/springboot 2.2 升级 2.3 指南.md",
-    "document/cloud/trace/Zipkin Vault 链路追踪采集器.md",
-    "document/cloud/trace/Zipkin Jedis 链路追踪库.md",
-    "document/cloud/trace/Zipkin Brave & Spring Cloud Sleuth 采样器源码分析.md"
+    "source/excalidraw/Drawing 2022-05-22 09.39.45.excalidraw.md"
   ]
 }

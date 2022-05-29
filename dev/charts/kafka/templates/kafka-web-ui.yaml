@@ -44,7 +44,7 @@ spec:
             - containerPort: 8080
           env:
             - name: KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS
-              value: "kafka-single:9092"
+              value: "kafka-single:30092"
             - name: KAFKA_CLUSTERS_0_NAME
               value: "dev"
             - name: KAFKA_CLUSTERS_0_ZOOKEEPER

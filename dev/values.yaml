@@ -6,11 +6,10 @@
 kubernetesDashboardEnabled: false
 
 zookeeper:
-  zookeeperEnabled: false
+  zookeeperEnabled: true
 
 kafka:
-  kafkaEnabled: false
-  host: "192.168.1.29"
+  kafkaEnabled: true
 
 flink:
   flinkEnabled: false
@@ -23,10 +22,10 @@ apollo:
 skywalking:
   skywalkingEnabled: false
 
-elasticsearch:
-  elasticsearchEnabled: true
+es:
+  esEnabled: false
   fluentdEnabled: false
-  kibanaEnabled: true
+  kibanaEnabled: false
 
 efk:
   elasticsearchEnabled: false

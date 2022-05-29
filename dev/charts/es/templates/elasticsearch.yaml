@@ -1,4 +1,4 @@
-{{- if .Values.elasticsearchEnabled -}}
+{{- if .Values.esEnabled -}}
 
 ---
 kind: Service

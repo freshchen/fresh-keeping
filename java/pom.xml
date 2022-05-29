@@ -64,6 +64,7 @@
         <module>big-data/flink</module>
         <module>search/spring-elasticsearch</module>
         <module>rule-engine/drools</module>
+        <module>mq/spring-kafka</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
