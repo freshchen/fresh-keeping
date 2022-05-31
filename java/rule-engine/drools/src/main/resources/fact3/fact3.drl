@@ -1,0 +1,9 @@
+package fact3
+import com.github.freshchen.keeping.drools.Fact
+
+rule "rule2"
+when
+    $loginFact: Fact(name matches "/api/name/.*/event.*")
+then
+    $loginFact.setRisk(true);
+end

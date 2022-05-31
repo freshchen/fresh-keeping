@@ -143,4 +143,16 @@ class Fact1Test {
         System.out.println("debug after: " + fact);
     }
 
+    @Test
+    @DisplayName("正则")
+    public void test8() {
+        StatelessKieSession kieSession = Rules.getStatelessKieSession("fact3");
+        Fact fact = new Fact();
+        fact.setName("/api/name/asdassczxc/event?a=b");
+
+        System.out.println("debug before: " + fact);
+        kieSession.execute(fact);
+        System.out.println("debug after: " + fact);
+    }
+
 }

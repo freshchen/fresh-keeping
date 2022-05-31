@@ -5,6 +5,9 @@
 # enable kubernetes dashboard
 kubernetesDashboardEnabled: false
 
+apisix:
+  apisixEnabled: false
+
 zookeeper:
   zookeeperEnabled: true
 

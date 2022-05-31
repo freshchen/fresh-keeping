@@ -7,4 +7,7 @@
     <kbase name="fact2" packages="fact2" sequential="true">
         <ksession name="fact2" type="stateless"/>
     </kbase>
+    <kbase name="fact3" packages="fact3" sequential="true">
+        <ksession name="fact3" type="stateless"/>
+    </kbase>
 </kmodule>
