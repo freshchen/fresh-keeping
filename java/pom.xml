@@ -69,6 +69,7 @@
         <module>sql-orm/spring-mybatis-plus</module>
         <module>reconciliation</module>
         <module>circuit-breaker/sentinel</module>
+        <module>security/spring-security</module>
         <!--        编译会连接数据库代码自动生成-->
         <!--        <module>sql-orm/spring-jooq</module>-->
     </modules>
