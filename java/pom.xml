@@ -79,7 +79,7 @@
         <spring-cloud.version>2020.0.4</spring-cloud.version>
         <docker.image.version>latest</docker.image.version>
         <apollo.version>1.4.0</apollo.version>
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <lang3.version>3.9</lang3.version>
         <collections4.version>4.4</collections4.version>
         <docker.maven.plugin>1.0.0</docker.maven.plugin>
